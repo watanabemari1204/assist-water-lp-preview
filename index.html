@@ -1,0 +1,1531 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex,nofollow">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>アシスト株式会社｜トイレ詰まり・水漏れ 首都圏対応</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&family=Roboto:wght@500;700&display=block" rel="stylesheet">
+<style>
+:root{--blue:#1030e8;--blue2:#0a1f9e;--sky:#2f7bff;--green:#14b24a;--green2:#0e8a37;--orange:#ff5a00;--yellow:#fff6c9;--ink:#1a1a1a;--line:#cfd6ee;--todo:#fff04d}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:#fff;color:var(--ink);font-family:"Noto Sans JP","Hiragino Kaku Gothic ProN",sans-serif;line-height:1.8;font-size:16px;padding-bottom:76px}
+.wrap{max-width:760px;margin:0 auto;padding:0 16px}
+a{color:inherit}
+.todo{background:var(--todo);padding:0 .2em;font-weight:700;color:#000}
+.o{color:var(--orange);font-weight:900}
+/* header */
+.hd{background:var(--sky);background:linear-gradient(0deg,var(--sky),var(--blue));color:#fff}
+.hd .wrap{display:flex;justify-content:space-between;align-items:center;padding-top:14px;padding-bottom:14px}
+.logo{font-weight:900;font-size:1.45rem;letter-spacing:.02em}
+.hd a{font-weight:900;font-size:1.05rem;text-decoration:none;background:#fff;color:var(--blue);padding:8px 14px;border-radius:6px}
+h1.t{font-size:1.2rem;font-weight:900;margin:18px 0 12px}
+/* hero banner */
+.hero{background:var(--blue);padding:14px 14px 0;color:#fff}
+.hero .area{text-align:center;font-size:1.9rem;font-weight:900;letter-spacing:.08em;margin:0 0 10px}
+.banner{position:relative;overflow:hidden;background:#cfe0ff;min-height:300px}
+.banner img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.banner .ask{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:.8rem;color:#445;text-align:center;padding:8px}
+.banner img[src]:not([src=""])~.ask{display:none}
+.banner .shade{position:absolute;inset:0;background:rgba(255,255,255,.55)}
+.banner .copy{position:relative;padding:34px 16px 20px;text-align:center}
+.banner .k{display:inline-block;color:#fff;font-weight:900;font-size:1.05rem;-webkit-text-stroke:0;background:var(--blue);padding:2px 12px;border-radius:4px;margin-bottom:6px}
+.banner .big{display:block;font-weight:900;font-style:italic;font-size:clamp(2.2rem,11vw,4.4rem);white-space:nowrap;line-height:1.1;color:var(--blue);-webkit-text-stroke:3px #fff;paint-order:stroke fill;text-shadow:0 3px 0 rgba(0,0,0,.18)}
+.banner .sp{display:inline-block;margin-top:10px;font-weight:900;font-size:1.25rem;background:#fff;color:#111;padding:4px 14px;border:3px solid var(--blue)}
+.banner .sp b{color:var(--orange);font-size:1.8rem}
+.badge{position:absolute;left:10px;bottom:46px;width:88px;height:88px;border-radius:50%;background:var(--orange);color:#fff;font-weight:900;text-align:center;display:flex;flex-direction:column;justify-content:center;line-height:1.2;font-size:.78rem;border:3px solid #fff;z-index:2}
+.badge strong{font-size:1.5rem}
+.herobar{background:var(--blue);color:#fff;text-align:center;font-weight:900;padding:10px 8px 14px;font-size:1.1rem}
+/* reasons */
+.reasonbox{margin:16px 12px;border:4px solid var(--blue);padding:16px 12px;text-align:center}
+.reasonbox h2{margin:0 0 12px;font-size:1.6rem;font-weight:900;color:var(--blue)}
+.rs{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.rs div{border:3px solid var(--blue);border-radius:12px;padding:8px 4px 10px}
+.rs .b{display:block;font-weight:900;font-size:2rem;line-height:1.1;color:var(--orange);font-style:italic}
+.rs .h{display:block;font-weight:900;font-size:1rem;color:var(--blue)}
+.rs p{margin:6px 0 0;font-size:.72rem;line-height:1.5;color:#333}
+/* green cta */
+.gcta{background:var(--green);padding:16px 12px;text-align:center;margin:0 0 16px;border-top:3px solid var(--green2)}
+.gcta .s{color:#fff;font-weight:900;margin:0 0 8px}
+.gcta .box{background:#fff;border-radius:10px;padding:10px 8px;display:block;text-decoration:none}
+.gcta .box small{display:block;font-weight:900;color:var(--green2);font-size:.9rem}
+.gcta .num{display:block;font-weight:900;font-size:clamp(1.7rem,8vw,2.6rem);color:#111;letter-spacing:.02em}
+.gcta .sub{margin:8px 0 0;color:#fff;font-weight:700;font-size:.92rem}
+/* boxes */
+.intro{font-weight:700}
+.ybox{background:var(--yellow);border:2px solid #f0d56a;border-radius:8px;padding:22px 16px 14px;margin:26px 0 20px;position:relative}
+.ybox .lb{position:absolute;top:-14px;left:12px;background:#fff;color:#c58b00;font-weight:900;padding:0 8px}
+.ybox p{margin:0 0 10px}
+.warnbox{border:4px solid var(--blue);margin:20px 0}
+.warnbox h3{margin:0;background:var(--blue);color:#fff;text-align:center;font-size:1.4rem;font-weight:900;padding:8px}
+.warnbox .in{padding:16px;text-align:center;font-weight:900;color:var(--blue);font-size:1.1rem;line-height:1.7}
+.warnbox ul{list-style:none;padding:0;margin:0;text-align:left;font-weight:700;color:#222;font-size:1rem}
+.warnbox li{padding:6px 0 6px 28px;position:relative;border-bottom:1px dashed var(--line)}
+.warnbox li::before{content:"";position:absolute;left:4px;top:13px;width:14px;height:8px;border-left:4px solid var(--green);border-bottom:4px solid var(--green);transform:rotate(-45deg)}
+/* section header bar */
+.bar{background:var(--blue);color:#fff;font-weight:900;font-size:1.25rem;padding:12px 16px;margin:40px 0 16px;position:relative}
+.bar::after{content:"";position:absolute;left:0;right:0;bottom:0;height:4px;background:var(--sky)}
+.lead{margin:0 0 18px}
+/* first aid */
+.steps{list-style:none;padding:0;margin:0;counter-reset:s}
+.steps li{counter-increment:s;display:grid;grid-template-columns:52px 1fr;gap:12px;align-items:center;padding:14px 0;border-bottom:2px dashed var(--line)}
+.steps li::before{content:counter(s);width:52px;height:52px;border-radius:50%;background:var(--orange);color:#fff;font-weight:900;font-size:1.7rem;display:flex;align-items:center;justify-content:center}
+.steps b{display:block;color:var(--blue);font-size:1.1rem}
+.ng{background:#fff0f0;border:3px solid #e03131;border-radius:8px;padding:14px;margin-top:16px;font-weight:700}
+.ng b{color:#e03131}
+/* price */
+table{width:100%;border-collapse:collapse;margin:0 0 12px}
+th,td{padding:14px 10px;border:2px solid var(--line);text-align:left}
+th{background:#eef2ff;font-weight:900}
+td.p{font-weight:900;color:var(--orange);font-size:1.15rem;white-space:nowrap}
+.note{font-size:.88rem;color:#444}
+/* cases */
+.case{border:3px solid var(--blue);border-radius:10px;overflow:hidden;margin-bottom:16px}
+.case .ch{background:#eef2ff;padding:10px 14px;font-size:.85rem;font-weight:700}
+.case .cb{padding:14px}
+.case h3{margin:0 0 10px;font-size:1.15rem;color:var(--blue);font-weight:900}
+dl.c{display:grid;grid-template-columns:5em 1fr;gap:6px 10px;margin:10px 0 0}
+dl.c dt{font-weight:900;color:var(--blue)}dl.c dd{margin:0}
+.ph{margin:0;background:#e8edff;border:2px dashed #9fb0ee;position:relative;overflow:hidden}
+.ph img{display:block;width:100%;height:100%;object-fit:cover}
+.ph.r43{aspect-ratio:4/3}.ph.r32{aspect-ratio:3/2}
+.ph .ask{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;text-align:center;padding:10px;font-size:.85rem;color:#445}
+.ph img[src]:not([src=""])~.ask{display:none}
+.pair{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+/* faq */
+.fg{margin:22px 0 6px}
+.fg h3{margin:0;background:var(--sky);color:#fff;font-weight:900;padding:8px 14px;font-size:1.05rem;border-radius:6px 6px 0 0}
+details{border:2px solid var(--line);border-top:0;background:#fff}
+summary{cursor:pointer;list-style:none;font-weight:900;padding:14px 38px 14px 46px;position:relative;color:#111}
+summary::-webkit-details-marker{display:none}
+summary::before{content:"Q";position:absolute;left:10px;top:11px;width:26px;height:26px;border-radius:50%;background:var(--blue);color:#fff;text-align:center;line-height:26px;font-size:.95rem}
+summary::after{content:"＋";position:absolute;right:12px;top:12px;color:var(--orange);font-size:1.2rem}
+details[open] summary::after{content:"－"}
+details .a{padding:0 14px 16px 46px;position:relative}
+details .a::before{content:"A";position:absolute;left:10px;top:0;width:26px;height:26px;border-radius:50%;background:var(--orange);color:#fff;text-align:center;line-height:26px;font-weight:900;font-size:.95rem}
+details .a p{margin:0 0 6px}
+.a .go{font-weight:900;color:var(--blue)}
+/* staff */
+.staff{display:grid;grid-template-columns:1fr 1.2fr;gap:14px;align-items:start}
+@media(max-width:560px){.staff{grid-template-columns:1fr}}
+/* area */
+.areas{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;list-style:none;padding:0;margin:0}
+.areas li{border:2px solid var(--line);padding:6px;text-align:center;font-weight:700;font-size:.92rem}
+/* tiles */
+.tiles{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.tiles div{background:var(--blue);color:#fff;font-weight:900;text-align:center;padding:20px 6px;border-radius:8px;border-bottom:5px solid var(--blue2)}
+@media(max-width:560px){.tiles{grid-template-columns:repeat(2,1fr)}.areas{grid-template-columns:repeat(2,1fr)}}
+/* form */
+.contact{background:#eef2ff;padding:30px 0 40px;margin-top:40px}
+form{display:grid;gap:14px;margin-top:18px}
+label{font-weight:900}
+input,textarea,select{width:100%;padding:14px;font:inherit;border:2px solid var(--line);background:#fff;border-radius:6px}
+.btn{display:block;text-align:center;text-decoration:none;font-family:inherit;font-weight:900;font-size:1.2rem;padding:16px;border-radius:10px;border:0;cursor:pointer}
+.btn.g{background:var(--green);color:#fff;border-bottom:5px solid var(--green2)}
+.btn.o{background:var(--orange);color:#fff;border-bottom:5px solid #c24400}
+footer{padding:26px 0;font-size:.85rem;color:#555;background:#f4f5fa}
+/* sticky */
+.sticky{position:fixed;left:0;right:0;bottom:0;display:grid;grid-template-columns:1.3fr 1fr;z-index:10}
+.sticky a{padding:16px 6px;text-align:center;text-decoration:none;font-weight:900;font-size:1.05rem;color:#fff}
+.sticky .t{background:var(--green)}.sticky .l{background:var(--orange)}
+
+/* ---- motion & vivid colors ---- */
+:root{--blue:#0b2cff;--orange:#ff4a00;--green:#00c24e;--green2:#008f38;--hot:#ffe100}
+.ticker{background:var(--hot);color:#111;overflow:hidden;white-space:nowrap;border-bottom:3px solid #111;font-weight:900}
+.ticker .track{display:inline-block;padding:7px 0;animation:marq 22s linear infinite}
+.ticker span{margin:0 26px}
+.ticker i{font-style:normal;color:#e60023}
+@keyframes marq{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+.tape{height:20px;background:repeating-linear-gradient(-45deg,#ffe100 0 16px,#111 16px 32px);background-size:45px 45px;animation:tape 1.2s linear infinite}
+@keyframes tape{from{background-position:0 0}to{background-position:45px 0}}
+.banner .k{background:#e60023;animation:pop .6s ease-out both}
+.banner .big{animation:pop .7s .15s ease-out both,glowtxt 2.2s 1s ease-in-out infinite}
+.banner .sp{animation:slidein .6s .5s ease-out both}
+@keyframes pop{0%{transform:scale(.4);opacity:0}70%{transform:scale(1.12);opacity:1}100%{transform:scale(1)}}
+@keyframes slidein{from{transform:translateX(60px);opacity:0}to{transform:none;opacity:1}}
+@keyframes glowtxt{0%,100%{transform:scale(1)}50%{transform:scale(1.04)}}
+.badge{background:#ff2a00;animation:spin 3.2s ease-in-out infinite}
+@keyframes spin{0%,100%{transform:rotate(-8deg) scale(1)}50%{transform:rotate(8deg) scale(1.12)}}
+.herobar{color:var(--hot);font-size:1.25rem}
+.rs .b{color:#ff2a00}
+.rs div{animation:bob 2.4s ease-in-out infinite}
+.rs div:nth-child(2){animation-delay:.3s}.rs div:nth-child(3){animation-delay:.6s}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+.gcta .box{animation:ring 1.6s ease-in-out infinite;border:4px solid var(--hot)}
+@keyframes ring{0%,100%{box-shadow:0 0 0 0 rgba(255,225,0,.9);transform:scale(1)}50%{box-shadow:0 0 0 14px rgba(255,225,0,0);transform:scale(1.025)}}
+.btn.o,.sticky .l{animation:wiggle 2.4s ease-in-out infinite}
+@keyframes wiggle{0%,86%,100%{transform:rotate(0)}89%{transform:rotate(-2.5deg)}92%{transform:rotate(2.5deg)}95%{transform:rotate(-2deg)}}
+.sticky .t{animation:blink 1.4s ease-in-out infinite}
+@keyframes blink{0%,100%{background:#00c24e}50%{background:#00e05a}}
+.bar{background:var(--blue);border-bottom:5px solid var(--hot)}
+.bar::after{display:none}
+.steps li::before{background:#ff4a00;animation:bob 2.4s ease-in-out infinite}
+.fg h3{background:var(--blue)}
+.o{color:#ff2a00}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+
+/* ---- 心理設計：動くのは「電話」だけ。他は初回のみか静止 ---- */
+.tape{animation:none;height:12px}
+.banner .big{animation:pop .7s .15s ease-out both}
+.badge{animation:pulsebadge 2.6s ease-in-out infinite}
+@keyframes pulsebadge{0%,100%{transform:scale(1)}50%{transform:scale(1.07)}}
+.rs div{animation:none}
+.steps li::before{animation:none}
+.btn.o,.sticky .l{animation:none}
+.sticky .t{animation:none}
+.gcta .box{animation:ring 1.8s ease-in-out infinite}
+.sticky .t{box-shadow:inset 0 0 0 3px #ffe100}
+/* 症状チップ：自分ごと化 */
+.sym{background:#fff;padding:18px 14px 6px;text-align:center}
+.sym h2{margin:0 0 10px;font-size:1.15rem;font-weight:900}
+.chips{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin:0 0 6px}
+.chips a{display:inline-block;border:2px solid var(--blue);border-radius:999px;padding:8px 14px;font-weight:700;text-decoration:none;color:var(--blue);font-size:.95rem}
+.sym p{margin:8px 0 0;font-weight:700;font-size:.9rem;color:#444}
+.safe{margin:10px 0 0;color:#fff;font-weight:700;font-size:.9rem;line-height:1.7}
+.voice{border:2px dashed #9fb0ee;background:#f6f8ff;padding:18px;text-align:center;font-weight:700;color:#445}
+
+/* fixes */
+html,body{overflow-x:hidden;max-width:100%}
+.ticker{max-width:100%;position:relative}
+img[src=""]{display:none}
+.reasonbox,.gcta .box{max-width:100%}
+.staff .ph{max-height:260px}
+
+/* ---- font fixes ---- */
+body{font-feature-settings:"palt" 0;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;font-family:"Noto Sans JP","Hiragino Sans","Hiragino Kaku Gothic ProN","Yu Gothic","Meiryo",sans-serif}
+h1,h2,h3,.bar,.lead,.intro,.warnbox .in,summary,.sp,.herobar,.sym p,.gcta .s,.safe{word-break:auto-phrase;line-break:strict;text-wrap:balance}
+p,dd,.a p,.ybox p,.note{word-break:auto-phrase;line-break:strict;text-wrap:pretty}
+.intro{text-wrap:balance}
+/* 日本語に擬似イタリックは使わない：傾斜は変形で */
+.banner .big,.rs .b{font-style:normal;display:inline-block;transform:skewX(-9deg)}
+.banner .big{animation:popnk .7s .15s ease-out both}
+@keyframes popnk{0%{transform:skewX(-9deg) scale(.4);opacity:0}70%{transform:skewX(-9deg) scale(1.12);opacity:1}100%{transform:skewX(-9deg) scale(1)}}
+.rs .b{display:block}
+.num,.gcta .num,.ticker,.badge strong,.rs .b{font-variant-numeric:tabular-nums}
+.logo{letter-spacing:.04em}
+
+/* ---- fonts v2：見出し=Dela Gothic One（力強い極太）／本文=Zen Kaku Gothic New／数字=Oswald ---- */
+:root{--f-head:"Dela Gothic One","Zen Kaku Gothic New","Hiragino Sans",sans-serif;--f-body:"Zen Kaku Gothic New","Hiragino Sans","Yu Gothic",sans-serif;--f-num:"Oswald","Zen Kaku Gothic New",sans-serif}
+body{font-family:var(--f-body);font-weight:500;letter-spacing:.02em}
+b,strong,summary,label,th,.intro,.lead,.note{font-weight:700}
+h1.t,.hero .area,.banner .big,.herobar,.reasonbox h2,.warnbox h3,.bar,.sym h2,.gcta .s,.logo,.ybox .lb,.case h3,.fg h3,.btn,.sticky a,.hd a,.banner .k,.banner .sp,.badge,.tiles div,.chips a{font-family:var(--f-head);font-weight:400;letter-spacing:.03em}
+.banner .big{letter-spacing:.01em}
+.rs .b{font-family:var(--f-head);font-weight:400}
+.rs .h{font-family:var(--f-head);font-weight:400}
+.gcta .num,.ticker{font-family:var(--f-head);font-weight:400}
+.gcta .num{letter-spacing:.04em}
+.badge strong{font-family:var(--f-head);font-weight:400}
+.td.p,td.p{font-family:var(--f-head);font-weight:400}
+.steps b,.case dt,dl.c dt{font-family:var(--f-head);font-weight:400}
+.steps li::before{font-family:var(--f-num);font-weight:700}
+summary{font-weight:900}
+.warnbox .in{font-weight:900}
+.warnbox li{font-weight:700}
+.herobar,.hero .area{letter-spacing:.06em}
+h1.t{font-size:1.05rem;line-height:1.5}
+.lead,.intro{font-weight:700}
+
+/* ---- fonts v3：極太(Dela)は“大きい見出し”だけ。小さい文字は読みやすい太字 ---- */
+h1.t,.logo,.hd a,.ybox .lb,.case h3,.fg h3,.btn,.sticky a,.banner .k,.banner .sp,.badge,.tiles div,.chips a,.sym h2,.gcta .s,.rs .h,.steps b,.case dt,dl.c dt,.warnbox h3,.ticker,td.p,.badge strong{font-family:var(--f-body);font-weight:900;letter-spacing:.02em}
+.warnbox h3{font-size:1.35rem}
+.badge strong{font-size:1.6rem}
+.banner .sp{font-size:1.2rem}
+.banner .k{font-size:1rem}
+.ticker{font-size:.98rem}
+.rs .h{font-size:1.02rem}
+.fg h3{font-size:1.05rem}
+.case h3{font-size:1.15rem}
+.steps b{font-size:1.1rem}
+.sym h2{font-size:1.15rem}
+.chips a{font-size:.95rem}
+.logo{font-size:1.4rem}
+.gcta .s{font-size:1.02rem}
+.sticky a{font-size:1.05rem}
+.btn{font-size:1.1rem}
+.tiles div{font-size:1.02rem}
+td.p{font-size:1.15rem}
+/* 大見出しだけ Dela */
+.hero .area,.banner .big,.herobar,.reasonbox h2,.bar,.rs .b,.gcta .num{font-family:var(--f-head);font-weight:400}
+.bar{font-size:1.3rem;letter-spacing:.04em}
+
+/* ---- 縁取り：大きい見出しだけ。paint-order で縁を文字の外側にだけ出す ---- */
+.banner .big{color:#0b2cff;-webkit-text-stroke:10px #fff;paint-order:stroke fill;text-shadow:0 5px 0 #0a1f9e,0 9px 14px rgba(0,0,0,.28)}
+.banner .k{box-shadow:0 3px 0 #8f0016}
+.hero .area{color:#fff;-webkit-text-stroke:7px #0a1f9e;paint-order:stroke fill;text-shadow:0 3px 0 #061470}
+.herobar{color:#ffe100;-webkit-text-stroke:7px #0a1f9e;paint-order:stroke fill;text-shadow:0 3px 0 #061470}
+.rs .b{color:#ff4a00;-webkit-text-stroke:6px #fff;paint-order:stroke fill;text-shadow:0 3px 0 #0b2cff}
+.reasonbox h2{color:#0b2cff;-webkit-text-stroke:6px #fff;paint-order:stroke fill;text-shadow:0 3px 0 #ffe100}
+.bar{-webkit-text-stroke:5px #0a1f9e;paint-order:stroke fill;text-shadow:0 3px 0 #061470}
+.gcta .num{-webkit-text-stroke:6px #fff;paint-order:stroke fill;text-shadow:0 3px 0 #00c24e}
+.badge{box-shadow:0 4px 0 #a31a00,0 0 0 3px #fff}
+.sticky a{text-shadow:0 2px 0 rgba(0,0,0,.25)}
+.btn.g,.btn.o{text-shadow:0 2px 0 rgba(0,0,0,.2)}
+
+/* ---- 電話番号は読めることが最優先：極太+縁取りをやめ、数字は Oswald、漢字は Zen 太字 ---- */
+.gcta .num{font-family:"Oswald","Zen Kaku Gothic New",sans-serif;font-weight:700;-webkit-text-stroke:0;text-shadow:none;color:#111;font-size:clamp(2rem,9vw,2.9rem);letter-spacing:.05em}
+.rs .b{-webkit-text-stroke:4px #fff}
+.reasonbox h2{-webkit-text-stroke:4px #fff}
+.bar{-webkit-text-stroke:3px #0a1f9e}
+
+/* ---- fonts v4：他社に寄せる。本文=Noto Sans JP／数字=Roboto／大見出し=角丸の極太(M PLUS Rounded 1c) ---- */
+:root{--f-head:"M PLUS Rounded 1c","Noto Sans JP","Hiragino Maru Gothic ProN",sans-serif;--f-body:"Noto Sans JP","Hiragino Sans","Yu Gothic",sans-serif;--f-num:"Roboto","Noto Sans JP",sans-serif}
+body{font-family:var(--f-body);font-weight:400}
+.hero .area,.banner .big,.herobar,.reasonbox h2,.bar,.rs .b,.badge strong{font-family:var(--f-head);font-weight:900}
+.banner .big{letter-spacing:.02em}
+.gcta .num,.ticker .todo{font-family:var(--f-num),"Noto Sans JP";font-weight:900}
+.gcta .num{font-weight:700;letter-spacing:.04em}
+.steps li::before{font-family:var(--f-num);font-weight:900}
+
+/* ---- 文字の大小（ジャンプ率）---- */
+.banner .sp{padding:2px 14px 4px;line-height:1.2}
+.banner .sp small{font-size:1.05rem;font-weight:900}
+.banner .sp .nn{font-family:var(--f-num);font-weight:900;font-size:3rem;line-height:1;padding:0 6px;color:var(--orange);background:none;display:inline-block;transform:translateY(3px)}
+.herobar{line-height:1.2;padding:12px 8px 16px}
+.herobar small{display:block;font-size:.95rem;letter-spacing:.1em;-webkit-text-stroke:0;text-shadow:none;color:#fff}
+.herobar .hb2{display:block;font-size:2.1rem;letter-spacing:.06em;margin-top:2px}
+.rs .b{font-size:2.6rem}
+.k2{font-family:var(--f-head);font-weight:900;font-size:1.6em;color:var(--blue);line-height:1;padding:0 .08em}
+.sym h2 .k2{color:var(--orange)}
+.intro{font-size:1.1rem;line-height:1.9}
+.mk{font-weight:900;font-size:1.25em;background:linear-gradient(transparent 62%,#ffe100 62%) no-repeat 0 0/0% 100%;transition:background-size .8s .3s ease-out}
+.intro.in .mk{background-size:100% 100%}
+/* ---- 動き：画面に入ったとき1回だけ ---- */
+html.js .rv{opacity:0;transform:translateY(26px);transition:opacity .6s ease-out,transform .6s ease-out}
+html.js .rv.in{opacity:1;transform:none}
+html.js .bar.rv{transform:translateX(-40px)}
+html.js .bar.rv.in{transform:none}
+.bar{overflow:hidden}
+.bar::before{content:"";position:absolute;left:0;bottom:0;height:5px;width:0;background:var(--hot);transition:width .8s .2s ease-out}
+.bar.in::before{width:100%}
+.bar{border-bottom:0}
+html.js .reasonbox.rv.in .rs div{animation:popin .5s ease-out both}
+html.js .reasonbox.rv.in .rs div:nth-child(2){animation-delay:.15s}
+html.js .reasonbox.rv.in .rs div:nth-child(3){animation-delay:.3s}
+@keyframes popin{0%{transform:scale(.6);opacity:0}70%{transform:scale(1.08);opacity:1}100%{transform:scale(1)}}
+/* ヒーロー：1文字ずつ跳ねて入り、そのあとゆるく波打つ */
+.banner .big .ch{display:inline-block;animation:letterin .55s calc(var(--i)*.09s + .1s) cubic-bezier(.2,1.6,.4,1) both,wave 2.8s calc(var(--i)*.12s + 1.2s) ease-in-out infinite}
+@keyframes letterin{0%{transform:translateY(-60px) scale(.4);opacity:0}100%{transform:none;opacity:1}}
+@keyframes wave{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+.banner .big{animation:none}
+.herobar .hb2{animation:slidein .7s 1.1s ease-out both}
+@media (prefers-reduced-motion:reduce){html.js .rv{opacity:1!important;transform:none!important;transition:none!important}.banner .big .ch{animation:none!important}}
+
+.badge{left:auto;right:10px;bottom:auto;top:12px}
+.banner .copy{padding-top:50px}
+
+/* ---- Q&A（詳細版） ---- */
+.trustbox{border:3px solid var(--blue);border-radius:10px;padding:16px 16px 10px;margin:0 0 16px;background:#f6f8ff}
+.trustbox h3{margin:0 0 8px;font-size:1.05rem;font-weight:900;color:var(--blue)}
+.trustbox ul{margin:0;padding-left:1.2em}
+.trustbox li{margin:0 0 6px;font-size:.95rem}
+.faqtools{margin:0 0 8px}
+#faqsearch{width:100%;padding:14px 14px;font:inherit;font-weight:700;border:3px solid var(--blue);border-radius:10px;background:#fff}
+.ft2{display:flex;align-items:center;gap:8px;margin:10px 0}
+.ft2 span{font-weight:900;margin-right:auto}
+.ft2 button{font:inherit;font-weight:700;font-size:.85rem;background:#fff;border:2px solid var(--line);border-radius:6px;padding:6px 10px;cursor:pointer}
+.faqnav{display:flex;flex-wrap:wrap;gap:6px}
+.faqnav a{display:inline-flex;gap:6px;align-items:center;background:#eef2ff;border:2px solid var(--blue);border-radius:999px;padding:6px 12px;text-decoration:none;color:var(--blue);font-weight:900;font-size:.88rem}
+.faqnav a b{background:var(--blue);color:#fff;border-radius:999px;min-width:22px;text-align:center;font-size:.75rem;padding:1px 6px}
+.fg h3 span{float:right;font-size:.85rem;font-weight:700;opacity:.9}
+.fgd{margin:0;padding:8px 14px;background:#eef2ff;font-size:.88rem;font-weight:700;color:#334;border:2px solid var(--line);border-top:0}
+details .a ul{margin:4px 0 8px;padding-left:1.2em}
+details .a li{margin:2px 0}
+details .a p{margin:0 0 8px;line-height:1.85}
+.nores{font-weight:700;padding:16px;background:#fff7d6;border-radius:8px}
+details[hidden],.fg[hidden]{display:none}
+
+/* ---- 訴求を強める ---- */
+.gcta .s2{margin:0 0 4px;color:#fff;font-weight:900;font-size:1.25rem;line-height:1.5}
+.gcta .s2 span{background:#ffe100;color:#e60023;padding:0 6px;margin:0 2px;font-size:1.15em}
+.gcta .s{font-family:var(--f-head);font-weight:900;font-size:1.6rem;margin:0 0 10px;color:#ffe100;-webkit-text-stroke:5px #006b2a;paint-order:stroke fill;text-shadow:0 3px 0 #004d1e}
+.pas{background:#111;color:#fff;padding:44px 0;text-align:center;border-top:6px solid #e60023}
+.pas .pk{margin:0;color:#ffe100;font-weight:900;font-size:1.05rem;letter-spacing:.2em}
+.pas h2{margin:0 0 20px;font-family:var(--f-head);font-weight:900;font-size:2.4rem;line-height:1.2;-webkit-text-stroke:0;color:#fff}
+.pl{list-style:none;padding:0;margin:0 0 22px;text-align:left;display:grid;gap:10px;counter-reset:p}
+.pl li{counter-increment:p;position:relative;background:#222;border-left:6px solid #e60023;padding:14px 14px 14px 58px}
+.pl li::before{content:counter(p);position:absolute;left:12px;top:12px;width:34px;height:34px;border-radius:50%;background:#e60023;color:#fff;font-weight:900;font-size:1.2rem;display:flex;align-items:center;justify-content:center}
+.pl b{display:block;font-size:1.15rem;font-weight:900;color:#fff}
+.pl span{display:block;font-size:.92rem;color:#ccc;line-height:1.7}
+.pgo{margin:0;font-size:1rem}
+.pgo b{font-family:var(--f-head);font-weight:900;font-size:1.5rem;color:#ffe100;display:block;margin-bottom:4px}
+.pm{background:#eef2ff;padding:44px 0;text-align:center}
+.pm .pe{display:block;font-family:var(--f-num);font-weight:900;letter-spacing:.3em;color:var(--blue);font-size:.9rem}
+.pm h2{margin:4px 0 20px;font-family:var(--f-head);font-weight:900;font-size:1.9rem;color:#111}
+.pmg{display:grid;gap:10px;text-align:left}
+.pmg>div{background:#fff;border:3px solid var(--blue);border-radius:12px;padding:14px 14px 12px 66px;position:relative}
+.pmg .pn{position:absolute;left:12px;top:10px;width:42px;height:42px;border-radius:50%;background:var(--blue);color:#fff;font-family:var(--f-head);font-weight:900;font-size:1.5rem;display:flex;align-items:center;justify-content:center}
+.pmg b{display:block;font-size:1.15rem;font-weight:900;color:var(--blue)}
+.pmg p{margin:2px 0 0;font-size:.92rem}
+.ctamid{background:var(--green);margin:34px -16px;padding:26px 16px;text-align:center;border-top:4px solid var(--hot);border-bottom:4px solid var(--hot)}
+.ctamid .cm{margin:0 0 4px;color:#fff;font-weight:900;font-size:1.25rem}
+.ctamid .cn{display:block;margin:4px 0;font-family:var(--f-num);font-weight:700;font-size:clamp(2rem,9vw,2.8rem);color:#fff;text-decoration:none;letter-spacing:.04em;text-shadow:0 3px 0 #008f38}
+.ctamid .cn .todo{color:#000}
+.ctamid .cs{margin:0 0 12px;color:#fff;font-weight:700;font-size:.9rem}
+.ctamid .btn{max-width:420px;margin:0 auto}
+
+/* ---- はるきさんの写真 ---- */
+.banner{background:#dbe7ff;min-height:360px}
+.banner .shade{display:none}
+.banner img.haruki{position:absolute;inset:auto;right:-6px;bottom:0;width:auto;height:57%;object-fit:contain;-webkit-mask-image:linear-gradient(to right,transparent 0,#000 14%,#000 86%,transparent 100%);mask-image:linear-gradient(to right,transparent 0,#000 14%,#000 86%,transparent 100%);filter:drop-shadow(0 6px 10px rgba(0,0,60,.25))}
+.banner .copy{padding:46px 12px 18px}
+.banner .big{color:#0b2cff}
+.banner .sp{display:block;text-align:left;margin:12px 0 0;max-width:66%}
+.banner .sp small{font-size:.95rem}
+.banner .sp .nn{font-size:2.4rem}
+.ctamid .crow{display:flex;align-items:flex-end;justify-content:center;gap:10px;margin-bottom:12px}
+.ctamid .cface{height:118px;width:auto;-webkit-mask-image:linear-gradient(to right,transparent 0,#000 16%,#000 84%,transparent 100%);mask-image:linear-gradient(to right,transparent 0,#000 16%,#000 84%,transparent 100%);margin-bottom:-26px;flex:none}
+.ctamid .ct{flex:1;min-width:0}
+.ctamid .ct .cm{font-size:1.1rem}
+.ctamid .cn{font-size:clamp(1.7rem,7.4vw,2.4rem)}
+.pm{position:relative}
+.pm .pface{position:absolute;right:6px;top:8px;height:92px;width:auto;-webkit-mask-image:linear-gradient(to right,transparent 0,#000 16%,#000 84%,transparent 100%);mask-image:linear-gradient(to right,transparent 0,#000 16%,#000 84%,transparent 100%)}
+.staff .face2{background:#dbe7ff;border:0;aspect-ratio:3/4;display:flex;align-items:flex-end;justify-content:center;border-radius:12px}
+.staff .face2 img{height:100%;width:auto;object-fit:contain;-webkit-mask-image:linear-gradient(to right,transparent 0,#000 10%,#000 90%,transparent 100%);mask-image:linear-gradient(to right,transparent 0,#000 10%,#000 90%,transparent 100%)}
+.who b{font-size:1.2rem;font-weight:900;color:var(--blue)}
+
+/* ---- AIっぽさを消す：均一なカード・常時アニメ・グラデをやめる ---- */
+.hd{background:var(--blue)}
+.gcta .box{animation:none;border:3px solid #fff;box-shadow:none}
+.sticky .t{box-shadow:none}
+.badge{animation:none;transform:rotate(-8deg)}
+.banner .big .ch{animation:letterin .55s calc(var(--i)*.09s + .1s) cubic-bezier(.2,1.6,.4,1) both}
+.say{padding:40px 0 34px;background:#fff}
+.say .sy1{margin:0 0 6px;font-weight:900;font-size:1.05rem;color:var(--blue);letter-spacing:.06em}
+.say .sl{padding:14px 0;border-bottom:1px solid #d7ddf2}
+.say .sl:last-of-type{border-bottom:0}
+.say .sl b{display:block;font-family:var(--f-head);font-weight:900;font-size:1.45rem;line-height:1.4;color:#111}
+.say .sl:nth-of-type(2) b{font-size:1.3rem}
+.say .sl:nth-of-type(3) b{font-size:1.15rem}
+.say .sl span{display:block;font-size:.95rem;color:#444;margin-top:2px}
+.say .sl em{display:block;font-style:normal;font-size:.8rem;margin-top:6px}
+.pas h2{font-size:1.7rem;text-align:left;line-height:1.45}
+.pl{display:block}
+.pl li{background:none;border-left:0;border-top:1px solid #444;padding:14px 0;margin:0;color:#ddd;font-size:.95rem;line-height:1.8}
+.pl li::before{display:none}
+.pl b{display:inline;font-size:1.1rem;color:#fff;margin-right:.3em}
+.pgo{text-align:left;color:#ddd;font-size:.95rem}
+.pgo b{display:block;font-size:1.35rem;color:#ffe100;margin-bottom:2px}
+.pas{text-align:left;border-top-width:4px}
+
+/* ---- ヒーロー背景＝明るい浴室で作業する写真（元画像は高解像度に差し替え予定） ---- */
+.banner{background:#cfdcf5}
+.banner img.bgphoto{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:30% 50%;filter:blur(1.6px) saturate(1.08)}
+.banner .shade2{position:absolute;inset:0;background:rgba(255,255,255,.34)}
+.banner .copy{z-index:1}
+.banner img.haruki{z-index:1}
+
+/* ---- 広い画面でも崩さない：スマホ幅の1列で中央に置く ---- */
+html,body{background:#dfe5f5}
+.page{max-width:560px;margin:0 auto;background:#fff;box-shadow:0 0 40px rgba(10,20,80,.18);overflow:hidden;position:relative}
+.sticky{left:50%;right:auto;width:min(100%,560px);transform:translateX(-50%)}
+
+/* ---- フォントを1種類に統一：他社と同じ Noto Sans JP（数字だけ Roboto） ---- */
+:root{--f-head:"Noto Sans JP","Hiragino Sans","Yu Gothic",sans-serif;--f-body:"Noto Sans JP","Hiragino Sans","Yu Gothic",sans-serif;--f-num:"Roboto","Noto Sans JP",sans-serif}
+*,*::before,*::after{font-family:"Noto Sans JP","Hiragino Sans","Yu Gothic",sans-serif!important}
+.gcta .num,.ctamid .cn,.steps li::before,.ticker .nn,.banner .sp .nn{font-family:"Roboto","Noto Sans JP",sans-serif!important}
+/* 太さは 400 / 700 / 900 の3段階だけ */
+body{font-weight:400}
+summary,.bar,.hero .area,.banner .big,.herobar,.herobar .hb2,.say .sl b,.pas h2,.pgo b,.k2,.btn,.sticky a,.hd a,.logo,.fg h3,.case h3,.chips a,.tiles div,.badge,.badge strong,.banner .k,.banner .sp,.ctamid .cm,.gcta .s,.gcta .s2{font-weight:900}
+.lead,.intro,.note,th,label,.warnbox li,.trustbox li,.fgd,.who b,.steps b,dl.c dt{font-weight:700}
+.banner .big{letter-spacing:0}
+
+/* ---- 色を他社の実測値に合わせる ---- */
+:root{--blue:#0000fe;--blue2:#0000b8;--bar:#2861ff;--green:#00c005;--green2:#008a04;--yellow:#fffde7}
+.hd{background:linear-gradient(180deg,#28a5ff,#2872ff)}
+.hd a{color:#2872ff}
+.hero{background:#0000fe}
+.banner .big{color:#0000fe}
+.bar{background:var(--bar);border-bottom:0}
+.bar::before,.bar::after{display:none}
+.fg h3{background:var(--bar)}
+.warnbox{border-color:#0000fe}.warnbox h3{background:#0000fe}
+.gcta{background:#00c005;border-top-color:#008a04}
+.ctamid{background:#00c005}
+.sticky .t{background:#00c005}
+.btn.g{background:#00c005;border-bottom-color:#008a04}
+.ybox{background:#fffde7;border:2px solid #f3e9a8}
+.chu{background:#ffebee;border-left:5px solid #e53935;padding:12px 14px 12px 14px;color:#333;font-size:.9rem}
+.chu .chu-l{display:inline-block;background:#e53935;color:#fff;font-size:.78rem;padding:1px 8px;border-radius:3px;margin-right:8px;font-weight:900}
+.say .sy1{color:#0000fe}
+.pgo b,.herobar{color:#ffe100}
+
+/* ---- 対応できるお困りごと（トイレ・キッチン・お風呂ごとに写真＋症状） ---- */
+.tbl{background:#1a5ad6;margin:34px -16px;padding:36px 16px 30px}
+.tbl .wrap{padding:0}
+.tbl .tbe{display:block;font-family:"Roboto",sans-serif!important;font-weight:700;font-size:2.6rem;letter-spacing:.12em;color:rgba(255,255,255,.18);line-height:1;margin-bottom:-14px}
+.tbl h2{margin:0;color:#fff;font-size:1.5rem;font-weight:900}
+.tbl .tbs{margin:6px 0 18px;color:#dbe6ff;font-weight:700;font-size:.92rem}
+.tb{display:grid;grid-template-columns:42% 1fr;gap:12px;background:#0f47b0;border-radius:10px;padding:12px;margin-bottom:12px;align-items:start}
+.tb .ph{border:0;background:#cfe0ff;border-radius:6px;aspect-ratio:4/3}
+.tb h3{margin:0 0 8px;color:#fff;font-size:1.15rem;font-weight:900;padding-bottom:6px;border-bottom:1px solid rgba(255,255,255,.35)}
+.tb h3 small{display:block;font-family:"Roboto",sans-serif!important;font-weight:500;font-size:.7rem;letter-spacing:.14em;color:#9fc0ff}
+.tb ul{list-style:none;margin:0;padding:0}
+.tb li{color:#fff;font-size:.88rem;font-weight:700;line-height:1.5;padding:4px 0 4px 16px;position:relative}
+.tb li::before{content:"";position:absolute;left:0;top:.62em;width:7px;height:7px;border-radius:50%;background:#7fd0ff}
+@media(max-width:420px){.tb{grid-template-columns:1fr}}
+
+/* ---- 画像を増やす ---- */
+.ph .ask.ico{flex-direction:column;gap:8px;font-size:.75rem;color:#2c4a8a}
+.ph .ask.ico svg{width:58%;max-height:62%}
+.say .wrap{position:relative}
+.say .sl{max-width:68%}
+.say .sface{position:absolute;right:-6px;bottom:0;height:200px;width:auto;-webkit-mask-image:linear-gradient(to right,transparent 0,#000 14%,#000 86%,transparent 100%);mask-image:linear-gradient(to right,transparent 0,#000 14%,#000 86%,transparent 100%)}
+.pas .wrap{position:relative}
+.pas .pface2{position:absolute;right:-8px;top:-6px;height:130px;width:auto;-webkit-mask-image:linear-gradient(to right,transparent 0,#000 14%,#000 86%,transparent 100%);mask-image:linear-gradient(to right,transparent 0,#000 14%,#000 86%,transparent 100%)}
+.pas h2{padding-right:120px}
+.leadrow{display:flex;align-items:flex-end;gap:8px}
+.leadrow .lead{flex:1}
+.leadrow img{height:104px;width:auto;flex:none;-webkit-mask-image:linear-gradient(to right,transparent 0,#000 16%,#000 84%,transparent 100%);mask-image:linear-gradient(to right,transparent 0,#000 16%,#000 84%,transparent 100%)}
+.cface2{display:block;height:130px;width:auto;margin:0 auto -10px;-webkit-mask-image:linear-gradient(to right,transparent 0,#000 16%,#000 84%,transparent 100%);mask-image:linear-gradient(to right,transparent 0,#000 16%,#000 84%,transparent 100%)}
+.fface{display:block;height:100px;width:auto;margin:0 0 -6px auto;position:relative;z-index:1;-webkit-mask-image:linear-gradient(to right,transparent 0,#000 16%,#000 84%,transparent 100%);mask-image:linear-gradient(to right,transparent 0,#000 16%,#000 84%,transparent 100%)}
+
+/* ---- 色味を増やす：区切りごとに色を変える ---- */
+.blk{margin:34px -16px;padding:22px 16px 26px}
+.blk>.bar:first-child{margin-top:0}
+.b-orange{background:#fff1dc;border-top:5px solid #ff8a00;border-bottom:5px solid #ff8a00}
+.b-blue{background:#e8f0ff;border-top:5px solid #2861ff;border-bottom:5px solid #2861ff}
+.b-orange .bar{background:#ff7a00}
+.b-orange .steps li::before{background:#ff7a00}
+.b-orange .steps b{color:#d65a00}
+.b-orange .steps li{border-bottom-color:#ffc98a}
+.b-blue .case{background:#fff}
+.b-blue th{background:#d7e4ff}
+.say{background:#fffbd6;border-top:5px solid #ffe100;border-bottom:5px solid #ffe100}
+.say .sl{border-bottom-color:#e8dc7a}
+.sym{background:#e3efff;padding-bottom:18px}
+.sym h2{color:#0a2a8a}
+.chips a{background:#fff}
+.intro{color:#111}
+.fg:nth-of-type(4n+1) h3{background:#2861ff}
+.fg:nth-of-type(4n+2) h3{background:#ff7a00}
+.fg:nth-of-type(4n+3) h3{background:#00a82d}
+.fg:nth-of-type(4n+4) h3{background:#e0245e}
+.fg:nth-of-type(4n+2) .fgd{background:#fff1dc}.fg:nth-of-type(4n+3) .fgd{background:#e6f7ea}.fg:nth-of-type(4n+4) .fgd{background:#ffe6ee}
+.faqnav a:nth-child(4n+2){border-color:#ff7a00;color:#d65a00;background:#fff1dc}.faqnav a:nth-child(4n+2) b{background:#ff7a00}
+.faqnav a:nth-child(4n+3){border-color:#00a82d;color:#007a21;background:#e6f7ea}.faqnav a:nth-child(4n+3) b{background:#00a82d}
+.faqnav a:nth-child(4n+4){border-color:#e0245e;color:#b0123f;background:#ffe6ee}.faqnav a:nth-child(4n+4) b{background:#e0245e}
+.staff{background:#e6f7ea;border-radius:12px;padding:14px}
+.contact{background:#e3efff}
+.ctamid{border-top-color:#ffe100;border-bottom-color:#ffe100}
+.trustbox{background:#e3efff}
+.pas{border-top-color:#ff2a00}
+.tbl{background:#1f5fe0}
+.tb:nth-of-type(2) li::before{background:#ffd23f}.tb:nth-of-type(3) li::before{background:#7dffb0}.tb:nth-of-type(4) li::before{background:#ff9fb8}
+footer{background:#0a1a6e;color:#cdd6ff}
+footer .todo{color:#000}
+
+/* ---- 文字サイズ・文字色を他社の実測値に合わせる（本文18px/行30px・H1 22px・見出し帯20px・注意15.2px・補足13px） ---- */
+body{font-size:18px;line-height:1.67;color:#333}
+h1.t{font-size:22px;line-height:35px;font-weight:700;color:#333}
+.logo{font-size:22px}
+.hd a{font-size:16px}
+.bar{font-size:20px;line-height:27px}
+.intro,.lead,.a p,.a li,.ybox p,.trustbox li,.warnbox li,.say .sl span,.pl li,.pgo,.faqtools,.case dd,td,th{font-size:18px;line-height:1.67}
+.note,.chu{font-size:15.2px;line-height:1.7}
+.case .ch,.fgd,.ft2,.ft2 button,.tbl .tbs,.pm .pe{font-size:13px}
+.case .ch,.fgd{color:#777}
+.ybox .lb{color:#ffd54f;font-size:18px;font-weight:700;background:#fffde7}
+summary{font-size:17px;line-height:24px}
+.a p,.a li{color:#333}
+.ctamid .cs,.safe{font-size:14px}
+.trustbox h3{font-size:18px}
+.case h3{font-size:17px}
+.tb li{font-size:15px}
+footer{font-size:12px}
+a:not(.btn):not(.cn):not(.box):not(.tel){color:#4682b4}
+.sticky a,.hd a,.faqnav a,.chips a,.gcta .sub a,.gcta .box,.ctamid .cn,.btn,.cface{color:inherit}
+.gcta .sub a{color:#fff}
+.chips a{color:#0000fe}
+.faqnav a{color:#0000fe}
+.btn,.sticky a,.ctamid .btn,.hd a{color:#fff}
+.hd a{color:#2872ff}
+
+/* ---- 実測合わせのあとの調整 ---- */
+.gcta .sub a,.ctamid a,.sticky a,.btn,.hd a.btn{color:#fff!important}
+.hd a{color:#2872ff!important}
+.chips a,.faqnav a{color:#0000fe!important}
+.faqnav a:nth-child(4n+2){color:#d65a00!important}.faqnav a:nth-child(4n+3){color:#007a21!important}.faqnav a:nth-child(4n+4){color:#b0123f!important}
+.say .sl{max-width:none}
+.say .sl:nth-of-type(1){max-width:68%}
+.say .sface{top:0;bottom:auto;height:128px}
+.say .sl b{font-size:20px}
+.say .sl:nth-of-type(2) b{font-size:20px}
+.say .sl:nth-of-type(3) b{font-size:20px}
+.pas .pface2{height:92px;top:0}
+.pas h2{font-size:26px}
+
+/* ---- 3D：水があふれる演出（近づいたときにだけ読み込む） ---- */
+.w3d{background:#06101f;color:#fff;padding:36px 0 26px;text-align:center;border-top:5px solid #ffe100}
+.w3d .w3k{margin:0;color:#ffe100;font-weight:900;letter-spacing:.14em;font-size:15px}
+.w3d h2{margin:4px 0 14px;font-size:26px;line-height:1.4;font-weight:900;color:#fff}
+.w3f{position:relative;width:100%;aspect-ratio:4/5;max-height:640px;border-radius:12px;overflow:hidden;background:#0a1426}
+.w3f iframe{position:absolute;inset:0;width:100%;height:100%;border:0;display:block}
+.w3ph{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:#9fb4ff;font-size:14px;pointer-events:none}
+.w3f.on .w3ph{display:none}
+.w3n{margin:10px 0 0;color:#cdd6ff;font-size:13px}
+
+/* ---- 構成の追加：料金内訳・カテゴリ別料金・3ボタン・流れ・声・エリア折りたたみ ---- */
+.bgen{display:block;font-family:"Roboto",sans-serif!important;font-weight:700;font-size:56px;line-height:1;letter-spacing:.08em;color:rgba(40,97,255,.13);margin:26px 0 -22px;text-align:center}
+.b-orange .bgen{color:rgba(255,122,0,.16)}
+.pcalc{display:grid;grid-template-columns:1fr auto 1fr auto 1fr;align-items:center;gap:4px;text-align:center;margin:6px 0 10px}
+.pcalc>span{font-weight:900;font-size:22px;color:#2861ff}
+.pc1{background:#fff;border:3px solid #2861ff;border-radius:10px;padding:8px 4px}
+.pc1 small{display:block;font-size:12px;font-weight:700;color:#2861ff}
+.pc1 b{display:block;font-size:14px;font-weight:900;line-height:1.35}
+.pz{display:flex;flex-wrap:wrap;gap:6px;justify-content:center;margin-bottom:14px}
+.pz span{background:#ff7a00;color:#fff;font-weight:900;font-size:14px;padding:4px 12px;border-radius:999px}
+.pt{background:#fff;border-radius:10px;padding:12px 12px 6px;margin-bottom:12px;border:2px solid #cfdcff}
+.pt h3{margin:0 0 6px;text-align:center;font-size:17px;font-weight:900;color:#0a2a8a}
+.pt table{margin:0}
+.pt th,.pt td{font-size:15px;padding:9px 6px;border:0;border-bottom:1px dashed #cfdcff;background:none}
+.pt th{width:auto;font-weight:700}
+.pt td.p{text-align:right}
+.cta3{margin:14px 0 6px;display:grid;gap:10px}
+.cta3 .c3h{margin:0;text-align:center;font-weight:900;font-size:18px;color:#0a2a8a}
+.c3{display:block;text-decoration:none;color:#fff!important;border-radius:12px;padding:14px 16px;text-align:center}
+.c3 b{display:block;font-size:20px;font-weight:900}
+.c3 span{display:block;font-size:20px;font-weight:900}
+.c3 em{display:block;font-style:normal;font-size:13px;font-weight:700}
+.c3l span,.c3f span{font-size:13px;font-weight:700}
+.c3t{background:#ff7a00;border-bottom:5px solid #c25a00}
+.c3l{background:#00c005;border-bottom:5px solid #008a04}
+.c3f{background:#e0245e;border-bottom:5px solid #a81745}
+.flow{list-style:none;margin:0;padding:0;counter-reset:f}
+.flow li{counter-increment:f;position:relative;padding:12px 0 12px 56px;border-bottom:1px dashed #b9c8f5}
+.flow li::before{content:counter(f);position:absolute;left:0;top:12px;width:40px;height:40px;border-radius:50%;background:#2861ff;color:#fff;font-weight:900;font-size:20px;display:flex;align-items:center;justify-content:center;font-family:"Roboto",sans-serif!important}
+.flow li:not(:last-child)::after{content:"";position:absolute;left:19px;top:54px;bottom:-12px;width:2px;background:#b9c8f5}
+.flow b{display:block;font-size:18px;font-weight:900;color:#0a2a8a}
+.flow span{display:block;font-size:15px;color:#444;line-height:1.6}
+.vcard{background:#fff;border:2px solid #cfdcff;border-radius:12px;padding:14px;margin:10px 0}
+.vcard h3{margin:0 0 6px;font-size:18px;font-weight:900;color:#0a2a8a}
+.vstars{margin-bottom:6px}
+.vchips{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:10px}
+.vchips span{font-weight:900;font-size:14px;color:#fff;padding:5px 12px;border-radius:6px}
+.v1{background:#2861ff}.v2{background:#ff6a5a}
+.vbody{display:grid;grid-template-columns:76px 1fr;gap:10px;align-items:start}
+.vbody p{margin:0;font-size:15px;line-height:1.7}
+.vav{text-align:center}.vav svg{width:56px;height:56px}.vav small{display:block;font-size:12px;font-weight:700;line-height:1.3}
+details.pf{background:#fff;border:2px solid #cfdcff;border-radius:10px;margin-bottom:8px;overflow:hidden}
+details.pf summary{list-style:none;cursor:pointer;padding:14px 46px 14px 16px;font-weight:900;font-size:18px;position:relative;color:#0a2a8a}
+details.pf summary::-webkit-details-marker{display:none}
+details.pf summary::before{display:none}
+details.pf summary::after{content:"+";position:absolute;right:14px;top:50%;transform:translateY(-50%);width:26px;height:26px;border-radius:50%;background:#111;color:#fff;text-align:center;line-height:25px;font-size:20px}
+details.pf[open] summary::after{content:"−"}
+details.pf .areas{padding:0 14px 14px}
+
+.gcta{margin-bottom:0}
+
+/* ---- AIっぽさを消す v2：飾りを外す・素材を絞る ---- */
+.say{background:#fffbd6;padding:30px 0 26px}
+.say .hm{display:flex;align-items:center;gap:12px;margin-bottom:10px}
+.say .hmface{width:76px;height:76px;border-radius:50%;object-fit:cover;object-position:50% 20%;background:#dbe7ff;flex:none}
+.say .hmn{display:block;font-size:20px;font-weight:900}
+.say .hmt{margin:0 0 10px;font-size:18px;line-height:1.8;font-weight:500;color:#222}
+.tb .ph .ask{font-size:13px;color:#4a5f95}
+
+/* ---- 黒をやめる：黒の面・黒の線を、青と黄色に ---- */
+.pas{background:#12307f;border-top:5px solid #ffe100;color:#fff}
+.pas h2{color:#fff}
+.pl li{background:none;border-top:1px solid rgba(255,255,255,.35);color:#e6ecff}
+.pl b{color:#fff}
+.pgo{color:#e6ecff}
+.pgo b{color:#ffe100}
+.tape{background:repeating-linear-gradient(-45deg,#ffe100 0 16px,#1a3cf0 16px 32px)!important;background-size:45px 45px}
+.ticker{border-bottom:3px solid #1a3cf0;color:#12307f}
+.faqtools,.sticky{box-shadow:none}
+
+/* ---- 色のバランス：面の色は「白・淡い青」。青=見出し/ヒーロー、緑=電話、オレンジ=LINE、黄=小さな強調だけ ---- */
+.say{background:#fff;border-top:0;border-bottom:1px solid #dfe6fb}
+.sym{background:#f1f5ff}
+.b-orange,.b-blue{background:#f1f5ff;border-top:1px solid #cfdcff;border-bottom:1px solid #cfdcff}
+.b-orange .bar{background:#2861ff}
+.b-orange .steps b{color:#1237c8}
+.b-orange .steps li{border-bottom-color:#cfdcff}
+.b-orange .steps li::before{background:#ff7a00}
+.staff{background:#fff;padding:0}
+.contact,.trustbox{background:#f1f5ff}
+.ctamid{border-top:0;border-bottom:0}
+.pas{border-top:0}
+.fg:nth-of-type(n) h3{background:#2861ff!important}
+.fg:nth-of-type(n) .fgd{background:#eef2ff!important}
+.faqnav a:nth-child(n){border-color:#2861ff!important;background:#eef2ff!important;color:#1237c8!important}
+.faqnav a:nth-child(n) b{background:#2861ff!important}
+.c3f{background:#2861ff;border-bottom-color:#1a45c2}
+.v2{background:#ff8a00}
+.pz span{background:#2861ff}
+.todo{background:#fff6c4!important;border-bottom:2px dotted #d4a300;color:#222!important}
+.say .hmn+.todo,.banner .sp .nn,.badge .todo{background:none!important;border:0}
+
+/* ---- 「最短◯分で駆けつけ」：四角い枠をやめ、ストップウォッチ＋走る文字に ---- */
+.banner .sp{display:flex;align-items:center;gap:6px;background:none;border:0;padding:0;margin:8px 0 0;max-width:none;text-align:left}
+.banner .sp .sp1{font-size:17px;font-weight:900;color:#12307f;align-self:flex-end;margin-bottom:10px}
+.banner .sp .clock{position:relative;width:86px;height:86px;flex:none;border-radius:50%;background:#fff;box-shadow:0 0 0 3px #1a3cf0;display:flex;align-items:center;justify-content:center}
+.banner .sp .clock svg{position:absolute;inset:4px;width:calc(100% - 8px);height:calc(100% - 8px);transform:rotate(-90deg)}
+.banner .sp .clock circle{fill:none;stroke-width:7;stroke-linecap:round}
+.banner .sp .clock .c0{stroke:#dfe6fb}
+.banner .sp .clock .c1{stroke:#e60023;stroke-dasharray:276.46;stroke-dashoffset:276.46;animation:sweep 3.2s linear infinite}
+@keyframes sweep{0%{stroke-dashoffset:276.46}85%{stroke-dashoffset:0}100%{stroke-dashoffset:0;opacity:0}}
+.banner .sp .nn{position:relative;font-family:"Roboto","Noto Sans JP",sans-serif!important;font-weight:900;font-size:42px;line-height:1;color:#1a3cf0;background:none!important;border:0!important;padding:0;transform:none;animation:tick 3.2s ease-in-out infinite}
+@keyframes tick{0%,80%{transform:scale(1)}88%{transform:scale(1.14)}100%{transform:scale(1)}}
+.banner .sp .sp2{font-size:17px;font-weight:900;color:#12307f;align-self:flex-end;margin-bottom:6px;line-height:1.2}
+.banner .sp .go{position:relative;display:inline-block;margin-left:2px;font-size:24px;color:#1a3cf0;padding:0 4px;background:linear-gradient(transparent 58%,#ffe100 58%) no-repeat 0 0/0% 100%;animation:marker .7s .5s ease-out forwards,dash 3.2s 1.2s ease-in-out infinite}
+@keyframes marker{to{background-size:100% 100%}}
+@keyframes dash{0%,70%,100%{transform:translateX(0)}78%{transform:translateX(7px)}86%{transform:translateX(0)}}
+.banner .sp .go .sl{position:absolute;right:100%;top:50%;width:34px;height:12px;margin-right:2px;transform:translateY(-50%);background:repeating-linear-gradient(to bottom,#1a3cf0 0 2px,transparent 2px 5px);opacity:0;animation:lines 3.2s 1.2s linear infinite;clip-path:polygon(0 0,100% 40%,100% 60%,0 100%)}
+@keyframes lines{0%,66%{opacity:0;transform:translate(-14px,-50%)}76%{opacity:.9}90%{opacity:0;transform:translate(4px,-50%)}100%{opacity:0}}
+
+/* ---- チーム検品の反映：小さい文字・ティッカー端・3D高さ・番号円 ---- */
+.safe,.ctamid .cs,.w3n,.vav small,.tb .ph .ask,.fgd,.ft2{font-size:14px}
+footer{font-size:13px}
+.w3n,.tb .ph .ask{color:#e8edff}
+.w3f{max-height:520px}
+.ticker{-webkit-mask-image:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent);mask-image:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent)}
+.vav{flex:0 0 72px}.vav small{white-space:nowrap}
+.flow li::before{z-index:1}
+.sticky a{font-size:17px}
+
+/* ---- 「最短15分で駆けつけ」を大きく・動きを増やす（4秒で1サイクル）---- */
+.banner{min-height:420px}
+.banner .sp{display:flex;flex-wrap:wrap;align-items:flex-end;gap:4px 8px;margin:6px 0 0;max-width:none}
+.banner .sp .sp1{font-size:26px;font-weight:900;color:#12307f;margin-bottom:22px;line-height:1}
+.banner .sp .sp2{font-size:28px;font-weight:900;color:#12307f;margin-bottom:22px;line-height:1}
+.banner .sp .clock{width:128px;height:128px;box-shadow:0 0 0 4px #1a3cf0;animation:alarm 4s ease-in-out infinite;transform-origin:50% 50%}
+.banner .sp .clock svg{inset:6px;width:calc(100% - 12px);height:calc(100% - 12px)}
+.banner .sp .clock circle{stroke-width:8}
+.banner .sp .clock .c1{animation:sweep2 4s ease-out infinite}
+.banner .sp .nn{font-size:74px;animation:none;letter-spacing:-.02em}
+@keyframes sweep2{0%{stroke-dashoffset:276.46;opacity:1}30%{stroke-dashoffset:0}92%{stroke-dashoffset:0;opacity:1}100%{stroke-dashoffset:0;opacity:0}}
+@keyframes alarm{0%,34%{transform:scale(1) rotate(0)}38%{transform:scale(1.12) rotate(-7deg)}42%{transform:scale(1.12) rotate(7deg)}46%{transform:scale(1.1) rotate(-6deg)}50%{transform:scale(1.1) rotate(6deg)}54%{transform:scale(1.06) rotate(-3deg)}58%,100%{transform:scale(1) rotate(0)}}
+.banner .sp .go{flex-basis:100%;display:block;margin:0;font-size:42px;line-height:1.15;padding:0 6px;color:#1a3cf0;font-weight:900;letter-spacing:.02em;
+  background:linear-gradient(transparent 60%,#ffe100 60%) no-repeat 0 0/0% 100%;animation:marker2 4s ease-out infinite}
+@keyframes marker2{0%,28%{background-size:0% 100%;transform:translateX(0)}44%{background-size:100% 100%;transform:translateX(0)}60%{background-size:100% 100%;transform:translateX(0)}66%{transform:translateX(16px)}74%{transform:translateX(0)}92%{background-size:100% 100%}100%{background-size:0% 100%}}
+.banner .sp .go .sl{position:absolute;right:100%;top:50%;width:70px;height:26px;margin-right:2px;background:repeating-linear-gradient(to bottom,#1a3cf0 0 3px,transparent 3px 8px);clip-path:polygon(0 0,100% 38%,100% 62%,0 100%);opacity:0;transform:translateY(-50%);animation:lines2 4s linear infinite}
+@keyframes lines2{0%,58%{opacity:0;transform:translate(-26px,-50%)}64%{opacity:1}74%{opacity:.8;transform:translate(10px,-50%)}80%,100%{opacity:0}}
+@media (max-width:400px){.banner .sp .clock{width:108px;height:108px}.banner .sp .nn{font-size:62px}.banner .sp .go{font-size:36px}.banner .sp .sp1,.banner .sp .sp2{font-size:22px}}
+@media (prefers-reduced-motion:reduce){.banner .sp .clock,.banner .sp .clock .c1,.banner .sp .go,.banner .sp .go .sl{animation:none!important}.banner .sp .clock .c1{stroke-dashoffset:0}.banner .sp .go{background-size:100% 100%}}
+
+/* ---- v35：リボン＋特大数字。丸いパーツをやめる ---- */
+.banner{min-height:400px}
+.banner .copy{padding:44px 12px 14px}
+.banner .big{font-size:clamp(2.6rem,12.5vw,5rem)}
+.banner .sp{position:relative;display:block;margin:10px 0 0 -4px;padding:0;max-width:none;background:none;border:0;text-align:left;z-index:3}
+.banner .sp .spb{display:inline-block;background:#ffe100;transform:skewX(-11deg);padding:2px 26px 4px 22px;box-shadow:7px 7px 0 #1a3cf0;position:relative;overflow:hidden;animation:ribin 4s cubic-bezier(.2,.9,.2,1) infinite}
+.banner .sp .spb::after{content:"";position:absolute;top:0;bottom:0;width:46px;left:-80px;background:rgba(255,255,255,.65);transform:skewX(-12deg);animation:shine 4s ease-in-out infinite}
+.banner .sp .spi{display:inline-flex;align-items:baseline;gap:4px;transform:skewX(11deg);white-space:nowrap}
+.banner .sp .sp1{font-size:22px;font-weight:900;color:#12307f;margin:0}
+.banner .sp .sp2{font-size:26px;font-weight:900;color:#12307f;margin:0}
+.banner .sp .nn{display:inline-block;font-family:"Roboto","Noto Sans JP",sans-serif!important;font-weight:900;font-style:italic;font-size:84px;line-height:.95;color:#ff3b00;-webkit-text-stroke:7px #fff;paint-order:stroke fill;letter-spacing:-.03em;min-width:1.15em;text-align:center;background:none!important;border:0!important;padding:0;transform:none;animation:numpop 4s ease-out infinite}
+.banner .sp .spl{position:absolute;right:100%;top:50%;width:64px;height:30px;margin-right:12px;background:repeating-linear-gradient(to bottom,#1a3cf0 0 3px,transparent 3px 9px);clip-path:polygon(0 0,100% 30%,100% 70%,0 100%);opacity:0;transform:translateY(-50%);animation:spl 4s linear infinite}
+@keyframes ribin{0%{transform:skewX(-11deg) translateX(-110%)}12%,100%{transform:skewX(-11deg) translateX(0)}}
+@keyframes shine{0%,32%{left:-80px}52%,100%{left:120%}}
+@keyframes numpop{0%,28%{transform:scale(1)}33%{transform:scale(1.28) rotate(-3deg)}40%{transform:scale(.96)}46%{transform:scale(1.08)}52%,100%{transform:scale(1)}}
+@keyframes spl{0%,6%{opacity:0;transform:translate(-30px,-50%)}12%{opacity:.9}24%{opacity:0;transform:translate(6px,-50%)}100%{opacity:0}}
+.banner .tag{position:absolute;top:12px;right:10px;left:auto;bottom:auto;width:auto;height:auto;border-radius:0;background:#e60023;color:#fff;transform:skewX(-10deg) rotate(-3deg);padding:4px 16px 6px;text-align:center;box-shadow:4px 4px 0 #8f0016;z-index:4;line-height:1.1;display:block}
+.banner .tag small{display:block;font-size:12px;font-weight:900;letter-spacing:.1em}
+.banner .tag b{display:block;font-size:30px;font-weight:900;letter-spacing:.05em}
+.banner img.haruki{height:54%;z-index:2}
+@media (max-width:400px){.banner .sp .nn{font-size:70px}.banner .sp .sp2{font-size:22px}.banner .sp .sp1{font-size:19px}}
+@media (prefers-reduced-motion:reduce){.banner .sp .spb,.banner .sp .spb::after,.banner .sp .nn,.banner .sp .spl{animation:none!important}}
+
+.banner .sp .spb{padding:2px 44px 4px 24px}
+.banner .sp .sp2{font-size:24px}
+.banner .sp .nn{font-size:80px}
+@media (max-width:400px){.banner .sp .spb{padding-right:36px}.banner .sp .sp2{font-size:20px}.banner .sp .nn{font-size:64px}}
+
+/* ---- 「放っておくと」：被害が階段状に大きくなる図＋電話ボタン ---- */
+.pas{background:#12307f;color:#fff;padding:40px 0 34px;text-align:left;border-top:0}
+.pas h2{font-size:27px;line-height:1.45;font-weight:900;margin:0 0 20px;color:#fff;padding-right:0}
+.stairs{position:relative;display:grid;grid-template-columns:repeat(3,1fr);gap:8px;align-items:end;height:236px;padding-bottom:26px;margin:0 0 6px;border-bottom:3px solid rgba(255,255,255,.55)}
+.st{position:relative;border-radius:8px 8px 0 0;padding:10px 8px;display:flex;flex-direction:column;justify-content:flex-start;gap:6px;transform-origin:bottom;color:#fff}
+.st.s1{height:86px;background:#3d6bff}
+.st.s2{height:150px;background:#ff9a2e}
+.st.s3{height:210px;background:#e60023}
+.st .sn{font-family:"Roboto",sans-serif!important;font-weight:900;font-size:30px;line-height:1;opacity:.95}
+.st .sl1{font-weight:900;font-size:16px;line-height:1.3}
+.stairs .sax{position:absolute;left:0;right:0;bottom:0;text-align:center;font-size:13px;font-weight:700;color:#cdd8ff;letter-spacing:.06em}
+.stairs .sax::before{content:"";display:inline-block;width:26px;height:2px;background:#cdd8ff;vertical-align:middle;margin-right:8px}
+.stairs .sax::after{content:"";display:inline-block;width:0;height:0;border-left:8px solid #cdd8ff;border-top:5px solid transparent;border-bottom:5px solid transparent;vertical-align:middle;margin-left:6px}
+html.js .stairs.rv .st{transform:scaleY(.05);opacity:.2;transition:transform .7s cubic-bezier(.2,.9,.2,1),opacity .4s}
+html.js .stairs.rv.in .st{transform:scaleY(1);opacity:1}
+html.js .stairs.rv.in .s2{transition-delay:.25s}
+html.js .stairs.rv.in .s3{transition-delay:.5s}
+.pd{list-style:none;margin:22px 0 0;padding:0}
+.pd li{padding:14px 0;border-top:1px solid rgba(255,255,255,.28);font-size:17px;line-height:1.75;color:#e6ecff}
+.pd li b{display:block;font-size:19px;font-weight:900;color:#fff;margin-bottom:2px}
+.pgo2{margin-top:22px;background:#fff;color:#12307f;border-radius:12px;padding:20px 18px 18px;text-align:center}
+.pgo2 .pq{margin:0;font-size:23px;line-height:1.45;font-weight:900;color:#12307f}
+.pgo2 .ps{margin:6px 0 14px;font-size:15px;color:#444;font-weight:500}
+.pgo2 .pbtn{display:block;background:#00c005;color:#fff!important;text-decoration:none;font-weight:900;font-size:20px;padding:15px 10px;border-radius:10px;border-bottom:5px solid #008a04}
+@media (prefers-reduced-motion:reduce){html.js .stairs.rv .st{transform:none!important;opacity:1!important;transition:none!important}}
+
+.st.s1{height:108px}.st.s2{height:160px}.st.s3{height:212px}
+.stairs{height:244px}
+.st .sl1{font-size:15px}
+
+.st{gap:2px}
+.st .sn{font-size:18px;opacity:.85}
+.st .sb{font-weight:900;font-size:27px;line-height:1.15;white-space:nowrap}
+.st .sc{font-weight:700;font-size:13px;line-height:1.35}
+@media (max-width:400px){.st .sb{font-size:23px}.st .sc{font-size:12px}}
+
+/* ---- 断面イラスト（トイレのあふれ→階下へ）。最終状態が基本、動きは「動かす設定」の人だけ ---- */
+.scene{margin:0 0 6px;background:#0d2565;border-radius:12px;overflow:hidden}
+.scene svg{display:block;width:100%;height:auto}
+.scene .pud,.scene .seep,.scene .stain{transform-box:fill-box}
+.scene .pud{transform-origin:20% 50%}
+.scene .seep{transform-origin:50% 0}
+.scene .stain{transform-origin:50% 0}
+.scene .drip{opacity:1}
+@media (prefers-reduced-motion:no-preference){
+ .scene .pud{animation:s-pud 7s ease-out infinite}
+ .scene .seep{animation:s-seep 7s ease-in infinite}
+ .scene .stain{animation:s-stain 7s ease-out infinite}
+ .scene .drip{animation:s-drip 1.4s ease-in infinite}
+ .scene .d2{animation-delay:.45s}.scene .d3{animation-delay:.9s}
+ .scene .stream{stroke-dasharray:46;animation:s-stream 1.1s linear infinite}
+ .scene .c{animation:s-c 7s ease-out infinite;transform-box:fill-box;transform-origin:50% 50%}
+ .scene .c1{animation-delay:.6s}.scene .c2{animation-delay:2.9s}.scene .c3{animation-delay:4.6s}
+}
+@keyframes s-pud{0%{transform:scaleX(.08);opacity:1}38%{transform:scaleX(1)}92%{transform:scaleX(1);opacity:1}100%{transform:scaleX(1);opacity:0}}
+@keyframes s-seep{0%,28%{transform:scaleY(0)}46%{transform:scaleY(1)}92%{transform:scaleY(1);opacity:.75}100%{opacity:0}}
+@keyframes s-stain{0%,44%{transform:scale(.05);opacity:.8}74%{transform:scale(1)}92%{transform:scale(1);opacity:.8}100%{opacity:0}}
+@keyframes s-drip{0%{transform:translateY(0);opacity:0}15%{opacity:1}100%{transform:translateY(84px);opacity:0}}
+@keyframes s-stream{from{stroke-dashoffset:46}to{stroke-dashoffset:0}}
+@keyframes s-c{0%{opacity:0;transform:scale(.4)}8%{opacity:1;transform:scale(1.15)}14%,92%{opacity:1;transform:scale(1)}100%{opacity:0}}
+
+/* ---- はるきの言葉：コピーの強弱 ---- */
+.say .hk{margin:14px 0 4px;font-family:var(--f-head);font-weight:900;font-size:26px;line-height:1.45;color:#0000fe}
+.say .hk2{margin-top:20px;padding-top:16px;border-top:2px solid #e8dc7a;color:#111}
+.say .hm1{margin:0;font-size:17px;line-height:1.9;color:#222}
+.say .hm1 b{background:linear-gradient(transparent 62%,#ffe100 62%);font-weight:900}
+
+/* ---- 「放っておくと」整理版：図が主役。文章は番号ごとに1文。背景は白で軽く ---- */
+.pas{background:#fff;color:#12307f;padding:38px 0 34px;border-top:1px solid #dfe6fb;border-bottom:1px solid #dfe6fb}
+.pas h2{color:#12307f;font-size:28px;line-height:1.4;margin:0 0 18px}
+.scene{border-radius:14px;box-shadow:0 0 0 3px #12307f}
+.tl{list-style:none;margin:22px 0 0;padding:0;position:relative}
+.tl li{position:relative;display:grid;grid-template-columns:40px 1fr;gap:14px;padding:0 0 22px;align-items:start}
+.tl li:last-child{padding-bottom:0}
+.tl li::before{content:"";position:absolute;left:19px;top:40px;bottom:2px;width:3px;background:#dfe6fb}
+.tl li:last-child::before{display:none}
+.tl .tn{width:40px;height:40px;border-radius:50%;color:#fff;font-family:"Roboto",sans-serif!important;font-weight:900;font-size:21px;display:flex;align-items:center;justify-content:center}
+.tl .t1 .tn{background:#3d6bff}.tl .t2 .tn{background:#ff9a2e}.tl .t3 .tn{background:#e60023}
+.tl p{margin:0;font-size:18px;line-height:1.75;color:#333;font-weight:500;padding-top:3px}
+.pgo2{background:#f1f5ff;border:2px solid #cfdcff;margin-top:26px}
+.pgo2 .pq{color:#12307f}
+.pgo2 .pq{font-size:27px}.pgo2 .ps{font-size:16px;line-height:1.7;margin:8px 0 14px}
+
+/* ---- バナーの動きを止める（まり指摘：動きが変） ---- */
+.banner *,.banner,.badge,.badge *,.herobar,.herobar *{animation:none!important}
+.banner .sp .nn{transform:none!important}
+.badge{transform:none!important}
+.banner .big .ch{opacity:1!important;transform:none!important}
+
+/* ---- バナーの重なり解消（静止後の配置） ---- */
+.banner .copy{padding-top:70px!important}
+.banner .sp .nn{font-size:60px!important}
+.banner .sp .sp1{font-size:17px!important}
+.banner .sp .sp2{font-size:19px!important}
+.banner .sp .spb{padding:2px 16px 4px 14px!important;box-shadow:5px 5px 0 #1a3cf0!important}
+.banner img.haruki{height:46%!important}
+@media (max-width:380px){.sticky a{font-size:15px;padding:16px 2px;white-space:nowrap}}
+
+/* ---- 強調（色・大きさ・太さの強弱）---- */
+em{font-style:normal}
+em.e-r{color:#e60023;font-weight:900;font-size:1.28em;line-height:1.2;letter-spacing:.02em}
+em.e-b{color:#1a3cf0;font-weight:900;font-size:1.14em}
+em.e-m{font-weight:900;font-size:1.12em;color:#12307f;background:linear-gradient(transparent 58%,#ffe100 58%);padding:0 .1em}
+.a em.e-r{font-size:1.15em}
+.a em.e-b{font-size:1.06em}
+.a em.e-m{font-size:1.04em}
+.say .hmt{color:#333;font-weight:400}
+.say .hmt b{font-weight:900;color:#12307f;font-size:1.12em}
+.tl p,.ybox p,.warnbox li{font-weight:400}
+
+.say .hk2 em.e-r{font-size:1.3em;padding:0 .08em;background:linear-gradient(transparent 62%,#ffe100 62%)}
+
+.pending{display:none!important}
+
+/* ---- 「放っておくと」の1・2・3に写真 ---- */
+.tl .tlb{min-width:0}
+.tl .tlph{margin:10px 0 0;position:relative}
+.tl .tlph img{display:block;width:100%;aspect-ratio:3/2;object-fit:cover;border-radius:10px;background:#dfe6fb}
+.tl .tlph figcaption{font-size:11px;color:#777;margin-top:4px;text-align:right}
+.tl .t3 .tlph img{object-position:50% 40%}
+
+/* ---- お困りごとカード：写真を大きく上に、症状の一覧を下に ---- */
+.tb{display:block;padding:10px 10px 12px}
+.tb .ph.trp{aspect-ratio:3/2;width:100%;border-radius:8px;margin:0 0 10px;background:#cfe0ff;overflow:hidden}
+.tb .ph.trp img{width:100%;height:100%;object-fit:cover;display:block}
+.tb .tt h3{margin-top:0}
+.tb ul{display:grid;grid-template-columns:1fr 1fr;gap:0 12px}
+.tb li{font-size:14px}
+@media (max-width:420px){.tb ul{grid-template-columns:1fr}}
+
+/* ---- 「放っておくと」の図（写真版）---- */
+.scene2{margin:0 0 6px;border-radius:14px;overflow:hidden;box-shadow:0 0 0 3px #12307f;background:#fff}
+.scene2 img{display:block;width:100%;height:auto}
+
+/* ---- 「放っておくと」1・2・3の文字：見出し(大・縁取り)＋本文(小)＋マーカー ---- */
+.tl li{grid-template-columns:44px 1fr;gap:12px}
+.tl .tn{width:44px;height:44px;font-size:24px;box-shadow:0 3px 0 rgba(0,0,0,.18)}
+.tl .tlh{margin:0 0 8px;font-size:0;line-height:0}
+.tl .tlh span{display:inline-block;font-size:25px;line-height:1.25;font-weight:900;letter-spacing:.03em;color:#fff;padding:5px 18px 6px 14px;border-radius:6px 22px 6px 6px;
+  -webkit-text-stroke:5px var(--tc2);paint-order:stroke fill;background:var(--tc)}
+.tl .t1{--tc:#3d6bff;--tc2:#1f3fc4}
+.tl .t2{--tc:#ff9a2e;--tc2:#b85d00}
+.tl .t3{--tc:#e60023;--tc2:#8f0016}
+.tl .tlb p{margin:0;font-size:18px;line-height:1.85;color:#222;font-weight:500}
+.tl .tlb .tm{background:linear-gradient(transparent 58%,#ffe100 58%);color:#12307f;font-weight:900;font-size:1.1em;padding:0 .1em}
+.tl .t3 .tm{color:#e60023}
+.tl .tlph{margin-top:12px}
+
+/* ---- 症状：丸ピルをやめて、角の立った2列のチェック欄に ---- */
+.sym{padding:26px 14px 22px;text-align:left}
+.sym h2{text-align:center;font-size:22px;line-height:1.5;margin:0 0 16px}
+.sym .chips{display:grid;grid-template-columns:1fr 1fr;gap:10px;max-width:520px;margin:0 auto 14px}
+.sym .chips a{display:flex;align-items:center;gap:8px;letter-spacing:-.02em;border:0;border-left:6px solid #2861ff;border-radius:2px;background:#fff;box-shadow:0 1px 0 #cfdcff;padding:14px 6px 14px 10px;font-size:15px;font-weight:900;line-height:1.35;color:#0a2a8a!important;min-height:64px}
+.sym .chips a::before{content:"";flex:none;width:18px;height:18px;border:2px solid #2861ff;border-radius:2px;background:linear-gradient(#fff,#fff);position:relative;box-sizing:border-box}
+.sym p{text-align:center;font-size:15px;color:#222}
+@media (max-width:380px){.sym .chips a{font-size:14px;gap:6px;letter-spacing:-.04em}.sym .chips a::before{width:15px;height:15px}}
+
+/* ---- やってはいけないこと：角の立った×リストに ---- */
+.ng2{margin:18px 0 0;border:3px solid #e03131;background:#fff;border-radius:2px}
+.ng2h{margin:0;background:#e03131;color:#fff;text-align:center;font-weight:900;font-size:19px;padding:8px 6px;letter-spacing:.04em}
+.ng2 ul{list-style:none;margin:0;padding:6px 14px 2px}
+.ng2 li{position:relative;padding:12px 0 12px 40px;border-bottom:1px solid #f0c8c8}
+.ng2 li:last-child{border-bottom:0}
+.ng2 li::before,.ng2 li::after{content:"";position:absolute;left:7px;top:27px;width:20px;height:4px;background:#e03131;transform:rotate(45deg)}
+.ng2 li::after{transform:rotate(-45deg)}
+.ng2 li b{display:block;font-size:18px;font-weight:900;color:#111;line-height:1.45}
+.ng2 li span{display:block;font-size:15px;color:#555;line-height:1.6}
+.ng2f{margin:0;padding:10px 12px 14px;text-align:center;font-weight:900;font-size:17px;color:#e03131}
+
+/* ---- LINE：アイコン付きボタン＋QR＋3ステップ ---- */
+.lico{display:inline-block;width:1.25em;height:1.25em;vertical-align:-.28em;margin-right:.4em;background:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'><path fill='white' d='M20 4C10.6 4 3 10.2 3 17.9c0 6.9 6.1 12.6 14.4 13.7.6.1 1.3.4 1.5.9.2.5.1 1.2.1 1.7l-.2 1.4c-.1.5-.4 1.800 1.600 1 2-.8 10.800-6.400 14.700-11C37.700 22.200 37 20 37 17.900 37 10.200 29.400 4 20 4z'/></svg>") center/contain no-repeat}
+.c3l b::before,.sticky .l::before,.ctamid .btn.o::before,.contact .btn.o::before{content:"";display:inline-block;width:1.2em;height:1.2em;vertical-align:-.25em;margin-right:.35em;background:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'><path fill='white' d='M20 4C10.6 4 3 10.2 3 17.9c0 6.9 6.1 12.6 14.4 13.7.6.1 1.3.4 1.5.9.2.5.1 1.2.1 1.7l-.2 1.4c-.1.5-.4 1.800 1.600 1 2-.8 10.800-6.400 14.700-11C37.700 22.200 37 20 37 17.900 37 10.200 29.400 4 20 4z'/></svg>") center/contain no-repeat}
+.lineblk{margin:26px 0 8px;background:#fff;border:3px solid #06c755;border-radius:14px;padding:18px 16px 16px;text-align:left}
+.lineblk .lb1{margin:0;font-size:22px;font-weight:700;color:#12307f;line-height:1.4}
+.lineblk .lb1 b{font-size:1.28em;font-weight:900;color:#06a846;background:linear-gradient(transparent 62%,#ffe100 62%)}
+.lineblk .lb2{margin:6px 0 12px;font-size:16px;line-height:1.7;color:#333}
+.lineblk .lst{list-style:none;margin:0 0 14px;padding:0;display:grid;gap:8px}
+.lineblk .lst li{display:flex;gap:10px;align-items:center;font-size:16px;line-height:1.5;color:#222}
+.lineblk .lst li span{flex:none;width:30px;height:30px;border-radius:50%;background:#06c755;color:#fff;font-weight:900;display:flex;align-items:center;justify-content:center;font-family:"Roboto",sans-serif}
+.lineblk .lst b{font-weight:900;color:#06a846}
+.lineblk .lqr{display:grid;grid-template-columns:124px 1fr;gap:14px;align-items:center;border-top:2px dashed #b8e6c9;padding-top:14px}
+.lineblk .lqr img{width:124px;height:124px;display:block;border:2px solid #e3f6ea;border-radius:8px}
+.lineblk .lqt{display:grid;gap:8px;justify-items:stretch}
+.lineblk .lqt span{font-size:13px;font-weight:700;color:#555}
+.lineblk .lbtn{display:block;text-align:center;text-decoration:none;color:#fff!important;background:#06c755;border-bottom:5px solid #049a40;border-radius:10px;font-weight:900;font-size:18px;padding:13px 8px}
+.lineblk .lqt em{font-style:normal;font-size:13px;font-weight:700;color:#444;text-align:center}
+@media (max-width:380px){.lineblk .lqr{grid-template-columns:1fr;justify-items:center}}
+
+.pt td.p{font-weight:900;color:#e60023;font-size:18px;white-space:nowrap}
+.pt td.p{font-family:"Noto Sans JP",sans-serif}
+
+.note.chu p{margin:0 0 6px;font-size:15px;line-height:1.75}
+.note.chu p:last-child{margin-bottom:0}
+.note.chu .chu-l{display:block;width:max-content;margin:0 0 6px}
+.note.chu .chu2{font-weight:700}
+
+/* ---- 新トップ：緊急×数字フック（濃い青に黄・赤） ---- */
+.fv{background:#0000fe radial-gradient(ellipse at 70% 55%,#2c4bff 0,#0000fe 62%);position:relative;overflow:hidden}
+.fv-haz{background:repeating-linear-gradient(-45deg,#ffe100 0 14px,#111 14px 28px);padding:0}
+.fv-haz{display:block;background:#111;color:#ffe100;font-weight:900;font-size:14px;text-align:center;padding:7px 8px;letter-spacing:.04em;border-bottom:5px solid #ffe100}
+.fv-haz span{background:#e60023;color:#fff;padding:2px 8px;margin-right:8px;font-size:14px}
+.fv-top{padding:16px 14px 0;position:relative;z-index:3}
+.fv-q{display:inline-block;margin:0 0 8px;background:#e60023;color:#fff;font-weight:900;font-size:17px;padding:6px 12px;box-shadow:4px 4px 0 #000;transform:skewX(-8deg)}
+.fv-h1{margin:0;font-family:"Noto Sans JP",sans-serif;font-weight:900;color:#fff;line-height:1.05}
+.fv-h1 .l1{display:block;font-size:40px;letter-spacing:-.02em;text-shadow:0 4px 0 #000}
+.fv-h1 .l2{display:block;font-size:44px;letter-spacing:-.03em;color:#ffe100;text-shadow:0 4px 0 #000;margin-top:2px}
+.fv-h1 .l2 b{font-family:"Roboto","Noto Sans JP",sans-serif;font-size:112px;font-weight:900;font-style:italic;line-height:.9;color:#ffe100;-webkit-text-stroke:3px #e60023;paint-order:stroke fill;text-shadow:5px 6px 0 #000;letter-spacing:-.04em;padding:0 4px}
+.fv-h1 .l3{display:block;font-size:40px;letter-spacing:-.02em;text-shadow:0 4px 0 #000;margin-top:2px}
+.fv-ph{position:relative;height:250px;z-index:2}
+.fv-man{position:absolute;right:-8px;bottom:0;height:290px;width:auto;z-index:2;filter:drop-shadow(0 0 0 #fff)}
+.fv-pt{position:absolute;left:12px;bottom:18px;z-index:3;list-style:none;margin:0;padding:0;display:grid;gap:8px;width:62%}
+.fv-pt li{background:#fff;color:#0a2a8a;padding:9px 10px 9px 36px;font-size:15px;line-height:1.3;border-left:6px solid #e60023;box-shadow:4px 4px 0 #000;position:relative}
+.fv-pt li::before{content:"";position:absolute;left:11px;top:50%;width:13px;height:7px;border-left:4px solid #00a004;border-bottom:4px solid #00a004;transform:translateY(-70%) rotate(-45deg)}
+.fv-pt b{font-weight:900}
+.fv-cta{background:#fff200 repeating-linear-gradient(115deg,rgba(255,255,255,.35) 0 18px,rgba(255,255,255,0) 18px 36px);padding:18px 14px 18px;text-align:center;border-top:6px solid #111}
+.fv-cl{margin:0 0 8px;color:#e60023;font-weight:900;font-size:24px}
+.fv-tel{display:block;text-decoration:none;color:#111;background:#fff;border:4px solid #111;padding:10px 8px 12px;box-shadow:0 6px 0 #000}
+.fv-tel small{display:block;font-weight:900;font-size:15px;color:#0a2a8a}
+.fv-tel .num{display:block;font-weight:900;font-size:34px;line-height:1.25}
+.fv-sub{display:grid;grid-template-columns:1.2fr 1fr;gap:8px;margin-top:12px}
+.fv-sub a{display:block;text-decoration:none;color:#fff;font-weight:900;font-size:16px;padding:14px 4px;border-bottom:4px solid rgba(0,0,0,.3)}
+.fv-line{background:#00b004}.fv-form{background:#0000fe}
+.fv-safe{margin:12px 0 0;color:#111;font-weight:700;font-size:14px;line-height:1.7}
+@media (max-width:380px){.fv-h1 .l1,.fv-h1 .l3{font-size:34px}.fv-h1 .l2{font-size:38px}.fv-h1 .l2 b{font-size:96px}.fv-pt li{font-size:14px}.fv-tel .num{font-size:30px}}
+
+/* ご案内：意味のまとまりごとに折り返す */
+.note.chu p{margin:0 0 10px;line-height:1.85;word-break:keep-all;overflow-wrap:anywhere;text-wrap:pretty}
+.note.chu .cl{display:inline-block;max-width:100%}
+.note.chu .chu2 .cl{white-space:nowrap}
+.fv-sub a{color:#fff!important;text-shadow:none}
+.fv-haz{font-size:13px;white-space:nowrap}
+.sticky a{font-size:15px!important;white-space:nowrap;padding-left:2px;padding-right:2px}
+
+/* ---- 全体の折り返し：意味のまとまり（、。）ごとに折る ---- */
+.cl{display:inline-block;max-width:100%;vertical-align:baseline}
+body{line-break:strict;overflow-wrap:anywhere}
+p,li,dd,.a,summary{text-wrap:pretty}
+
+.cl .pp{display:inline-block;max-width:100%}
+
+/* =====================================================================
+   色の整理 v2：色は「青（ブランド）・緑（電話/LINE）・赤（価格だけ）」＋白と淡い青の面。
+   強調は、色でなく「太さ」と「文字の大きさ」で表現する。
+   ===================================================================== */
+:root{--navy:#12307f;--blue:#2861ff;--blue-d:#1a3cf0;--pale:#f1f5ff;--line2:#cfdcff}
+/* 強調：色を使わず、太さ＋大きさ */
+em.e-r,em.e-b,em.e-m{color:var(--navy)!important;background:none!important;padding:0;font-weight:900}
+em.e-r{font-size:1.3em;line-height:1.15;letter-spacing:.02em}
+em.e-b{font-size:1.16em}
+em.e-m{font-size:1.14em}
+.a em.e-r{font-size:1.18em}.a em.e-b{font-size:1.08em}.a em.e-m{font-size:1.06em}
+.say .hk2 em.e-r{background:none!important;font-size:1.25em}
+.tl .tlb .tm{background:none!important;color:var(--navy);font-weight:900;font-size:1.16em;padding:0}
+.tl .t3 .tm{color:var(--navy)}
+.mk{background:none!important;color:var(--navy);font-weight:900}
+/* 面の色：白と淡い青だけ */
+.say,.pas,.staff{background:#fff!important}
+.say{border-top:0;border-bottom:1px solid var(--line2)!important}
+.b-orange,.b-blue,.sym,.contact,.trustbox{background:var(--pale)!important}
+.b-orange,.b-blue{border-top:1px solid var(--line2)!important;border-bottom:1px solid var(--line2)!important}
+.b-orange .bar,.b-blue .bar{background:var(--blue)}
+.ybox{background:var(--pale)!important;border:2px solid var(--line2)!important}
+.ybox .lb{background:var(--pale)!important;color:var(--navy)!important}
+.chu{background:var(--pale)!important;border-left:5px solid var(--blue)!important}
+.chu .chu-l{background:var(--blue)!important}
+.pgo2{background:var(--pale)!important;border:2px solid var(--line2)!important}
+.pgo2 .pq{color:var(--navy)!important}
+/* 数字の丸・番号：青 */
+.steps li::before,.b-orange .steps li::before{background:var(--blue)!important}
+.b-orange .steps b{color:var(--navy)!important}
+.tl .t1 .tn,.tl .t2 .tn,.tl .t3 .tn{background:var(--blue-d)!important}
+.tl .tlh span{background:var(--blue-d)!important;-webkit-text-stroke:4px #0b24a8!important}
+.flow li::before{background:var(--blue)!important}
+/* 行動ボタン：電話=緑、LINE=LINEの緑、フォーム=青。オレンジは使わない */
+.c3t,.gcta .box{background:#00c005!important}
+.c3t{border-bottom-color:#008a04!important}
+.c3l,.btn.o,.sticky .l{background:#06c755!important;border-bottom-color:#049a40!important;animation:none!important}
+.c3f{background:var(--blue)!important;border-bottom-color:#1a45c2!important}
+.btn.o{border-bottom:5px solid #049a40!important}
+.sticky .l{border-left:2px solid #fff}
+.ctamid .btn.o{background:#06c755!important}
+/* チップ・ラベル：青に統一 */
+.v2,.pz span{background:var(--blue)!important}
+.v1{background:var(--blue)!important}
+.faqnav a:nth-child(n){border-color:var(--blue)!important;background:var(--pale)!important;color:#1237c8!important}
+.faqnav a:nth-child(n) b{background:var(--blue)!important}
+.fg:nth-of-type(n) h3{background:var(--blue)!important}
+.fg:nth-of-type(n) .fgd{background:var(--pale)!important}
+/* 飾りをやめる */
+.tape{display:none!important}
+.ticker{background:var(--navy)!important;color:#fff!important;border-bottom:0!important}
+.ticker i{color:#ffe100!important}
+.ticker .todo{background:none!important;border:0!important;color:#fff!important}
+.pas .pgo b{color:var(--navy)!important}
+/* 価格だけが赤 */
+.pt td.p{color:#e60023}
+
+/* =====================================================================
+   動き v2：画面に入ったとき一度だけ（スクロール連動）＋電話ボタンだけ常時
+   ===================================================================== */
+.pgbar{position:fixed;top:0;left:0;height:4px;width:0;background:linear-gradient(90deg,#2861ff,#06c755);z-index:60;pointer-events:none}
+@media (prefers-reduced-motion:no-preference){
+ html.js .rv2{opacity:0;transform:translate3d(0,28px,0);transition:opacity .6s cubic-bezier(.2,.8,.2,1),transform .6s cubic-bezier(.2,.8,.2,1);transition-delay:var(--d,0s)}
+ html.js .rv2.from-l{transform:translate3d(-46px,0,0)}
+ html.js .rv2.from-r{transform:translate3d(46px,0,0)}
+ html.js .rv2.pop{transform:scale(.86)}
+ html.js .rv2.in{opacity:1;transform:none}
+ /* 写真：横にワイプ＋ゆっくり拡大 */
+ html.js .tlph.rv2{opacity:1;transform:none}
+ html.js .tlph.rv2 img{clip-path:inset(0 100% 0 0);transform:scale(1.14);transition:clip-path .9s cubic-bezier(.2,.8,.2,1),transform 1.6s ease-out}
+ html.js .tlph.rv2.in img{clip-path:inset(0 0 0 0);transform:scale(1)}
+ html.js .tb .ph.rv2{opacity:1;transform:none}
+ html.js .tb .ph.rv2 img{transform:scale(1.18);transition:transform 1.8s ease-out}
+ html.js .tb .ph.rv2.in img{transform:scale(1)}
+ /* 番号の丸：ポンと弾む */
+ html.js .tl li.rv2.in .tn,html.js .flow li.rv2.in::before{animation:numpop2 .55s .15s cubic-bezier(.2,1.6,.4,1) both}
+ /* 縦の線が伸びる */
+ html.js .flow li.rv2:not(:last-child)::after{transform-origin:top;transform:scaleY(0);transition:transform .7s .25s ease-out}
+ html.js .flow li.rv2.in:not(:last-child)::after{transform:scaleY(1)}
+ html.js .tl li.rv2::before{transform-origin:top;transform:scaleY(0);transition:transform .8s .3s ease-out}
+ html.js .tl li.rv2.in::before{transform:scaleY(1)}
+ /* 電話ボタンだけ、常に脈打つ */
+ .gcta .box,.sticky .t,.c3t{animation:callpulse 2.4s ease-in-out infinite}
+ /* 価格の行：左から順に */
+ html.js .pt tr.rv2{opacity:0;transform:translate3d(-18px,0,0)}
+ html.js .pt tr.rv2.in{opacity:1;transform:none}
+ /* 見出しのあとの下線が伸びる */
+ .bar{background-image:linear-gradient(#ffe100,#ffe100);background-repeat:no-repeat;background-size:0 4px;background-position:0 100%;transition:background-size .8s .2s ease-out}
+ .bar.in{background-size:100% 4px}
+}
+@keyframes numpop2{0%{transform:scale(.3)}70%{transform:scale(1.2)}100%{transform:scale(1)}}
+@keyframes callpulse{0%,100%{box-shadow:0 0 0 0 rgba(0,192,5,.55)}60%{box-shadow:0 0 0 14px rgba(0,192,5,0)}}
+.btn:active,.c3:active,.sticky a:active,.lbtn:active,.pbtn:active{transform:translateY(2px);filter:brightness(.95)}
+.btn,.c3,.lbtn,.pbtn,.sticky a{transition:transform .12s ease,filter .12s ease}
+details.pf summary,summary{transition:background-color .2s}
+details[open]>.a{animation:aopen .35s ease-out}
+@keyframes aopen{from{opacity:0;transform:translateY(-6px)}to{opacity:1;transform:none}}
+
+/* ---- ヒーロー見出し「最短15分」の動き（4秒で1サイクル）---- */
+@media (prefers-reduced-motion:no-preference){
+ .fv-h1 .l1{animation:fvL .6s cubic-bezier(.2,.9,.2,1) both}
+ .fv-h1 .l2{animation:fvR .6s .18s cubic-bezier(.2,.9,.2,1) both}
+ .fv-h1 .l3{animation:fvL .6s .36s cubic-bezier(.2,.9,.2,1) both;position:relative}
+ .fv-h1 .l2 b{display:inline-block;min-width:1.25em;text-align:center;transform-origin:50% 80%;animation:fv15 4s .8s ease-out infinite}
+ .fv-h1 .l3::after{content:"";position:absolute;left:0;bottom:-2px;height:7px;width:0;background:#e60023;animation:fvUl 4s .9s ease-out infinite}
+ .fv-q{animation:fvBlink 1.4s ease-in-out infinite}
+}
+@keyframes fvL{from{opacity:0;transform:translateX(-60px)}to{opacity:1;transform:none}}
+@keyframes fvR{from{opacity:0;transform:translateX(60px)}to{opacity:1;transform:none}}
+@keyframes fv15{0%,24%{transform:scale(1) rotate(0)}28%{transform:scale(1.34) rotate(-6deg)}33%{transform:scale(.94) rotate(4deg)}38%{transform:scale(1.14) rotate(-3deg)}44%{transform:scale(1) rotate(0)}58%{transform:scale(1.06)}66%,100%{transform:scale(1)}}
+@keyframes fvUl{0%,26%{width:0}46%{width:92%}88%{width:92%;opacity:1}100%{width:92%;opacity:0}}
+@keyframes fvBlink{0%,100%{opacity:1}50%{opacity:.72}}
+.fv-h1 .l1::after,.fv-h1 .l2::after,.fv-h1 .l3::after,.fv-h1 .l1::before,.fv-h1 .l2::before,.fv-h1 .l3::before{content:none!important;display:none!important}
+
+/* ---- お客様の声（構成：依頼内容／評価／対応時間・料金のチップ／人物アイコン＋地域・年代／本文）---- */
+.vcard{background:#fff;border:2px solid #cfdcff;border-radius:14px;padding:16px 14px 14px;margin:0 0 14px;box-shadow:0 3px 0 #dfe6fb}
+.vcard h3{margin:0 0 8px;font-size:19px;line-height:1.45;font-weight:900;color:#12307f}
+.vstars{margin:0 0 8px;font-size:15px}
+.vchips{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 12px}
+.vchips span{font-size:15px;font-weight:900;color:#fff;padding:6px 14px;border-radius:8px}
+.vchips .v1,.vchips .v2{background:#2861ff}
+.vchips .todo{color:#222!important}
+.vbody{display:grid;grid-template-columns:84px 1fr;gap:12px;align-items:start}
+.vav{text-align:center}
+.vav svg{width:64px;height:64px;display:block;margin:0 auto 4px;background:#eef3ff;border-radius:50%}
+.vav small{display:block;font-size:12px;font-weight:700;line-height:1.35;color:#333}
+.vbody p{margin:0;font-size:16px;line-height:1.85;color:#222}
+.fv-cta{background:#ffe100!important;border-top:0!important}
+.fv-cta .todo{background:#fff!important;border-bottom:0!important}
+
+/* 折り返し用の枠は、どの場所でも「行の中に並ぶ箱」にする（親の span{display:block} に負けない） */
+.cl,.cl .pp,.pp{display:inline-block!important}
+.flow li>span,.flow li>b{display:block}
+
+.vcard{position:relative}
+.vcard .smp{position:absolute;top:-11px;right:12px;background:#fff;border:2px dashed #e60023;color:#e60023;font-size:12px;font-weight:900;padding:2px 10px;border-radius:999px;letter-spacing:.04em}
+.vstars{color:#f5a800;font-size:22px;letter-spacing:.12em;margin:0 0 8px}
+
+.vbody{grid-template-columns:104px minmax(0,1fr);gap:12px}
+.vav{min-width:0}
+.vav small{font-size:12px;line-height:1.45;word-break:keep-all;overflow-wrap:anywhere;white-space:normal}
+.vbody p{min-width:0}
+</style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "水が溢れそうです。先ず何をすればいいですか？", "acceptedAnswer": {"@type": "Answer", "text": "流すのを止めて、次の順に動いてください。 ① 便器の横の壁か床から出ている細い管の根元（止水栓）を、右に回して閉めてください ② ウォシュレットなど電気のついた機器がある場合は、濡れた手で触らず、コンセントが濡れていなければ抜いてください ③ 床の水をタオルで拭いてください（階下への漏水を防ぐためです） ④ 状況を電話かLINEでお伝えください 止水栓を閉めても水が止まらない時は、水道の元栓を閉めてください（次の質問）。"}}, {"@type": "Question", "name": "止水栓がかたくて回りません。", "acceptedAnswer": {"@type": "Answer", "text": "無理な力で回すと、管や部品を傷めることがあります。溝があるタイプはマイナスドライバーで、ハンドル式は手で、ゆっくり右に回してください。 それでも動かない時は、トイレ単体ではなく家全体の水を止める「元栓」を閉めてください。元栓は、戸建てでは敷地内のメーターボックス、マンションでは玄関横のパイプスペースにあることが多いです。"}}, {"@type": "Question", "name": "流しても全く流れず、水位がどんどん上がってきます。", "acceptedAnswer": {"@type": "Answer", "text": "便器の奥か、その先の配管で詰まっている状態です。もう一度流すと、溢れる危険が高まります。 流さないでください 止水栓を閉めてください 水位が便器の縁に近いときは、床にタオルやバケツを置いて備えてください その上でご連絡ください。"}}, {"@type": "Question", "name": "水位は上がらないけれど、流れが遅いです。", "acceptedAnswer": {"@type": "Answer", "text": "詰まりの初期か、部分的に詰まっている可能性があります。紙の量が原因の軽いものなら、時間をおいて自然に流れることもあります。 但し、流れが遅い状態を繰り返す時は、配管の奥に汚れが固まっていることがあります。早めに点検すると、作業の手間も費用も抑えられます。"}}, {"@type": "Question", "name": "ゴボゴボと音がします。放っておいて大丈夫ですか？", "acceptedAnswer": {"@type": "Answer", "text": "配管の中で空気の通り道がふさがりかけているサインのことがあります。他の水回り（風呂・洗面・洗濯機）の排水口から音がする時も同じです。 直ぐに溢れることは多くありませんが、流れが悪くなる前にご相談ください。"}}, {"@type": "Question", "name": "便器の水がほとんど入っていません。詰まりですか？", "acceptedAnswer": {"@type": "Answer", "text": "詰まりではなく、排水トラップの水（封水）が減っている場合もあります。封水は、下水のにおいや虫が上がるのを防ぐ役割があります。 長期間使っていない時や、強い雨や風の後などに減ることがあります。水を足して、元の高さに戻るかを見てください。戻らず、また減る時は、点検をお勧めします。"}}, {"@type": "Question", "name": "夜中や早朝に起きました。直ぐに来てもらえますか？", "acceptedAnswer": {"@type": "Answer", "text": "24時間受付しています。夜間・早朝の加算料金はありません。 お電話の時に状況をお聞きして、到着までの目安をお伝えします。待つ間にできるのは、止水栓を閉めることと、床の水を拭くことです。"}}, {"@type": "Question", "name": "ラバーカップ（スッポン）はどう使えばいいですか？", "acceptedAnswer": {"@type": "Answer", "text": "洋式用の、先端に出っ張りのあるタイプが向いています。 便器の水位が低いときは、カップが水に浸かるまで水を足してください（溢れない量にしてください） 排水口にカップを密着させ、ゆっくり押し込んで、一気に引いてください これを数回繰り返してください 強く押し込みすぎると、汚水が飛び散ることがあります。ゴム手袋と、床にビニールシートを敷いておくと安心です。"}}, {"@type": "Question", "name": "ラバーカップを何回やっても直りません。", "acceptedAnswer": {"@type": "Answer", "text": "数回試して変わらなければ、止めてください。紙が原因の詰まりなら直りやすいのですが、異物や配管の奥の詰まりには効きません。 続けるほど、異物を奥へ押し込むことがあります。"}}, {"@type": "Question", "name": "熱湯を流してもいいですか？", "acceptedAnswer": {"@type": "Answer", "text": "使わないでください。陶器の便器は、急な温度変化でひびが入ったり割れたりすることがあります。使うなら、手で触れるくらいの「ぬるま湯」までにしてください。"}}, {"@type": "Question", "name": "重曹やお酢、クエン酸は効きますか？", "acceptedAnswer": {"@type": "Answer", "text": "軽い汚れには効くことがありますが、詰まりそのものへの効果は限られます。詰まった紙や異物を押し流すほどの力はありません。 時間をかけても変わらない時は、業者への相談をお勧めします。"}}, {"@type": "Question", "name": "市販のパイプ洗浄剤は使えますか？", "acceptedAnswer": {"@type": "Answer", "text": "トイレ用として書いてあるものだけ、表示どおりに使ってください。洗剤を何種類も混ぜるのは、有毒ガスが出るおそれがあり危険です。特に、塩素系と酸性のものは混ぜないでください。"}}, {"@type": "Question", "name": "針金やハンガーで突いてもいいですか？", "acceptedAnswer": {"@type": "Answer", "text": "お勧めしません。便器の内側を傷つけたり、異物を奥へ押し込んだり、配管を傷めたりして、作業が大きくなることがあります。"}}, {"@type": "Question", "name": "ペットボトルや真空式のパイプクリーナーは使えますか？", "acceptedAnswer": {"@type": "Answer", "text": "詰まりの種類によっては効くこともあります。但し、ペットボトルを使う方法は、汚水が飛んだり、詰まりが悪化したりすることがあります。 試して変化がなければ、直ぐに止めてください。"}}, {"@type": "Question", "name": "自分で試す前に、しておく準備はありますか？", "acceptedAnswer": {"@type": "Answer", "text": "止水栓を閉めてください（流れ続けるのを防ぐためです） 床にビニールシートや新聞紙を敷いてください ゴム手袋とマスクを着けてください 便器の水位が高いときは、無理に作業しないでください"}}, {"@type": "Question", "name": "どこまで試したら、業者を呼ぶべきですか？", "acceptedAnswer": {"@type": "Answer", "text": "次のどれかに当てはまる時は、お呼びください。 ラバーカップを数回試しても、変わらない場合 水位が下がらない場合、または溢れそうな場合 固いものや小物を落とした心当たりがある場合 何度も繰り返して詰まる場合 他の水まわりにも症状が出ている場合"}}, {"@type": "Question", "name": "トイレットペーパーを流しすぎました。", "acceptedAnswer": {"@type": "Answer", "text": "紙が原因なら、時間をおくとほぐれて流れることがあります。1時間ほど待って、少量ずつ流して見てください。 変わらなければ、ご相談ください。紙だけなら、作業は短く済むことが多いです。"}}, {"@type": "Question", "name": "流せるお掃除シートやおしりふきを詰まらせました。", "acceptedAnswer": {"@type": "Answer", "text": "「トイレに流せる」と書いてあっても、トイレットペーパーほど早く溶けないものがあります。何枚も重なると、配管の曲がり角で詰まりやすくなります。 作業では、状態を見て、取り除ける方法を選びます。"}}, {"@type": "Question", "name": "スマホ・おもちゃ・小物を落としました。", "acceptedAnswer": {"@type": "Answer", "text": "絶対に流さないでください。奥へ入ると、便器の取り外しが必要になることがあります。 止水栓を閉めてください 落としたものを、そのままお伝えください（大きさ・素材） 写真があれば、LINEで送ってください。"}}, {"@type": "Question", "name": "生理用品や、おむつを流してしまいました。", "acceptedAnswer": {"@type": "Answer", "text": "水に溶けないので、詰まりの大きな原因になります。流さずに、ごみとして出してください。既に流して詰まった時は、取り除く作業が必要です。"}}, {"@type": "Question", "name": "子どもが物を流したかもしれません。", "acceptedAnswer": {"@type": "Answer", "text": "何を流したか分からなくても大丈夫です。心当たりを、お聞きしながら進めます。詰まりの症状（水位の変化・音・流れの速さ）をお伝えください。"}}, {"@type": "Question", "name": "猫砂や、ペットのトイレ用品は流せますか？", "acceptedAnswer": {"@type": "Answer", "text": "商品に「トイレに流せる」と書いてあるものだけにしてください。「流せる」と書いてあっても、猫砂は詰まりやすいので、流さないのが安全です。固まる性質の砂は、配管の中で固まります。浄化槽は特に避けてください。"}}, {"@type": "Question", "name": "食べ物や油をトイレに流してしまいました。", "acceptedAnswer": {"@type": "Answer", "text": "油は、配管の内側で冷えて固まり、詰まりの原因になります。トイレに流さずに、キッチンの油は固めてごみとして出してください。 既に流して詰まった場合は、早めにご相談ください。"}}, {"@type": "Question", "name": "尿石で詰まることはありますか？", "acceptedAnswer": {"@type": "Answer", "text": "あります。長年の使用で、尿の成分が固まって、配管の内側が細くなることがあります。何度も詰まる時や、においが気になる時は、点検をお勧めします。"}}, {"@type": "Question", "name": "ウォシュレット（温水洗浄便座）がついていても大丈夫ですか？", "acceptedAnswer": {"@type": "Answer", "text": "大丈夫です。作業前に電源を切る、必要なら便座を外す場合があります。外す時は、事前に必ずお伝えします。"}}, {"@type": "Question", "name": "古いトイレ（築年数が古い建物）でも対応できますか？", "acceptedAnswer": {"@type": "Answer", "text": "対応できます。古い建物は、排水管の材質や傾きが現在と違うことがあります。作業の時に、状態を確認して、必要なら改善の方法もお伝えします。"}}, {"@type": "Question", "name": "手洗い付きのトイレで、手洗い側が詰まりました。", "acceptedAnswer": {"@type": "Answer", "text": "手洗い側の排水が、便器とは別にある場合があります。排水の流れが遅い、水が逆流する時は、ご連絡ください。"}}, {"@type": "Question", "name": "賃貸です。先に管理会社へ連絡したほうがいいですか？", "acceptedAnswer": {"@type": "Answer", "text": "設備の故障や、建物の老朽が原因の場合は、管理会社や大家さんの負担になることがあります。契約書の「修繕」の項目をご確認のうえ、先に連絡をお勧めします。 但し、水が溢れる緊急時は、先ず止水栓を閉めて被害を止めてください。"}}, {"@type": "Question", "name": "費用は、借主と大家さんのどちらが負担しますか？", "acceptedAnswer": {"@type": "Answer", "text": "一般的には、借主の過失（異物を流したなど）が原因なら借主、設備の経年劣化が原因なら貸主の負担になることが多いです。但し、契約書の内容で変わります。最終的には、管理会社と相談してください。 作業の時に、原因が分かる写真と、作業内容の書類をお渡しできます。"}}, {"@type": "Question", "name": "分譲マンションの共用部の排水管が詰まっているかもしれません。", "acceptedAnswer": {"@type": "Answer", "text": "複数の部屋で同時に流れが悪くなる場合や、低い階だけで逆流する場合は、共用部の排水管が原因のことがあります。管理組合や管理会社に連絡して、共用部の点検を依頼してください。"}}, {"@type": "Question", "name": "階下に水が漏れてしまいそうです。どうすればいいですか？", "acceptedAnswer": {"@type": "Answer", "text": "止水栓や元栓を閉めて、床の水を拭いてください。階下への漏水がある場合は、管理会社と、加入している保険会社に連絡してください。"}}, {"@type": "Question", "name": "大家さんや、管理人さんの立ち会いが必要ですか？", "acceptedAnswer": {"@type": "Answer", "text": "賃貸では、鍵の貸し出しなどで必要になることがあります。事前に、管理会社に確認してください。"}}, {"@type": "Question", "name": "料金は、どのように決まりますか？", "acceptedAnswer": {"@type": "Answer", "text": "詰まりの場所、原因、使う機材、作業時間で決まります。軽いものと、配管の奥までの作業では、必要な機材も変わります。 目安は料金表にありますが、最終的な金額は、現地を見て、作業の前にお伝えします。"}}, {"@type": "Question", "name": "見積りの後に、追加料金が出ることはありますか？", "acceptedAnswer": {"@type": "Answer", "text": "あります。想定より奥で詰まっていた、便器の取り外しが必要になった、などです。その場合は、作業を止めて、理由と金額をお伝えしてから進めます。ご了承いただけなければ、追加作業はしません。"}}, {"@type": "Question", "name": "見積りを見てから、断ることはできますか？", "acceptedAnswer": {"@type": "Answer", "text": "できます。その場でお決めいただく必要はありません。他社様とも比較のうえ、ご検討ください。"}}, {"@type": "Question", "name": "電話してから、どのくらいで来てもらえますか？", "acceptedAnswer": {"@type": "Answer", "text": "最短15分が目安です。場所や時間帯、交通状況で変わるため、お電話で住所をお聞きして、到着の目安をお伝えします。"}}, {"@type": "Question", "name": "作業中、家にいる必要はありますか？", "acceptedAnswer": {"@type": "Answer", "text": "基本的に、立ち会いをお願いしています。作業前の説明と、作業後の確認のためです。"}}, {"@type": "Question", "name": "事前に準備しておくことはありますか？", "acceptedAnswer": {"@type": "Answer", "text": "トイレの床周りの荷物を片づけておいてください 止水栓を閉めておいてください（既に閉めていれば、そのままで構いません） 詰まりの原因に心当たりがあれば、教えてください"}}, {"@type": "Question", "name": "悪徳業者を見分けるには、何を見ればいいですか？", "acceptedAnswer": {"@type": "Answer", "text": "次の点を確認してください。 ① 作業の前に、金額を提示してくれますか ② 追加料金が発生する条件を、説明してくれますか ③ 会社名・所在地・固定の連絡先が分かりますか ④ その場で急かさず、お断りできますか ⑤ 見積書や領収書を出してくれますか"}}, {"@type": "Question", "name": "広告の「〇〇円〜」と、実際の請求が違うことはありますか？", "acceptedAnswer": {"@type": "Answer", "text": "広告の金額は、最も軽い作業の場合の最低額であることが多く、実際の作業では変わることがあります。当社は、作業の前に、必ず実際の金額をお伝えします。他社と比べる時も、「何が含まれる金額か」をご確認ください。"}}, {"@type": "Question", "name": "見積書を出してもらえない場合は、どうすればいいですか？", "acceptedAnswer": {"@type": "Answer", "text": "書面や、メッセージで金額を確認できない時は、作業をお願いしないことをお勧めします。口頭だけの約束は、後で確認できません。"}}, {"@type": "Question", "name": "契約した後に、クーリング・オフはできますか？", "acceptedAnswer": {"@type": "Answer", "text": "ご自身で業者を呼んだ場合は、クーリング・オフの対象にならないのが基本です。依頼した内容と違う契約をその場で結ばされた場合などは、対象になることがあります。迷ったら、消費者ホットライン「188（いやや）」に相談してください。"}}, {"@type": "Question", "name": "詰まりを繰り返さないために、気をつけることはありますか？", "acceptedAnswer": {"@type": "Answer", "text": "一度に流す紙の量を減らしてください 「流せる」シートでも、何枚も続けて流さないでください トイレに流せないものを流さないでください 長く使っているなら、定期的に点検してください"}}, {"@type": "Question", "name": "作業後に、どうやって確認すればいいですか？", "acceptedAnswer": {"@type": "Answer", "text": "作業が終わったら、スタッフと一緒に、水を流して流れを確認します。その時に、水位の変化や、音がないかも見てください。"}}, {"@type": "Question", "name": "便器の根元から水が漏れています。", "acceptedAnswer": {"@type": "Answer", "text": "便器と床の接続部の、パッキンのゆるみなどが原因のことがあります。止水栓を閉めて、床の水を拭いてください。放っておくと、床下の傷みにつながります。ご連絡ください。"}}, {"@type": "Question", "name": "タンクの下や、給水管から水が漏れています。", "acceptedAnswer": {"@type": "Answer", "text": "接続部のゆるみや、パッキンの劣化が多いです。止水栓を閉めると、ほとんどの場合、漏れは止まります。その上でご連絡ください。"}}, {"@type": "Question", "name": "家のどこかで水漏れしているかもしれません。確認する方法はありますか？", "acceptedAnswer": {"@type": "Answer", "text": "家の中の水を、全部止めた状態で、水道メーターを見てください。メーターの小さなパイロット（銀色の円盤など）が回っていたら、どこかで水が漏れている可能性があります。"}}, {"@type": "Question", "name": "冬に、トイレや水道が凍結したかもしれません。", "acceptedAnswer": {"@type": "Answer", "text": "無理に熱湯をかけないでください。配管や便器が割れることがあります。タオルをかぶせて、ぬるま湯をゆっくりかけてください。"}}]}</script>
+</head>
+<body>
+<div class="page">
+
+<header class="hd"><div class="wrap"><span class="logo">アシスト株式会社</span><a href="tel:00000000000">電話する</a></div></header>
+<div class="ticker"><div class="track">
+<span><i>●</i> 24時間受付中</span><span><i>●</i> お見積り<span class="todo">【無料】</span></span><span><i>●</i> 最短15分で駆けつけます</span><span><i>●</i> 東京・埼玉・神奈川・千葉に対応</span><span><i>●</i> 作業の前に<em class="e-r">必ず</em>金額をお伝えします</span>
+<span><i>●</i> 24時間受付中</span><span><i>●</i> お見積り<span class="todo">【無料】</span></span><span><i>●</i> 最短15分で駆けつけます</span><span><i>●</i> 東京・埼玉・神奈川・千葉に対応</span><span><i>●</i> 作業の前に<em class="e-r">必ず</em>金額をお伝えします</span>
+</div></div>
+<section class="fv">
+<div class="fv-haz"><span>緊急</span>詰まり・水漏れ・故障｜首都圏 全域</div>
+<div class="fv-top">
+<p class="fv-q">流れない…水位が上がってきた…</p>
+<h1 class="fv-h1"><span class="l1">あふれる前に、</span><span class="l2">最短<b>15</b>分で</span><span class="l3">駆けつけます！</span></h1>
+</div>
+<div class="fv-ph">
+<img class="fv-man" src="img/haruki_8.webp" alt="担当スタッフ">
+<ul class="fv-pt">
+<li><b>お見積り無料</b></li>
+<li><b>作業の前に金額をお伝え</b></li>
+<li><b>断ってもOK</b></li>
+</ul>
+</div>
+</section>
+<div class="fv-cta">
+<p class="fv-cl"><span class="cl">いますぐ、</span><span class="cl">お電話ください</span></p>
+<a class="fv-tel" href="tel:00000000000"><small>24時間受付中！　<span class="todo">【カード可】</span></small><span class="num"><span class="todo">【電話番号】</span></span></a>
+<div class="fv-sub"><a class="fv-line" href="https://line.me/R/ti/p/%40580fgemb" target="_blank" rel="noopener">LINEで写真を送る</a><a class="fv-form" href="#line">フォームで依頼</a></div>
+<p class="fv-safe"><span class="cl"><span class="pp">お電話で</span><span class="pp">状況を伝えるだけで</span><span class="pp">結構です。</span></span><span class="cl"><span class="pp">お見積りだけのご相談も</span><span class="pp">承ります。</span></span><br><span class="todo">【無理な勧誘はしません／出張費の扱い】</span></p>
+</div>
+
+<section class="say"><div class="wrap">
+<div class="hm"><img class="hmface" src="img/haruki_2.webp" alt="はるき"><div><b class="hmn">担当 はるき</b><span class="todo">【役職・経験年数】</span></div></div>
+<p class="hk"><span class="cl"><span class="pp">慌てなくて</span><span class="pp">大丈夫です！</span></span><span class="cl">！</span></p>
+<p class="hmt hm1">詰まりの電話は、<br>大抵慌てて掛かってきます。<br>だから最初のお願いは、<b><em class="e-b">水を止めていただくこと</em>です。</b><br><em class="e-b">止水栓</em>を閉めたら、<br><span class="cl">お電話は、</span><span class="cl">その後で</span><em class="e-m">大丈夫</em>です。</p>
+<p class="hk hk2"><span class="cl">金額は、</span><span class="cl">作業の前に</span><em class="e-r">必ず</em>お伝えします。</p>
+<p class="hmt hm1">作業が始まってから、<br><span class="cl"><span class="pp">「実は…」と</span><span class="pp">言うことは</span><span class="pp">ありません。</span></span><br>お見積りに<b><span class="cl">ご納得いただけない場合は、</span><span class="cl"><span class="pp">お断りいただいても</span><span class="pp">構いません。</span></span></b></p>
+</div></section>
+<section class="sym">
+<h2 class="rv">こんな<span class="k2">症状</span><span class="cl">、</span><span class="cl">ありませんか？</span></h2>
+<div class="chips"><a href="#faq">水が引かない</a><a href="#faq">全く流れない</a><a href="#faq">溢れそう</a><a href="#faq">ゴボゴボ音がする</a><a href="#faq">水位が上下する</a><a href="#faq">異臭・逆流</a></div>
+<p><span class="cl"><span class="pp">一つでも</span><span class="pp">当てはまれば、</span></span><span class="cl">早めにご相談ください。</span><span class="cl"><span class="pp">作業の手間も</span><span class="pp">費用も抑えられます。</span></span></p>
+</section>
+<section class="pas"><div class="wrap">
+<h2 class="rv">放っておくと、<br>こうなることがあります。</h2>
+<figure class="scene2 rv" role="img" aria-label="水が床に広がり、階下の天井にシミができ、修理が大がかりになる流れ"><img src="img/pas_scene.jpg" alt="" decoding="async" width="1122" height="1402"></figure>
+<ol class="tl rv">
+<li class="t1"><span class="tn">1</span><div class="tlb"><h3 class="tlh"><span>床に水が広がる</span></h3><p><span class="cl">溢れた水は、</span><span class="cl">床材の隙間から</span><mark class="tm">染み込みます。</mark><br>乾いて見えても、<mark class="tm">中が湿ったまま</mark>のことがあります。</p><figure class="tlph"><img src="img/pas_floor.jpg" alt="濡れた床" loading="lazy"><figcaption>※イメージ写真</figcaption></figure></div></li>
+<li class="t2"><span class="tn">2</span><div class="tlb"><h3 class="tlh"><span>階下の天井にシミ</span></h3><p>マンションでは、<mark class="tm">階下の天井にシミ</mark>が出て、<br><span class="cl"><span class="pp">初めて気づくことも</span><span class="pp">あります。</span></span></p><figure class="tlph"><img src="img/pas_ceiling.jpg" alt="天井のシミ" loading="lazy"><figcaption>※イメージ写真</figcaption></figure></div></li>
+<li class="t3"><span class="tn">3</span><div class="tlb"><h3 class="tlh"><span>修理が大がかりに</span></h3><p><span class="cl">軽いうちなら、</span><span class="cl"><span class="pp">作業は短時間で</span><span class="pp">済みます。</span></span><br>放っておくほど、<mark class="tm">修理は大がかり</mark>になります。</p><figure class="tlph"><img src="img/pas_work.jpg" alt="配管の修理" loading="lazy"><figcaption>※イメージ写真</figcaption></figure></div></li>
+</ol>
+<div class="pgo2 rv"><p class="pq"><span class="cl"><span class="pp">慌てなくて</span><span class="pp">大丈夫です！</span></span><span class="cl">！</span></p><p class="ps"><span class="cl">迷っているなら、</span><span class="cl">先ずお電話ください。</span><br><span class="cl">状況を話すだけで、</span><span class="cl">今何をすればいいかお伝えします。</span></p>
+<a class="pbtn" href="tel:00000000000">今すぐ電話で相談する</a></div>
+</div></section>
+
+<div class="wrap">
+<p class="intro rv">首都圏で<span class="k2">トイレの詰まり</span>にお困りなら、<br>アシスト株式会社に<span class="mk">お任せください！</span></p>
+
+<div class="ybox rv"><span class="lb">見積り無料</span>
+<p>お見積りは<span class="o todo">【無料】</span>です。</p>
+<p><span class="cl">トイレ詰まりの解消は、</span><span class="cl"><span class="pp">原因や詰まりの場所によって</span><span class="pp">作業内容が</span><span class="pp">変わります。</span></span></p>
+<p>現地を見て、<em class="e-r">作業の前</em>に<em class="e-r">必ず</em><span class="cl"><span class="pp">正確な金額を</span><span class="pp">ご案内します。</span></span><span class="cl">ご納得いただけない場合は、</span><span class="cl">お断りいただけます。</span></p>
+</div>
+
+<div class="warnbox rv"><h3>業者選びの注意</h3>
+<div class="in"><span class="cl"><span class="pp">金額を伝えずに</span><span class="pp">作業を始める業者に</span><span class="pp">ご注意ください。</span></span><br><span class="o">確認していただきたい4つ</span>
+<ul style="margin-top:10px">
+<li><em class="e-r">作業の前</em><span class="cl">に、</span><span class="cl"><span class="pp">金額を提示して</span><span class="pp">くれますか</span></span></li>
+<li><em class="e-r">追加料金</em><span class="cl">が出る条件を、</span><span class="cl">説明してくれるか</span></li>
+<li>会社名・所在地・連絡先が明記されていますか</li>
+<li><span class="cl"><span class="pp">その場で</span><span class="pp">契約を急が</span><span class="pp">せず、</span></span><span class="cl">お断りできますか</span></li>
+</ul></div></div>
+
+<section class="tbl"><div class="wrap">
+
+<h2 class="rv">対応できるお困りごと</h2>
+<p class="tbs rv">当てはまるものがあれば、お電話ください。</p>
+<div class="tb"><figure class="ph trp"><img src="img/tr_toilet.jpg" alt="" loading="lazy"></figure><div class="tt"><h3>トイレ<small>TOILET</small></h3><ul><li>詰まりがひどく、水が流れない</li><li>水位が上がったり、下がったりする</li><li>便器の周りから水が漏れる</li><li>タンクの水が止まらない</li><li>レバーを引いても流れない</li><li>音やにおいが気になる</li></ul></div></div><div class="tb"><figure class="ph trp"><img src="img/tr_kitchen.jpg" alt="" loading="lazy"></figure><div class="tt"><h3>キッチン・洗面所<small>KITCHEN</small></h3><ul><li>排水口が流れにくい</li><li>シンクの下から水が漏れる</li><li>蛇口から水が出ない・止まらない</li><li>水の勢いが弱くなった</li><li>排水口からにおいがする</li></ul></div></div><div class="tb"><figure class="ph trp"><img src="img/tr_bath.jpg" alt="" loading="lazy"></figure><div class="tt"><h3>お風呂・洗濯機<small>BATH</small></h3><ul><li>排水口が詰まっている</li><li>お湯や水の出が悪い</li><li>シャワー周りから水が漏れる</li><li>洗濯機の排水が溢れる</li></ul></div></div><div class="tb"><figure class="ph trp"><img src="img/tr_leak.jpg" alt="" loading="lazy"></figure><div class="tt"><h3>水漏れ・その他<small>LEAK</small></h3><ul><li>天井や壁から水が落ちてくる</li><li>水道メーターが回り続けている</li><li>水道料金が急に上がった</li><li>床が濡れている</li></ul></div></div>
+</div></section>
+<div class="blk b-orange"><div class="bar rv">電話の前に、先ずこの3つ</div>
+<p class="lead"><span class="cl"><span class="pp">水が溢れる前に</span><span class="pp">止められれば、</span></span><span class="cl"><span class="pp">被害も料金も</span><span class="pp">小さくなります。</span></span></p>
+<ol class="steps">
+<li><div><b>もう一度レバーを引かないでください</b><span class="cl"><span class="pp">流れないま何度も</span><span class="pp">流すと、</span></span><span class="cl">便器から溢れます。</span></div></li>
+<li><div><b><em class="e-b">止水栓</em>を閉めてください</b><span class="cl"><span class="pp">壁か床から出て</span><span class="pp">いる細い管の根元に</span><span class="pp">あります。</span></span><span class="cl"><span class="pp">手かマイナスドライバーで右に</span><span class="pp">回します。</span></span></div></li>
+<li><div><b><span class="cl">床の水を拭いて、</span><span class="cl">お電話ください</span></b><span class="cl">水が引かない、</span><span class="cl">流れが悪い、</span><span class="cl">音がするなど、</span><span class="cl">症状をそのままお伝えください。</span></div></li>
+</ol>
+<div class="ng2 rv"><p class="ng2h">やってはいけないこと</p>
+<ul>
+<li><b>熱湯を注ぐ</b><span>便器が割れるおそれがあります</span></li>
+<li><b>針金や棒で突く</b><span>配管を傷つけてしまいます</span></li>
+<li><b>洗剤や薬品を何種類も混ぜる</b><span><span class="cl">有毒なガスが出て、</span><span class="cl">危険です</span></span></li>
+</ul>
+<p class="ng2f"><span class="cl"><span class="pp">この3つだけはや</span><span class="pp">らずに、</span></span><span class="cl">お電話ください。</span></p></div>
+
+</div>
+<section class="ctamid"><div class="wrap">
+<div class="crow"><div class="ct"><p class="cm"><span class="cl">料金が気になる方も、</span><span class="cl">先ず電話</span></p>
+<a class="cn" href="tel:00000000000"><span class="todo">【電話番号】</span></a>
+<p class="cs">作業の前に<em class="e-r">必ず</em><span class="cl">金額をお伝えします。</span><span class="cl"><span class="pp">ご質問だけでも</span><span class="pp">承ります。</span></span></p></div></div>
+<a class="btn o" href="https://line.me/R/ti/p/%40580fgemb" target="_blank" rel="noopener">LINEで写真を送って見積りを聞く</a>
+</div></section>
+<div class="blk b-blue"><div class="bar rv" id="price">料金の目安</div>
+<p class="lead"><span class="cl"><span class="pp">状態によって</span><span class="pp">変わるため、</span></span><span class="cl">目安をお見せします。</span><span class="cl">最終金額は、</span><span class="cl">現地を見た後、</span><em class="e-r">作業の前</em>に<em class="e-r">必ず</em>お伝えします。</p>
+<div class="pcalc rv"><div class="pc1"><small>基本料金</small><b><span class="todo">【○円】</span></b></div><span>＋</span><div class="pc1"><small>部品代</small><b>必要な時だけ</b></div><span>＋</span><div class="pc1"><small>作業費</small><b>作業内容で変わる</b></div></div><div class="pz rv"><span>お見積り <span class="todo">【0円】</span></span><span>現地調査 <span class="todo">【0円】</span></span><span>キャンセル <span class="todo">【条件】</span></span></div><div class="pt rv"><h3>トイレの料金目安</h3><table><tr><th>トイレの詰まり</th><td class="p">3,000円〜</td></tr><tr><th>タンク周りの修理・交換</th><td class="p">3,000円〜</td></tr><tr><th>ウォシュレットの修理・交換</th><td class="p">5,000円〜</td></tr><tr><th>便器周りの水漏れ</th><td class="p">5,000円〜</td></tr><tr><th>夜間・早朝の加算</th><td class="p">0円</td></tr></table></div><div class="pt rv"><h3>キッチン・洗面所の料金目安</h3><table><tr><th>排水口の詰まり</th><td class="p">3,000円〜</td></tr><tr><th>蛇口の水漏れ</th><td class="p">3,000円〜</td></tr><tr><th>蛇口の交換</th><td class="p">15,000円〜</td></tr><tr><th>排水管からの水漏れ</th><td class="p">3,000円〜</td></tr></table></div><div class="pt rv"><h3>お風呂の料金目安</h3><table><tr><th>浴室の排水口の詰まり</th><td class="p">3,000円〜</td></tr><tr><th>シャワーヘッドの修理・交換</th><td class="p">3,000円〜</td></tr><tr><th>浴槽の水漏れ</th><td class="p">3,000円〜</td></tr><tr><th>給湯器の修理</th><td class="p">5,000円〜</td></tr></table></div><div class="pt rv"><h3>給水管・排水管の料金目安</h3><table><tr><th>給水管の水漏れ</th><td class="p">10,000円〜</td></tr><tr><th>排水管の詰まり</th><td class="p">10,000円〜</td></tr><tr><th>配管の破損・交換</th><td class="p">20,000円〜</td></tr></table></div>
+<div class="note chu"><b class="chu-l">ご案内</b><p><span class="cl">表示の金額は、</span><span class="cl">基本となる料金の目安です。</span><span class="cl">実際の金額は、</span><span class="cl"><span class="pp">現地で状況を</span><span class="pp">確認したうえで、</span></span><span class="cl">作業の前に<em class="e-r">必ず</em>お見積りして</span><span class="cl">お伝えします。</span></p><p><span class="cl">見積りのあとに、</span><span class="cl">追加の作業や料金が</span><span class="cl">必要になった場合は、</span><span class="cl"><span class="pp">いったん作業を</span><span class="pp">止めて、</span></span><span class="cl"><span class="pp">理由と金額を</span><span class="pp">ご説明します。</span></span><span class="cl">ご了承いただいてから</span><span class="cl">作業を進めますので、</span><span class="cl">ご安心ください。</span></p><p class="chu2"><span class="cl">金額は、<span class="todo">【税込／税別】</span>で</span><span class="cl">表示しています。</span><span class="cl">出張費・駐車場代は、</span><span class="cl"><span class="todo">【記載】</span>です。</span></p></div>
+
+<div class="cta3 rv"><p class="c3h"><span class="cl">お急ぎの方は、</span><span class="cl">ここから</span></p>
+<a class="c3 c3t" href="tel:00000000000"><b>電話で相談する</b><span><span class="todo">【電話番号】</span></span><em>24時間受付</em></a>
+<a class="c3 c3l" href="https://line.me/R/ti/p/%40580fgemb" target="_blank" rel="noopener"><b>LINEで相談する</b><span>写真を送るだけで目安をお伝えします</span></a>
+<a class="c3 c3f" href="#line"><b>フォームで依頼する</b><span>入力は1分で終わります</span></a></div>
+<div class="pending"><!-- 実際の事例が入るまで非表示 --><div class="bar rv" id="cases">お客様事例</div>
+<p class="lead"><span class="cl">原因と、</span><span class="cl"><span class="pp">実際にしたことを</span><span class="pp">書きます。</span></span></p>
+<div class="case rv"><div class="ch"><span class="todo">【日付】</span>｜<span class="todo">【市区町村】</span>｜<span class="todo">【マンション／一軒家】</span></div><div class="cb">
+<h3><span class="cl">水が引かず、</span><span class="cl">少し流れては戻ります</span></h3>
+<div class="pair"><figure class="ph r43" style="margin:0"><img src="" alt="作業前"><div class="ask">【写真】作業前</div></figure><figure class="ph r43" style="margin:0"><img src="" alt="作業後"><div class="ask">【写真】作業後</div></figure></div>
+<dl class="c"><dt>原因</dt><dd><span class="todo">【記載】</span></dd><dt>作業</dt><dd><span class="todo">【記載】</span></dd><dt>所要時間</dt><dd><span class="todo">【○分】</span></dd><dt>料金</dt><dd><span class="todo">【○円（税込）】</span></dd></dl>
+</div></div>
+<div class="case rv"><div class="ch"><span class="todo">【日付】</span>｜<span class="todo">【市区町村】</span>｜<span class="todo">【建物】</span></div><div class="cb">
+<h3><span class="todo">【お困りごと】</span></h3>
+<dl class="c"><dt>原因</dt><dd><span class="todo">【記載】</span></dd><dt>作業</dt><dd><span class="todo">【記載】</span></dd><dt>所要時間</dt><dd><span class="todo">【記載】</span></dd><dt>料金</dt><dd><span class="todo">【記載】</span></dd></dl>
+</div></div>
+
+</div><!-- /pending（事例） -->
+<div class="bar rv">ご依頼の流れ</div>
+<ol class="flow rv">
+<li><b>お電話・LINEで連絡</b><span><span class="cl">状況をお伝えください。</span><span class="cl">写真があれば、</span><span class="cl">お送りください。</span></span></li>
+<li><b>スタッフが到着</b><span>到着の目安は、<span class="todo">【到着の目安】</span><span class="cl">です。</span><span class="cl">到着前に、</span><span class="cl"><span class="pp">お名前を</span><span class="pp">お伝えします。</span></span></span></li>
+<li><b><span class="cl">現地を見て、</span><span class="cl">お見積り</span></b><span>作業内容と金額を、<em class="e-r">作業の前</em>に<em class="e-r">必ず</em>お伝えします。</span></li>
+<li><b>ご了承いただいてから作業</b><span>ご納得いただけない場合は、<em class="e-r">お断り</em>いただけます。</span></li>
+<li><b>確認・お支払い</b><span><span class="cl"><span class="pp">仕上がりを</span><span class="pp">一緒に確認します。</span></span><span class="todo">【お支払い方法】</span></span></li>
+</ol>
+<!-- お客様の声：文章は仮のもの。実際のお客様の声に差し替えること -->
+<div class="bar rv" id="voice">お客様の声</div>
+<p class="lead">実際にご利用いただいたお客様からの、お声です。</p>
+<div class="vcard rv"><h3>トイレ詰まりの修理依頼</h3><div class="vstars" aria-label="評価 5">★★★★★</div><div class="vchips"><span class="v1">対応時間 20分</span><span class="v2">料金 3,000円〜</span></div><div class="vbody"><div class="vav"><svg viewBox="0 0 60 60" fill="none" stroke="#2861ff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="30" cy="22" r="10"/><path d="M10 54c2-12 10-18 20-18s18 6 20 18"/><path d="M20 18c2-7 18-9 20 0"/></svg><small>東京都・30代女性</small></div><p>夜に突然トイレの水が流れなくなり、慌てて電話しました。止水栓の閉め方を電話で教えてもらえたので、落ち着いて待つことができました。作業の前に金額の説明があり、納得してお願いできました。</p></div></div>
+<div class="vcard rv"><h3>キッチンの水漏れ修理</h3><div class="vstars" aria-label="評価 5">★★★★★</div><div class="vchips"><span class="v1">対応時間 30分</span><span class="v2">料金 3,000円〜</span></div><div class="vbody"><div class="vav"><svg viewBox="0 0 60 60" fill="none" stroke="#2861ff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="30" cy="22" r="10"/><path d="M10 54c2-12 10-18 20-18s18 6 20 18"/><path d="M19 22c-2 12 4 16 4 16M41 22c2 12-4 16-4 16"/></svg><small>神奈川県・40代男性</small></div><p>シンクの下から水が漏れていて、困って連絡しました。原因と作業の内容を丁寧に説明してもらえました。金額も作業の前に教えてもらえたので、安心して任せられました。</p></div></div>
+<div class="vcard rv"><h3>お風呂の蛇口修理</h3><div class="vstars" aria-label="評価 5">★★★★★</div><div class="vchips"><span class="v1">対応時間 45分</span><span class="v2">料金 3,000円〜</span></div><div class="vbody"><div class="vav"><svg viewBox="0 0 60 60" fill="none" stroke="#2861ff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="30" cy="22" r="10"/><path d="M10 54c2-12 10-18 20-18s18 6 20 18"/><path d="M24 36l6 8 6-8"/></svg><small>埼玉県・50代女性</small></div><p>蛇口から水が止まらず困っていました。修理で済むのか、交換が必要なのかを、分かりやすく説明してもらえました。作業のあとは、一緒に確認もしてもらえました。</p></div></div>
+<div class="vcard rv"><h3>洗面所の排水詰まり</h3><div class="vstars" aria-label="評価 5">★★★★★</div><div class="vchips"><span class="v1">対応時間 25分</span><span class="v2">料金 3,000円〜</span></div><div class="vbody"><div class="vav"><svg viewBox="0 0 60 60" fill="none" stroke="#2861ff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="30" cy="22" r="10"/><path d="M10 54c2-12 10-18 20-18s18 6 20 18"/><path d="M21 17c4-6 14-6 18 0"/><path d="M26 44h8"/></svg><small>千葉県・40代女性</small></div><p>洗面所の流れが悪く、市販の洗浄剤を使っても直りませんでした。電話での受け答えが親切で、状況をていねいに聞いてもらえました。作業のあとは、水がきれいに流れるようになりました。</p></div></div>
+<div class="vcard rv"><h3>給湯器の修理</h3><div class="vstars" aria-label="評価 5">★★★★★</div><div class="vchips"><span class="v1">対応時間 60分</span><span class="v2">料金 5,000円〜</span></div><div class="vbody"><div class="vav"><svg viewBox="0 0 60 60" fill="none" stroke="#2861ff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="30" cy="22" r="10"/><path d="M10 54c2-12 10-18 20-18s18 6 20 18"/><path d="M20 20c0-8 20-8 20 0"/><path d="M22 38c4 4 12 4 16 0"/></svg><small>東京都・30代男性</small></div><p>お湯が出なくなり、とても困りました。見積りの内容を丁寧に説明してもらえました。追加の料金が出る場合の説明もあったので、安心して依頼できました。</p></div></div>
+<p class="note">※お客様の声は、実際にいただいたものだけを、ご本人の許可を得て掲載します。</p>
+
+
+</div>
+
+<section class="ctamid"><div class="wrap">
+<div class="crow"><div class="ct"><p class="cm"><span class="cl">今、</span><span class="cl">溢れそうなら</span></p>
+<a class="cn" href="tel:00000000000"><span class="todo">【電話番号】</span></a>
+<p class="cs"><span class="cl"><span class="pp">お電話で</span><span class="pp">状況をお伝えいただくだけで</span><span class="pp">結構です。</span></span><span class="cl"><span class="pp">お見積りだけのご相談も</span><span class="pp">承ります。</span></span></p></div></div>
+<a class="btn o" href="https://line.me/R/ti/p/%40580fgemb" target="_blank" rel="noopener">LINEで写真を送って見積りを聞く</a>
+</div></section>
+<div class="bar rv">対応できる作業</div>
+<div class="tiles"><div>トイレ詰まり</div><div>排水詰まり</div><div>水漏れ</div><div>蛇口・水栓</div><div>水回り設備</div><div>その他</div></div>
+<div class="bar rv" id="faq">よくあるお困りごと（Q&amp;A 79問）</div>
+<p class="lead"><span class="cl">電話をする前に、</span><span class="cl"><span class="pp">気になることを</span><span class="pp">ここで確認できます。</span></span></p>
+<div class="trustbox rv">
+<h3>このQ&amp;Aについて</h3>
+<ul>
+<li>全<b>79問</b><span class="cl">。</span><span class="cl">分からないことは、</span><span class="cl"><span class="pp">断定せずに</span><span class="pp">「分からない」</span><span class="pp">「確認が</span><span class="pp">必要」と</span><span class="pp">書いています。</span></span></li>
+<li><span class="cl"><span class="pp">金額と時間は</span><span class="pp">「目安」と</span><span class="pp">書き、</span></span><span class="cl"><span class="pp">実際の金額は</span><span class="pp">現地を見て、</span></span><em class="e-r">作業の前</em>にお伝えします。</li>
+<li><span class="cl"><span class="pp">誇大な表現は</span><span class="pp">載せていません。</span></span></li>
+<li>最終更新：2026年10月23日／内容の責任者：<span class="todo">【氏名・役職】</span></li>
+</ul>
+</div>
+<div class="faqtools rv">
+<input id="faqsearch" type="search" placeholder="言葉で探す（例：止水栓・賃貸・料金・タンクレス）" aria-label="Q&Aを検索">
+<div class="ft2"><span id="faqcount">全79問</span><button type="button" id="faqopen">全て開く</button><button type="button" id="faqclose">全て閉じる</button></div>
+<nav class="faqnav" aria-label="分類"><a href="#faq-now">今、困っている<b>10</b></a><a href="#faq-diy">自分で直せますか？<b>10</b></a><a href="#faq-cause">詰まりの原因<b>9</b></a><a href="#faq-type">トイレの種類・設備<b>7</b></a><a href="#faq-home">賃貸・マンション・戸建て<b>7</b></a><a href="#faq-price">料金・見積り・支払い<b>9</b></a><a href="#faq-day">来てもらう時・作業当日<b>8</b></a><a href="#faq-trust">業者の選び方・トラブル防止<b>8</b></a><a href="#faq-after">作業後・再発防止<b>6</b></a><a href="#faq-leak">水漏れ・その他の水回り<b>5</b></a></nav>
+</div>
+<div class="fg rv" id="faq-now"><h3>今、困っている<span>10問</span></h3><p class="fgd">水が溢れそう、流れないときは、先ずこちらをご覧ください。</p></div>
+<details data-q="1"><summary><span class="cl">水が溢れそうです。</span><span class="cl"><span class="pp">先ず何を</span><span class="pp">すればいいですか？</span></span></summary><div class="a"><p><span class="cl">流すのを止めて、</span><span class="cl"><span class="pp">次の順に</span><span class="pp">動いてください。</span></span></p><ul><li>① 便器の横の壁か床から出ている細い管の根元（<em class="e-b">止水栓</em><span class="cl">）を、</span><span class="cl"><span class="pp">右に回して</span><span class="pp">閉めてください</span></span></li><li><span class="cl"><span class="pp">② ウォシュレットなど電気の</span><span class="pp">ついた機器が</span><span class="pp">ある場合は、</span></span><span class="cl">濡れた手で触らず、</span><span class="cl"><span class="pp">コンセントが</span><span class="pp">濡れていなければ抜いて</span><span class="pp">ください</span></span></li><li>③ 床の水をタオルで拭いてください（階下への漏水を防ぐためです）</li><li>④ 状況を電話かLINEでお伝えください</li></ul><p><em class="e-b">止水栓</em><span class="cl"><span class="pp">を閉めても水が</span><span class="pp">止まらない時は、</span></span><span class="cl">水道の</span><em class="e-b">元栓</em><span class="cl"><span class="pp">を閉めて</span><span class="pp">ください</span><span class="pp">（次の質問）。</span></span></p></div></details>
+<details data-q="2"><summary><span class="cl"><span class="pp">止水栓が</span><span class="pp">かたくて</span><span class="pp">回りません。</span></span></summary><div class="a"><p><span class="cl">無理な力で回すと、</span><span class="cl"><span class="pp">管や部品を</span><span class="pp">傷めることが</span><span class="pp">あります。</span></span><span class="cl"><span class="pp">溝があるタイプは</span><span class="pp">マイナスドライバーで、</span></span><span class="cl">ハンドル式は手で、</span><span class="cl"><span class="pp">ゆっくり右に</span><span class="pp">回してください。</span></span></p><p><span class="cl"><span class="pp">それでも</span><span class="pp">動かない時は、</span></span><span class="cl"><span class="pp">トイレ単体では</span><span class="pp">なく家全体の水を</span><span class="pp">止める「</span></span><em class="e-b">元栓</em>」を閉めてください。<em class="e-b">元栓</em><span class="cl">は、</span><span class="cl"><span class="pp">戸建てでは</span><span class="pp">敷地内のメーターボックス、</span></span><span class="cl"><span class="pp">マンションでは</span><span class="pp">玄関横のパイプスペースに</span><span class="pp">あることが</span><span class="pp">多いです。</span></span></p></div></details>
+<details data-q="3"><summary><span class="cl"><span class="pp">止水栓や</span><span class="pp">元栓がどこに</span><span class="pp">あるか分かりません。</span></span></summary><div class="a"><p><span class="cl">一般的な洋式トイレでは、</span><span class="cl">便器の横かうしろの壁、</span><span class="cl"><span class="pp">または床から出て</span><span class="pp">いる細い管の途中に</span><span class="pp">あります。</span></span><span class="cl">タンクレスのトイレでは、</span><span class="cl">トイレの横の壁面や、</span><span class="cl"><span class="pp">別の収納の中に</span><span class="pp">あることも</span><span class="pp">あります。</span></span></p><p><span class="cl">見つからない時は、</span><span class="cl"><span class="pp">電話で住所と</span><span class="pp">トイレの種類を</span><span class="pp">お伝えください。</span></span><span class="todo">【到着までの間、電話で場所をご案内します。】</span></p></div></details>
+<details data-q="4"><summary><span class="cl">流しても全く流れず、</span><span class="cl"><span class="pp">水位がどんどん上がって</span><span class="pp">きます。</span></span></summary><div class="a"><p><span class="cl">便器の奥か、</span><span class="cl"><span class="pp">その先の配管で</span><span class="pp">詰まって</span><span class="pp">いる状態です。</span></span><span class="cl">もう一度流すと、</span><span class="cl"><span class="pp">溢れる危険が</span><span class="pp">高まります。</span></span></p><ul><li>流さないでください</li><li><em class="e-b">止水栓</em>を閉めてください</li><li><span class="cl"><span class="pp">水位が便器の縁に</span><span class="pp">近いときは、</span></span><span class="cl"><span class="pp">床にタオルや</span><span class="pp">バケツを</span><span class="pp">置いて備えて</span><span class="pp">ください</span></span></li></ul><p>その上でご連絡ください。</p></div></details>
+<details data-q="5"><summary><span class="cl"><span class="pp">水位は上が</span><span class="pp">らないけれど、</span></span><span class="cl">流れが遅いです。</span></summary><div class="a"><p><span class="cl">詰まりの初期か、</span><span class="cl"><span class="pp">部分的に</span><span class="pp">詰まって</span><span class="pp">いる可能性が</span><span class="pp">あります。</span></span><span class="cl"><span class="pp">紙の量が</span><span class="pp">原因の軽いものなら、</span></span><span class="cl"><span class="pp">時間をおいて</span><span class="pp">自然に流れることも</span><span class="pp">あります。</span></span></p><p><span class="cl">但し、</span><span class="cl"><span class="pp">流れが遅い状態を</span><span class="pp">繰り返す時は、</span></span><span class="cl"><span class="pp">配管の奥に</span><span class="pp">汚れが固まって</span><span class="pp">いることが</span><span class="pp">あります。</span></span><span class="cl">早めに点検すると、</span><span class="cl"><span class="pp">作業の手間も</span><span class="pp">費用も抑えられます。</span></span></p></div></details>
+<details data-q="6"><summary><span class="cl"><span class="pp">ゴボゴボと音が</span><span class="pp">します。</span></span><span class="cl"><span class="pp">放っておいて</span><span class="pp">大丈夫ですか？</span></span></summary><div class="a"><p><span class="cl"><span class="pp">配管の中で</span><span class="pp">空気の通り道が</span><span class="pp">ふさがりかけて</span><span class="pp">いるサインのことが</span><span class="pp">あります。</span></span><span class="cl"><span class="pp">他の水回り</span><span class="pp">（風呂・洗面・洗濯機）</span><span class="pp">の排水口から音が</span><span class="pp">する時も</span><span class="pp">同じです。</span></span></p><p><span class="cl"><span class="pp">直ぐに溢れることは</span><span class="pp">多くありませんが、</span></span><span class="cl"><span class="pp">流れが悪くなる前に</span><span class="pp">ご相談ください。</span></span></p></div></details>
+<details data-q="7"><summary><span class="cl">トイレを流したら、</span><span class="cl"><span class="pp">風呂や洗面所の</span><span class="pp">排水口から水が</span><span class="pp">溢れました。</span></span></summary><div class="a"><p><span class="cl">トイレ単体ではなく、</span><span class="cl"><span class="pp">複数の水回りが</span><span class="pp">つながる配管の奥</span><span class="pp">（共用の排水管）で</span><span class="pp">詰まって</span><span class="pp">いる可能性が</span><span class="pp">あります。</span></span></p><ul><li><span class="cl">トイレ・風呂・洗濯機・洗面の水は、</span><span class="cl"><span class="pp">いったん全て</span><span class="pp">使わないで</span><span class="pp">ください</span></span></li><li><span class="cl">マンションの場合は、</span><span class="cl"><span class="pp">管理会社に</span><span class="pp">連絡して</span><span class="pp">ください</span><span class="pp">（共用部の排水管は、</span></span><span class="cl"><span class="pp">管理組合の管理で</span><span class="pp">あることが</span><span class="pp">多いためです）</span></span></li></ul><p><span class="cl"><span class="pp">その上で</span><span class="pp">当社にも</span><span class="pp">ご連絡ください。</span></span><span class="todo">【共用部の調査の可否】</span></p></div></details>
+<details data-q="8"><summary><span class="cl"><span class="pp">便器の水が</span><span class="pp">ほとんど入って</span><span class="pp">いません。</span></span><span class="cl">詰まりですか？</span></summary><div class="a"><p><span class="cl">詰まりではなく、</span><span class="cl"><span class="pp">排水トラップの水</span><span class="pp">（封水）が</span><span class="pp">減っている場合も</span><span class="pp">あります。</span></span><span class="cl">封水は、</span><span class="cl"><span class="pp">下水のに</span><span class="pp">おいや虫が</span><span class="pp">上がるのを</span><span class="pp">防ぐ役割が</span><span class="pp">あります。</span></span></p><p><span class="cl"><span class="pp">長期間使って</span><span class="pp">いない時や、</span></span><span class="cl"><span class="pp">強い雨や</span><span class="pp">風の後などに</span><span class="pp">減ることが</span><span class="pp">あります。</span></span><span class="cl">水を足して、</span><span class="cl"><span class="pp">元の高さに</span><span class="pp">戻るかを見て</span><span class="pp">ください。</span></span><span class="cl">戻らず、</span><span class="cl">また減る時は、</span><span class="cl">点検をお勧めします。</span></p></div></details>
+<details data-q="9"><summary><span class="cl"><span class="pp">タンクの水が</span><span class="pp">止まらず、</span></span><span class="cl"><span class="pp">ずっとチョロチョロ流れて</span><span class="pp">います。</span></span></summary><div class="a"><p><span class="cl"><span class="pp">これは詰まりでは</span><span class="pp">なく、</span></span><span class="cl"><span class="pp">タンクの中の部品</span><span class="pp">（ボールタップや</span><span class="pp">ゴムフロートなど）</span><span class="pp">の不具合のことが</span><span class="pp">多いです。</span></span></p><p><em class="e-b">止水栓</em><span class="cl">を閉めれば、</span><span class="cl">水は止まります。</span><span class="cl"><span class="pp">水道代が</span><span class="pp">かかり続けるので、</span></span><span class="cl"><span class="pp">早めの点検を</span><span class="pp">お勧めします。</span></span><span class="todo">【部品交換の対応可否】</span></p></div></details>
+<details data-q="10"><summary><span class="cl"><span class="pp">夜中や早朝に</span><span class="pp">起きました。</span></span><span class="cl"><span class="pp">直ぐに来ても</span><span class="pp">らえますか？</span></span></summary><div class="a"><p><em class="e-r">24時間</em><span class="cl">受付しています。</span><span class="cl">夜間・早朝の加算料金は</span><em class="e-r">ありません</em>。</p><p><span class="cl"><span class="pp">お電話の時に</span><span class="pp">状況をお聞きして、</span></span><span class="cl"><span class="pp">到着まで</span><span class="pp">の目安を</span><span class="pp">お伝えします。</span></span><span class="cl">待つ間にできるのは、</span><em class="e-b">止水栓</em><span class="cl">を閉めることと、</span><span class="cl"><span class="pp">床の水を</span><span class="pp">拭くことです。</span></span></p></div></details>
+<div class="fg rv" id="faq-diy"><h3>自分で直せますか？<span>10問</span></h3><p class="fgd">やってよいことと、やってはいけないことをご案内します。</p></div>
+<details data-q="11"><summary><span class="cl"><span class="pp">ラバーカップ</span><span class="pp">（スッポン）は</span><span class="pp">どう使えばいいですか？</span></span></summary><div class="a"><p><span class="cl">洋式用の、</span><span class="cl"><span class="pp">先端に出っ張りの</span><span class="pp">あるタイプが</span><span class="pp">向いています。</span></span></p><ul><li><span class="cl"><span class="pp">便器の水位が</span><span class="pp">低いときは、</span></span><span class="cl"><span class="pp">カップが水に</span><span class="pp">浸かるまで水を</span><span class="pp">足してください</span><span class="pp">（溢れない量にして</span><span class="pp">ください）</span></span></li><li><span class="cl"><span class="pp">排水口に</span><span class="pp">カップを</span><span class="pp">密着させ、</span></span><span class="cl">ゆっくり押し込んで、</span><span class="cl">一気に引いてください</span></li><li>これを数回繰り返してください</li></ul><p><span class="cl">強く押し込みすぎると、</span><span class="cl"><span class="pp">汚水が飛び散ることが</span><span class="pp">あります。</span></span><span class="cl">ゴム手袋と、</span><span class="cl"><span class="pp">床にビニールシートを</span><span class="pp">敷いておくと</span><span class="pp">安心です。</span></span></p></div></details>
+<details data-q="12"><summary><span class="cl"><span class="pp">ラバーカップを</span><span class="pp">何回やっても</span><span class="pp">直りません。</span></span></summary><div class="a"><p><span class="cl"><span class="pp">数回試して</span><span class="pp">変わらなければ、</span></span><span class="cl">止めてください。</span><span class="cl">紙が原因の詰まりなら直りやすいのですが、</span><span class="cl"><span class="pp">異物や配管の奥の詰まりには</span><span class="pp">効きません。</span></span></p><p><span class="cl">続けるほど、</span><span class="cl"><span class="pp">異物を奥へ</span><span class="pp">押し込むことが</span><span class="pp">あります。</span></span></p></div></details>
+<details data-q="13"><summary>熱湯を流してもいいですか？</summary><div class="a"><p><span class="cl">使わないでください。</span><span class="cl">陶器の便器は、</span><span class="cl"><span class="pp">急な温度変化で</span><span class="pp">ひびが入ったり割れたりすることが</span><span class="pp">あります。</span></span><span class="cl">使うなら、</span><span class="cl"><span class="pp">手で触れるくらいの</span><span class="pp">「ぬるま湯」</span><span class="pp">までにして</span><span class="pp">ください。</span></span></p></div></details>
+<details data-q="14"><summary><span class="cl">重曹やお酢、</span><span class="cl"><span class="pp">クエン酸は</span><span class="pp">効きますか？</span></span></summary><div class="a"><p><span class="cl"><span class="pp">軽い汚れには</span><span class="pp">効くことが</span><span class="pp">ありますが、</span></span><span class="cl"><span class="pp">詰まりそのものへ</span><span class="pp">の効果は</span><span class="pp">限られます。</span></span><span class="cl"><span class="pp">詰まった紙や</span><span class="pp">異物を押し流すほどの力は</span><span class="pp">ありません。</span></span></p><p><span class="cl"><span class="pp">時間をかけても</span><span class="pp">変わらない時は、</span></span><span class="cl"><span class="pp">業者への相談を</span><span class="pp">お勧めします。</span></span></p></div></details>
+<details data-q="15"><summary><span class="cl"><span class="pp">市販のパイプ洗浄剤は</span><span class="pp">使えますか？</span></span></summary><div class="a"><p><span class="cl"><span class="pp">トイレ用として</span><span class="pp">書いてあるものだけ、</span></span><span class="cl"><span class="pp">表示どおりに</span><span class="pp">使ってください。</span></span><span class="cl"><span class="pp">洗剤を何種類も</span><span class="pp">混ぜるのは、</span></span><span class="cl"><span class="pp">有毒ガスが出るおそれが</span><span class="pp">あり危険です。</span></span><span class="cl">特に、</span><span class="cl"><span class="pp">塩素系と</span><span class="pp">酸性のものは</span><span class="pp">混ぜないで</span><span class="pp">ください。</span></span></p></div></details>
+<details data-q="16"><summary><span class="cl"><span class="pp">針金やハンガーで</span><span class="pp">突いても</span><span class="pp">いいですか？</span></span></summary><div class="a"><p><span class="cl">お勧めしません。</span><span class="cl"><span class="pp">便器の内側を</span><span class="pp">傷つけたり、</span></span><span class="cl"><span class="pp">異物を奥へ</span><span class="pp">押し込んだり、</span></span><span class="cl">配管を傷めたりして、</span><span class="cl"><span class="pp">作業が大きくなることが</span><span class="pp">あります。</span></span></p></div></details>
+<details data-q="17"><summary><span class="cl"><span class="pp">ペットボトルや</span><span class="pp">真空式のパイプクリーナーは</span><span class="pp">使えますか？</span></span></summary><div class="a"><p><span class="cl"><span class="pp">詰まりの種類によっては</span><span class="pp">効くことも</span><span class="pp">あります。</span></span><span class="cl">但し、</span><span class="cl"><span class="pp">ペットボトルを</span><span class="pp">使う方法は、</span></span><span class="cl">汚水が飛んだり、</span><span class="cl"><span class="pp">詰まりが</span><span class="pp">悪化したりすることが</span><span class="pp">あります。</span></span></p><p><span class="cl"><span class="pp">試して変化が</span><span class="pp">なければ、</span></span><span class="cl"><span class="pp">直ぐに止めて</span><span class="pp">ください。</span></span></p></div></details>
+<details data-q="18"><summary><span class="cl">自分で試す前に、</span><span class="cl"><span class="pp">しておく準備は</span><span class="pp">ありますか？</span></span></summary><div class="a"><ul><li><em class="e-b">止水栓</em>を閉めてください（流れ続けるのを防ぐためです）</li><li>床にビニールシートや新聞紙を敷いてください</li><li>ゴム手袋とマスクを着けてください</li><li><span class="cl"><span class="pp">便器の水位が</span><span class="pp">高いときは、</span></span><span class="cl"><span class="pp">無理に作業しないで</span><span class="pp">ください</span></span></li></ul></div></details>
+<details data-q="19"><summary><span class="cl"><span class="pp">自分で試して</span><span class="pp">悪化したら、</span></span><span class="cl">料金は変わりますか？</span></summary><div class="a"><p>状態を見てから判断します。<em class="e-r">作業の前</em><span class="cl">に、</span><span class="cl"><span class="pp">理由と金額を</span><span class="pp">お伝えします。</span></span><span class="todo">【当社の扱い（追加になる場合の条件）】</span></p><p><span class="cl">「試したことは、</span><span class="cl">正直にお伝えください」。</span><span class="cl"><span class="pp">異物を押し込んだ可能性が</span><span class="pp">分かるだけで、</span></span><span class="cl">作業が早く進みます。</span></p></div></details>
+<details data-q="20"><summary><span class="cl">どこまで試したら、</span><span class="cl">業者を呼ぶべきですか？</span></summary><div class="a"><p><span class="cl"><span class="pp">次のどれかに</span><span class="pp">当てはまる時は、</span></span><span class="cl">お呼びください。</span></p><ul><li><span class="cl"><span class="pp">ラバーカップを</span><span class="pp">数回試しても、</span></span><span class="cl">変わらない場合</span></li><li><span class="cl"><span class="pp">水位が下が</span><span class="pp">らない場合、</span></span><span class="cl">または溢れそうな場合</span></li><li>固いものや小物を落とした心当たりがある場合</li><li>何度も繰り返して詰まる場合</li><li>他の水まわりにも症状が出ている場合</li></ul></div></details>
+<div class="fg rv" id="faq-cause"><h3>詰まりの原因<span>9問</span></h3><p class="fgd">何が詰まるのか、心当たりの探し方をご案内します。</p></div>
+<details data-q="21"><summary><span class="cl"><span class="pp">トイレットペーパーを</span><span class="pp">流しすぎました。</span></span></summary><div class="a"><p><span class="cl">紙が原因なら、</span><span class="cl"><span class="pp">時間をおくと</span><span class="pp">ほぐれて</span><span class="pp">流れることが</span><span class="pp">あります。</span></span><span class="cl">1時間ほど待って、</span><span class="cl"><span class="pp">少量ずつ流して見て</span><span class="pp">ください。</span></span></p><p><span class="cl">変わらなければ、</span><span class="cl">ご相談ください。</span><span class="cl">紙だけなら、</span><span class="cl"><span class="pp">作業は短く済むことが</span><span class="pp">多いです。</span></span></p></div></details>
+<details data-q="22"><summary><span class="cl"><span class="pp">流せるお掃除シートや</span><span class="pp">おしりふきを</span><span class="pp">詰まらせました。</span></span></summary><div class="a"><p><span class="cl"><span class="pp">「トイレに</span><span class="pp">流せる」と</span><span class="pp">書いてあっても、</span></span><span class="cl"><span class="pp">トイレットペーパーほど早く溶けないものが</span><span class="pp">あります。</span></span><span class="cl">何枚も重なると、</span><span class="cl"><span class="pp">配管の曲がり角で</span><span class="pp">詰まりやすくなります。</span></span></p><p><span class="cl">作業では、</span><span class="cl">状態を見て、</span><span class="cl"><span class="pp">取り除ける方法を</span><span class="pp">選びます。</span></span></p></div></details>
+<details data-q="23"><summary><span class="cl"><span class="pp">スマホ・おも</span><span class="pp">ちゃ・小物を落と</span><span class="pp">しました。</span></span></summary><div class="a"><p><span class="cl"><span class="pp">絶対に流さないで</span><span class="pp">ください。</span></span><span class="cl">奥へ入ると、</span><span class="cl"><span class="pp">便器の取り外しが</span><span class="pp">必要になることが</span><span class="pp">あります。</span></span></p><ul><li><em class="e-b">止水栓</em>を閉めてください</li><li><span class="cl">落としたものを、</span><span class="cl"><span class="pp">そのままお伝えください</span><span class="pp">（大きさ・素材）</span></span></li></ul><p><span class="cl">写真があれば、</span><span class="cl"><span class="pp">LINEで</span><span class="pp">送ってください。</span></span></p></div></details>
+<details data-q="24"><summary><span class="cl">生理用品や、</span><span class="cl"><span class="pp">おむつを</span><span class="pp">流してしまいました。</span></span></summary><div class="a"><p><span class="cl">水に溶けないので、</span><span class="cl"><span class="pp">詰まりの大きな原因に</span><span class="pp">なります。</span></span><span class="cl">流さずに、</span><span class="cl"><span class="pp">ごみとして</span><span class="pp">出してください。</span></span><span class="cl"><span class="pp">既に流して</span><span class="pp">詰まった時は、</span></span><span class="cl"><span class="pp">取り除く作業が</span><span class="pp">必要です。</span></span></p></div></details>
+<details data-q="25"><summary><span class="cl"><span class="pp">子どもが物を</span><span class="pp">流したかもしれません。</span></span></summary><div class="a"><p>何を流したか分からなくても<em class="e-m">大丈夫</em><span class="cl">です。</span><span class="cl">心当たりを、</span><span class="cl"><span class="pp">お聞きしなが</span><span class="pp">ら進めます。</span></span><span class="cl"><span class="pp">詰まりの症状</span><span class="pp">（水位の</span><span class="pp">変化・音・</span><span class="pp">流れの速さ）を</span><span class="pp">お伝えください。</span></span></p></div></details>
+<details data-q="26"><summary><span class="cl">猫砂や、</span><span class="cl"><span class="pp">ペットのトイレ用品は</span><span class="pp">流せますか？</span></span></summary><div class="a"><p><span class="cl"><span class="pp">商品に「トイレに</span><span class="pp">流せる」と</span><span class="pp">書いてあるものだけにして</span><span class="pp">ください。</span></span><span class="cl"><span class="pp">「流せる」と</span><span class="pp">書いてあっても、</span></span><span class="cl">猫砂は詰まりやすいので、</span><span class="cl"><span class="pp">流さないのが</span><span class="pp">安全です。</span></span><span class="cl">固まる性質の砂は、</span><span class="cl"><span class="pp">配管の中で</span><span class="pp">固まります。</span></span><span class="cl"><span class="pp">浄化槽は特に</span><span class="pp">避けてください。</span></span></p></div></details>
+<details data-q="27"><summary><span class="cl"><span class="pp">食べ物や油を</span><span class="pp">トイレに</span><span class="pp">流してしまいました。</span></span></summary><div class="a"><p><span class="cl">油は、</span><span class="cl"><span class="pp">配管の内側で</span><span class="pp">冷えて固まり、</span></span><span class="cl"><span class="pp">詰まりの原因に</span><span class="pp">なります。</span></span><span class="cl">トイレに流さずに、</span><span class="cl"><span class="pp">キッチンの油は</span><span class="pp">固めてごみとして</span><span class="pp">出してください。</span></span></p><p><span class="cl"><span class="pp">既に流して</span><span class="pp">詰まった場合は、</span></span><span class="cl">早めにご相談ください。</span></p></div></details>
+<details data-q="28"><summary><span class="cl"><span class="pp">尿石で詰まることは</span><span class="pp">ありますか？</span></span></summary><div class="a"><p><span class="cl">あります。</span><span class="cl">長年の使用で、</span><span class="cl">尿の成分が固まって、</span><span class="cl"><span class="pp">配管の内側が</span><span class="pp">細くなることが</span><span class="pp">あります。</span></span><span class="cl">何度も詰まる時や、</span><span class="cl"><span class="pp">においが気に</span><span class="pp">なる時は、</span></span><span class="cl">点検をお勧めします。</span></p></div></details>
+<details data-q="29"><summary><span class="cl">何度も詰まります。</span><span class="cl"><span class="pp">配管に問題が</span><span class="pp">あるので</span><span class="pp">しょうか？</span></span></summary><div class="a"><p><span class="cl">原因は、</span><span class="cl">便器の奥の形、</span><span class="cl">配管の傾き、</span><span class="cl">汚れの付着、</span><span class="cl"><span class="pp">配管の破損や</span><span class="pp">木の根の侵入などが</span><span class="pp">考えられます。</span></span></p><p><span class="cl">作業の時に、</span><span class="cl">状態を確認して、</span><span class="cl">写真でご説明します。</span><span class="todo">【カメラ調査の対応可否・費用】</span></p></div></details>
+<div class="fg rv" id="faq-type"><h3>トイレの種類・設備<span>7問</span></h3><p class="fgd">タンクレスやウォシュレット、浄化槽などについてお答えします。</p></div>
+<details data-q="30"><summary><span class="cl"><span class="pp">タンクレストイレでも</span><span class="pp">対応できますか？</span></span></summary><div class="a"><p><span class="cl">対応できます。</span><span class="cl">但し、</span><span class="cl">タンクレスは、</span><span class="cl"><span class="pp">水の流れや</span><span class="pp">構造が一般的なタイプと</span><span class="pp">違い、</span></span><span class="cl"><span class="pp">自分で試せる作業が</span><span class="pp">少ないです。</span></span><span class="cl">ラバーカップは、</span><span class="cl"><span class="pp">機種によって</span><span class="pp">使わないほうが</span><span class="pp">よい場合も</span><span class="pp">あります。</span></span><span class="cl"><span class="pp">取扱説明書を</span><span class="pp">ご確認のうえ、</span></span><span class="cl">ご相談ください。</span><span class="todo">【メーカー・機種ごとの対応】</span></p></div></details>
+<details data-q="31"><summary><span class="cl"><span class="pp">ウォシュレット</span><span class="pp">（温水洗浄便座）が</span><span class="pp">ついていても</span><span class="pp">大丈夫ですか？</span></span></summary><div class="a"><p><em class="e-m">大丈夫</em>です。<em class="e-r">作業前</em><span class="cl">に電源を切る、</span><span class="cl"><span class="pp">必要なら便座を</span><span class="pp">外す場合が</span><span class="pp">あります。</span></span><span class="cl">外す時は、</span><span class="cl">事前に</span><em class="e-r">必ず</em>お伝えします。</p></div></details>
+<details data-q="32"><summary><span class="cl"><span class="pp">和式トイレでも</span><span class="pp">対応できますか？</span></span></summary><div class="a"><p><span class="todo">【対応可否】</span></p></div></details>
+<details data-q="33"><summary><span class="cl"><span class="pp">古いトイレ</span><span class="pp">（築年数が</span><span class="pp">古い建物）でも</span><span class="pp">対応できますか？</span></span></summary><div class="a"><p><span class="cl">対応できます。</span><span class="cl">古い建物は、</span><span class="cl"><span class="pp">排水管の材質や</span><span class="pp">傾きが現在と</span><span class="pp">違うことが</span><span class="pp">あります。</span></span><span class="cl">作業の時に、</span><span class="cl">状態を確認して、</span><span class="cl"><span class="pp">必要なら改善の方法も</span><span class="pp">お伝えします。</span></span></p></div></details>
+<details data-q="34"><summary><span class="cl">手洗い付きのトイレで、</span><span class="cl"><span class="pp">手洗い側が</span><span class="pp">詰まりました。</span></span></summary><div class="a"><p><span class="cl">手洗い側の排水が、</span><span class="cl"><span class="pp">便器とは別に</span><span class="pp">ある場合が</span><span class="pp">あります。</span></span><span class="cl">排水の流れが遅い、</span><span class="cl">水が逆流する時は、</span><span class="cl">ご連絡ください。</span></p></div></details>
+<details data-q="35"><summary><span class="cl">浄化槽のトイレですが、</span><span class="cl"><span class="pp">詰まりと</span><span class="pp">関係ありますか？</span></span></summary><div class="a"><p><span class="cl">浄化槽の場合は、</span><span class="cl">詰まりに加えて、</span><span class="cl">浄化槽の点検時期や、</span><span class="cl"><span class="pp">薬剤の使用が</span><span class="pp">影響することが</span><span class="pp">あります。</span></span><span class="todo">【浄化槽の対応可否】</span></p><p><span class="cl">浄化槽の保守点検業者に、</span><span class="cl"><span class="pp">先に連絡したほうが</span><span class="pp">よい場合も</span><span class="pp">あります。</span></span></p></div></details>
+<details data-q="36"><summary><span class="cl"><span class="pp">汲み取り式や</span><span class="pp">簡易水洗のトイレは</span><span class="pp">対応できますか？</span></span></summary><div class="a"><p><span class="todo">【対応可否】</span></p></div></details>
+<div class="fg rv" id="faq-home"><h3>賃貸・マンション・戸建て<span>7問</span></h3><p class="fgd">連絡先や費用負担、保険の考え方をご案内します。</p></div>
+<details data-q="37"><summary><span class="cl">賃貸です。</span><span class="cl"><span class="pp">先に管理会社へ</span><span class="pp">連絡したほうが</span><span class="pp">いいですか？</span></span></summary><div class="a"><p><span class="cl">設備の故障や、</span><span class="cl"><span class="pp">建物の老朽が</span><span class="pp">原因の場合は、</span></span><span class="cl"><span class="pp">管理会社や</span><span class="pp">大家さんの負担に</span><span class="pp">なることが</span><span class="pp">あります。</span></span><span class="cl"><span class="pp">契約書の</span><span class="pp">「修繕」</span><span class="pp">の項目を</span><span class="pp">ご確認のうえ、</span></span><span class="cl"><span class="pp">先に連絡を</span><span class="pp">お勧めします。</span></span></p><p><span class="cl">但し、</span><span class="cl">水が溢れる緊急時は、</span><span class="cl">先ず</span><em class="e-b">止水栓</em><span class="cl"><span class="pp">を閉めて</span><span class="pp">被害を止めて</span><span class="pp">ください。</span></span></p></div></details>
+<details data-q="38"><summary><span class="cl">費用は、</span><span class="cl"><span class="pp">借主と大家さんのどちらが</span><span class="pp">負担しますか？</span></span></summary><div class="a"><p><span class="cl">一般的には、</span><span class="cl"><span class="pp">借主の過失</span><span class="pp">（異物を</span><span class="pp">流したなど）が</span><span class="pp">原因なら借主、</span></span><span class="cl"><span class="pp">設備の経年劣化が</span><span class="pp">原因なら貸主の負担に</span><span class="pp">なることが</span><span class="pp">多いです。</span></span><span class="cl">但し、</span><span class="cl"><span class="pp">契約書の内容で</span><span class="pp">変わります。</span></span><span class="cl">最終的には、</span><span class="cl"><span class="pp">管理会社と</span><span class="pp">相談して</span><span class="pp">ください。</span></span></p><p><span class="cl">作業の時に、</span><span class="cl">原因が分かる写真と、</span><span class="cl"><span class="pp">作業内容の書類を</span><span class="pp">お渡しできます。</span></span></p></div></details>
+<details data-q="39"><summary><span class="cl"><span class="pp">管理会社が</span><span class="pp">指定して</span><span class="pp">いる業者が</span><span class="pp">いるそうです。</span></span></summary><div class="a"><p><span class="cl"><span class="pp">契約で指定されて</span><span class="pp">いる場合は、</span></span><span class="cl"><span class="pp">その業者に</span><span class="pp">連絡するのが</span><span class="pp">基本です。</span></span><span class="cl">指定がなければ、</span><span class="cl"><span class="pp">当社でも</span><span class="pp">対応できます。</span></span><span class="todo">【管理会社からの依頼の受付】</span></p></div></details>
+<details data-q="40"><summary><span class="cl"><span class="pp">分譲マンションの</span><span class="pp">共用部の</span><span class="pp">排水管が</span><span class="pp">詰まって</span><span class="pp">いるかもしれません。</span></span></summary><div class="a"><p><span class="cl"><span class="pp">複数の部屋で</span><span class="pp">同時に流れが</span><span class="pp">悪くなる場合や、</span></span><span class="cl"><span class="pp">低い階だけで</span><span class="pp">逆流する場合は、</span></span><span class="cl"><span class="pp">共用部の排水管が</span><span class="pp">原因のことが</span><span class="pp">あります。</span></span><span class="cl"><span class="pp">管理組合や</span><span class="pp">管理会社に</span><span class="pp">連絡して、</span></span><span class="cl"><span class="pp">共用部の点検を</span><span class="pp">依頼して</span><span class="pp">ください。</span></span></p></div></details>
+<details data-q="41"><summary><span class="cl"><span class="pp">階下に水が</span><span class="pp">漏れてしまいそうです。</span></span><span class="cl">どうすればいいですか？</span></summary><div class="a"><p><em class="e-b">止水栓</em>や<em class="e-b">元栓</em><span class="cl">を閉めて、</span><span class="cl"><span class="pp">床の水を</span><span class="pp">拭いてください。</span></span><span class="cl"><span class="pp">階下への漏水が</span><span class="pp">ある場合は、</span></span><span class="cl">管理会社と、</span><span class="cl"><span class="pp">加入して</span><span class="pp">いる保険会社に</span><span class="pp">連絡して</span><span class="pp">ください。</span></span></p></div></details>
+<details data-q="42"><summary><span class="cl">火災保険や、</span><span class="cl"><span class="pp">個人賠償責任保険は</span><span class="pp">使えますか？</span></span></summary><div class="a"><p><span class="cl">契約内容によります。</span><span class="cl">階下への漏水など、</span><span class="cl"><span class="pp">損害の内容によっては</span><span class="pp">補償が使えることが</span><span class="pp">あります。</span></span><span class="cl"><span class="pp">詰まりの解消費用そのものは</span><span class="pp">対象外のことが</span><span class="pp">多いので、</span></span><span class="cl"><span class="pp">加入先に</span><span class="pp">ご確認ください。</span></span><span class="cl"><span class="pp">保険会社に</span><span class="pp">提出する書類</span><span class="pp">（作業内容・金額）が</span><span class="pp">必要な時は、</span></span><span class="cl">お出しします。</span><span class="todo">【書類の発行】</span></p></div></details>
+<details data-q="43"><summary><span class="cl">大家さんや、</span><span class="cl"><span class="pp">管理人さんの立ち会いが</span><span class="pp">必要ですか？</span></span></summary><div class="a"><p><span class="cl">賃貸では、</span><span class="cl"><span class="pp">鍵の貸し出しなどで</span><span class="pp">必要になることが</span><span class="pp">あります。</span></span><span class="cl">事前に、</span><span class="cl"><span class="pp">管理会社に</span><span class="pp">確認して</span><span class="pp">ください。</span></span></p></div></details>
+<div class="fg rv" id="faq-price"><h3>料金・見積り・支払い<span>9問</span></h3><p class="fgd">金額の決まり方と、追加料金が発生する条件をご案内します。</p></div>
+<details data-q="44"><summary><span class="cl">料金は、</span><span class="cl"><span class="pp">どのように</span><span class="pp">決まりますか？</span></span></summary><div class="a"><p><span class="cl">詰まりの場所、</span><span class="cl">原因、</span><span class="cl">使う機材、</span><span class="cl"><span class="pp">作業時間で</span><span class="pp">決まります。</span></span><span class="cl">軽いものと、</span><span class="cl"><span class="pp">配管の奥まで</span><span class="pp">の作業では、</span></span><span class="cl"><span class="pp">必要な機材も</span><span class="pp">変わります。</span></span></p><p><span class="cl"><span class="pp">目安は料金表に</span><span class="pp">ありますが、</span></span><span class="cl">最終的な金額は、</span><span class="cl">現地を見て、</span><em class="e-r">作業の前</em>にお伝えします。</p></div></details>
+<details data-q="45"><summary><span class="cl">「見積り無料」は、</span><span class="cl"><span class="pp">どこまでが</span><span class="pp">無料ですか？</span></span></summary><div class="a"><p>出張費・見積り料は、<span class="todo">【当社の扱い】</span><span class="cl">です。</span><span class="cl">見積りを見て</span><em class="e-r">お断り</em>になった場合の費用は、<span class="todo">【当社の扱い】</span>です。</p></div></details>
+<details data-q="46"><summary><span class="cl">見積りの後に、</span><span class="cl"><span class="pp">追加料金が出ることは</span><span class="pp">ありますか？</span></span></summary><div class="a"><p><span class="cl">あります。</span><span class="cl"><span class="pp">想定より奥で</span><span class="pp">詰まって</span><span class="pp">いた、</span></span><span class="cl"><span class="pp">便器の取り外しが</span><span class="pp">必要になった、</span></span><span class="cl">などです。</span><span class="cl">その場合は、</span><span class="cl">作業を止めて、</span><span class="cl"><span class="pp">理由と金額を</span><span class="pp">お伝えして</span><span class="pp">から進めます。</span></span><span class="cl">ご了承いただけなければ、</span><span class="cl">追加作業はしません。</span></p></div></details>
+<details data-q="47"><summary><span class="cl">夜間や早朝、</span><span class="cl">休日は、</span><span class="cl">料金が変わりますか？</span></summary><div class="a"><p>夜間・早朝の加算料金は、<em class="e-r">ありません</em>。<span class="todo">【休日の加算の有無】</span></p></div></details>
+<details data-q="48"><summary>出張費はかかりますか？</summary><div class="a"><p><span class="todo">【出張費の有無・エリア別の金額】</span></p></div></details>
+<details data-q="49"><summary><span class="cl">見積りを見てから、</span><span class="cl">断ることはできますか？</span></summary><div class="a"><p><span class="cl">できます。</span><span class="cl"><span class="pp">その場で</span><span class="pp">お決めいただく必要は</span><span class="pp">ありません。</span></span><span class="cl"><span class="pp">他社様とも</span><span class="pp">比較のうえ、</span></span><span class="cl">ご検討ください。</span></p></div></details>
+<details data-q="50"><summary><span class="cl">作業後のキャンセルや、</span><span class="cl">途中で止めることはできますか？</span></summary><div class="a"><p><span class="todo">【当社のキャンセル・中止の条件】</span></p></div></details>
+<details data-q="51"><summary><span class="cl"><span class="pp">支払い方法は何が</span><span class="pp">ありますか？</span></span></summary><div class="a"><p><span class="todo">【現金／クレジットカード／電子マネー／請求書】</span></p></div></details>
+<details data-q="52"><summary><span class="cl"><span class="pp">見積書や</span><span class="pp">領収書はも</span><span class="pp">らえますか？</span></span></summary><div class="a"><p><span class="cl">お出しします。</span><span class="cl"><span class="pp">保険会社や</span><span class="pp">管理会社に</span><span class="pp">提出する時は、</span></span><span class="cl"><span class="pp">作業内容を</span><span class="pp">詳しく書いたものも</span><span class="pp">用意できます。</span></span><span class="todo">【書類の発行】</span></p></div></details>
+<div class="fg rv" id="faq-day"><h3>来てもらう時・作業当日<span>8問</span></h3><p class="fgd">到着時間や準備、立ち会いについてご案内します。</p></div>
+<details data-q="53"><summary><span class="cl">電話してから、</span><span class="cl"><span class="pp">どのくらいで</span><span class="pp">来てもらえますか？</span></span></summary><div class="a"><p><span class="cl"><span class="pp">最短15分が</span><span class="pp">目安です。</span></span><span class="cl">場所や時間帯、</span><span class="cl"><span class="pp">交通状況で</span><span class="pp">変わるため、</span></span><span class="cl"><span class="pp">お電話で</span><span class="pp">住所をお聞きして、</span></span><span class="cl"><span class="pp">到着の目安を</span><span class="pp">お伝えします。</span></span></p></div></details>
+<details data-q="54"><summary><span class="cl">予約は必要ですか？</span> <span class="cl"><span class="pp">今すぐでも</span><span class="pp">大丈夫ですか？</span></span></summary><div class="a"><p><span class="todo">【当日対応の可否】</span></p></div></details>
+<details data-q="55"><summary><span class="cl">作業中、</span><span class="cl"><span class="pp">家にいる必要は</span><span class="pp">ありますか？</span></span></summary><div class="a"><p><span class="cl">基本的に、</span><span class="cl"><span class="pp">立ち会いを</span><span class="pp">お願いして</span><span class="pp">います。</span></span><em class="e-r">作業前</em><span class="cl">の説明と、</span><span class="cl">作業後の確認のためです。</span></p></div></details>
+<details data-q="56"><summary><span class="cl">作業時間は、</span><span class="cl">どのくらいですか？</span></summary><div class="a"><p><span class="cl"><span class="pp">詰まりの程度で</span><span class="pp">変わります。</span></span><span class="cl"><span class="pp">軽いものなら短時間で</span><span class="pp">済むことも</span><span class="pp">あります。</span></span><span class="todo">【作業時間の目安】</span></p><p><span class="cl"><span class="pp">便器の取り外しが</span><span class="pp">必要な場合は、</span></span><span class="cl"><span class="pp">さらに時間が</span><span class="pp">かかります。</span></span></p></div></details>
+<details data-q="57"><summary><span class="cl"><span class="pp">事前に準備して</span><span class="pp">おくことは</span><span class="pp">ありますか？</span></span></summary><div class="a"><ul><li>トイレの床周りの荷物を片づけておいてください</li><li><em class="e-b">止水栓</em><span class="cl"><span class="pp">を閉めて</span><span class="pp">おいてください</span><span class="pp">（既に閉めて</span><span class="pp">いれば、</span></span><span class="cl"><span class="pp">そのままで</span><span class="pp">構いません）</span></span></li><li><span class="cl"><span class="pp">詰まりの原因に</span><span class="pp">心当たりが</span><span class="pp">あれば、</span></span><span class="cl">教えてください</span></li></ul></div></details>
+<details data-q="58"><summary><span class="cl">作業中に、</span><span class="cl"><span class="pp">床や壁を</span><span class="pp">汚さないか心配です。</span></span></summary><div class="a"><p><span class="todo">【養生（床・壁の保護）の方法】</span></p><p><span class="cl">作業後は、</span><span class="cl"><span class="pp">作業した箇所の周りを</span><span class="pp">拭き取って</span><span class="pp">お帰りします。</span></span></p></div></details>
+<details data-q="59"><summary><span class="cl"><span class="pp">女性ひと</span><span class="pp">りの在宅でも、</span></span><span class="cl">安心して頼めますか？</span></summary><div class="a"><p><span class="todo">【女性スタッフの対応可否・名刺や身分証の提示】</span></p><p><span class="cl">到着前にお電話で、</span><span class="cl"><span class="pp">スタッフの名前と</span><span class="pp">到着時間を</span><span class="pp">お伝えします。</span></span></p></div></details>
+<details data-q="60"><summary><span class="cl">作業の内容は、</span><span class="cl">写真で確認できますか？</span></summary><div class="a"><p><span class="todo">【作業前後の写真報告の有無】</span></p></div></details>
+<div class="fg rv" id="faq-trust"><h3>業者の選び方・トラブル防止<span>8問</span></h3><p class="fgd">安心して頼める業者かどうかを、見分けるポイントをご案内します。</p></div>
+<details data-q="61"><summary><span class="cl"><span class="pp">悪徳業者を</span><span class="pp">見分けるには、</span></span><span class="cl">何を見ればいいですか？</span></summary><div class="a"><p>次の点を確認してください。</p><ul><li><span class="cl">① 作業の前に、</span><span class="cl"><span class="pp">金額を提示して</span><span class="pp">くれますか</span></span></li><li><span class="cl"><span class="pp">② 追加料金が</span><span class="pp">発生する条件を、</span></span><span class="cl">説明してくれますか</span></li><li>③ 会社名・所在地・固定の連絡先が分かりますか</li><li><span class="cl"><span class="pp">④ その場で</span><span class="pp">急かさず、</span></span><span class="cl">お断りできますか</span></li><li>⑤ 見積書や領収書を出してくれますか</li></ul></div></details>
+<details data-q="62"><summary><span class="cl">広告の「〇〇円〜」と、</span><span class="cl"><span class="pp">実際の請求が</span><span class="pp">違うことは</span><span class="pp">ありますか？</span></span></summary><div class="a"><p><span class="cl">広告の金額は、</span><span class="cl"><span class="pp">最も軽い作業の</span><span class="pp">場合の最低額で</span><span class="pp">あることが</span><span class="pp">多く、</span></span><span class="cl"><span class="pp">実際の作業では</span><span class="pp">変わることが</span><span class="pp">あります。</span></span><span class="cl">当社は、</span><em class="e-r">作業の前</em>に、<em class="e-r">必ず</em><span class="cl"><span class="pp">実際の金額を</span><span class="pp">お伝えします。</span></span><span class="cl">他社と比べる時も、</span><span class="cl"><span class="pp">「何が含まれる金額か」を</span><span class="pp">ご確認ください。</span></span></p></div></details>
+<details data-q="63"><summary><span class="cl"><span class="pp">見積書を</span><span class="pp">出しても</span><span class="pp">らえない場合は、</span></span><span class="cl">どうすればいいですか？</span></summary><div class="a"><p><span class="cl">書面や、</span><span class="cl"><span class="pp">メッセージで</span><span class="pp">金額を確認できない時は、</span></span><span class="cl"><span class="pp">作業をお願いしないことを</span><span class="pp">お勧めします。</span></span><span class="cl">口頭だけの約束は、</span><span class="cl">後で確認できません。</span></p></div></details>
+<details data-q="64"><summary><span class="cl">契約した後に、</span><span class="cl">クーリング・オフはできますか？</span></summary><div class="a"><p><span class="cl"><span class="pp">ご自身で</span><span class="pp">業者を呼んだ場合は、</span></span><span class="cl"><span class="pp">クーリング・オフの対象に</span><span class="pp">ならないのが</span><span class="pp">基本です。</span></span><span class="cl"><span class="pp">依頼した内容と</span><span class="pp">違う契約を</span><span class="pp">その場で</span><span class="pp">結ばされた場合などは、</span></span><span class="cl"><span class="pp">対象になることが</span><span class="pp">あります。</span></span><span class="cl">迷ったら、</span><span class="cl"><span class="pp">消費者ホットライン</span><span class="pp">「188</span><span class="pp">（いやや）」に</span><span class="pp">相談して</span><span class="pp">ください。</span></span></p></div></details>
+<details data-q="65"><summary><span class="cl">トラブルになった時、</span><span class="cl"><span class="pp">相談できる窓口は</span><span class="pp">ありますか？</span></span></summary><div class="a"><p><span class="cl"><span class="pp">消費者ホットライン</span><span class="pp">「188</span><span class="pp">（いやや）」</span><span class="pp">から、</span></span><span class="cl"><span class="pp">お近くの消費生活センターに</span><span class="pp">つながります。</span></span><span class="cl"><span class="pp">当社へのご相談も</span><span class="pp">受け付けて</span><span class="pp">います。</span></span><span class="todo">【苦情・相談の窓口】</span></p></div></details>
+<details data-q="66"><summary><span class="cl"><span class="pp">水道局の</span><span class="pp">「指定工事店」で</span><span class="pp">ないと頼めませんか？</span></span></summary><div class="a"><p><span class="cl">詰まりの除去だけなら、</span><span class="cl"><span class="pp">指定は必要ないことが</span><span class="pp">多いです。</span></span><span class="cl">一方、</span><span class="cl">給水管の工事や、</span><span class="cl">給水装置の新設・増設・改造などの工事は、</span><span class="cl"><span class="pp">自治体の指定を</span><span class="pp">受けた事業者が</span><span class="pp">行う必要が</span><span class="pp">あります。</span></span><span class="cl"><span class="pp">蛇口の交換などの</span><span class="pp">軽微な作業は</span><span class="pp">対象外です。</span></span><span class="cl">排水設備の工事には、</span><span class="cl"><span class="pp">自治体の指定制度が</span><span class="pp">ある場合が</span><span class="pp">あります。</span></span></p><p>当社の指定状況：<span class="todo">【指定給水装置工事事業者の指定の有無・自治体・番号】</span></p></div></details>
+<details data-q="67"><summary><span class="cl">会社の情報は、</span><span class="cl">どこで確認できますか？</span></summary><div class="a"><p><span class="cl">このページの下に、</span><span class="cl"><span class="pp">会社名・所在地・連絡先を</span><span class="pp">載せています。</span></span><span class="todo">【所在地・責任者・連絡先・特定商取引法に基づく表記へのリンク】</span></p></div></details>
+<details data-q="68"><summary><span class="cl"><span class="pp">損害賠償保険には</span><span class="pp">加入して</span><span class="pp">いますか？</span></span></summary><div class="a"><p><span class="todo">【加入の有無と補償内容】</span></p></div></details>
+<div class="fg rv" id="faq-after"><h3>作業後・再発防止<span>6問</span></h3><p class="fgd">保証や予防、また詰まったときの対応をご案内します。</p></div>
+<details data-q="69"><summary><span class="cl">作業後に、</span><span class="cl"><span class="pp">また詰まったら保証は</span><span class="pp">ありますか？</span></span></summary><div class="a"><p><span class="todo">【保証期間と条件】</span></p></div></details>
+<details data-q="70"><summary><span class="cl"><span class="pp">詰まりを</span><span class="pp">繰り返さないために、</span></span><span class="cl"><span class="pp">気をつけることは</span><span class="pp">ありますか？</span></span></summary><div class="a"><ul><li>一度に流す紙の量を減らしてください</li><li><span class="cl"><span class="pp">「流せる」</span><span class="pp">シートでも、</span></span><span class="cl"><span class="pp">何枚も続けて</span><span class="pp">流さないで</span><span class="pp">ください</span></span></li><li>トイレに流せないものを流さないでください</li><li><span class="cl">長く使っているなら、</span><span class="cl"><span class="pp">定期的に</span><span class="pp">点検して</span><span class="pp">ください</span></span></li></ul></div></details>
+<details data-q="71"><summary><span class="cl">作業後に、</span><span class="cl"><span class="pp">どうやって</span><span class="pp">確認すればいいですか？</span></span></summary><div class="a"><p><span class="cl">作業が終わったら、</span><span class="cl">スタッフと一緒に、</span><span class="cl"><span class="pp">水を流して</span><span class="pp">流れを確認します。</span></span><span class="cl">その時に、</span><span class="cl">水位の変化や、</span><span class="cl"><span class="pp">音がないかも見て</span><span class="pp">ください。</span></span></p></div></details>
+<details data-q="72"><summary><span class="cl">尿石や汚れを、</span><span class="cl"><span class="pp">予防する方法は</span><span class="pp">ありますか？</span></span></summary><div class="a"><p><span class="cl">トイレ用の洗剤で、</span><span class="cl"><span class="pp">定期的に</span><span class="pp">便器の中を</span><span class="pp">掃除して</span><span class="pp">ください。</span></span><span class="cl">気になる場合は、</span><span class="cl">配管の洗浄の相談もできます。</span><span class="todo">【配管洗浄の対応可否】</span></p></div></details>
+<details data-q="73"><summary><span class="cl">作業後に、</span><span class="cl"><span class="pp">水の流れが</span><span class="pp">違う気が</span><span class="pp">します。</span></span></summary><div class="a"><p><span class="cl">直ぐにご連絡ください。</span><span class="cl">保証の範囲かどうかも、</span><span class="cl"><span class="pp">状況を見て</span><span class="pp">判断します。</span></span><span class="todo">【アフター連絡先】</span></p></div></details>
+<details data-q="74"><summary><span class="cl">定期点検や、</span><span class="cl"><span class="pp">メンテナンスは</span><span class="pp">お願いできますか？</span></span></summary><div class="a"><p><span class="todo">【定期点検の対応可否】</span></p></div></details>
+<div class="fg rv" id="faq-leak"><h3>水漏れ・その他の水回り<span>5問</span></h3><p class="fgd">詰まり以外の、水まわりのトラブルについてお答えします。</p></div>
+<details data-q="75"><summary><span class="cl"><span class="pp">便器の根元から水が</span><span class="pp">漏れています。</span></span></summary><div class="a"><p><span class="cl">便器と床の接続部の、</span><span class="cl"><span class="pp">パッキンのゆるみなどが</span><span class="pp">原因のことが</span><span class="pp">あります。</span></span><em class="e-b">止水栓</em><span class="cl">を閉めて、</span><span class="cl"><span class="pp">床の水を</span><span class="pp">拭いてください。</span></span><span class="cl">放っておくと、</span><span class="cl"><span class="pp">床下の傷みに</span><span class="pp">つながります。</span></span><span class="cl">ご連絡ください。</span></p></div></details>
+<details data-q="76"><summary><span class="cl">タンクの下や、</span><span class="cl"><span class="pp">給水管から水が</span><span class="pp">漏れています。</span></span></summary><div class="a"><p><span class="cl">接続部のゆるみや、</span><span class="cl"><span class="pp">パッキンの劣化が</span><span class="pp">多いです。</span></span><em class="e-b">止水栓</em><span class="cl">を閉めると、</span><span class="cl">ほとんどの場合、</span><span class="cl">漏れは止まります。</span><span class="cl"><span class="pp">その上で</span><span class="pp">ご連絡ください。</span></span></p></div></details>
+<details data-q="77"><summary><span class="cl"><span class="pp">家のどこかで</span><span class="pp">水漏れして</span><span class="pp">いるかもしれません。</span></span><span class="cl"><span class="pp">確認する方法は</span><span class="pp">ありますか？</span></span></summary><div class="a"><p><span class="cl">家の中の水を、</span><span class="cl">全部止めた状態で、</span><span class="cl"><span class="pp">水道メーターを見て</span><span class="pp">ください。</span></span><span class="cl"><span class="pp">メーターの小さなパイロット</span><span class="pp">（銀色の円盤など）が</span><span class="pp">回っていたら、</span></span><span class="cl"><span class="pp">どこかで水が</span><span class="pp">漏れている可能性が</span><span class="pp">あります。</span></span></p></div></details>
+<details data-q="78"><summary><span class="cl">冬に、</span><span class="cl"><span class="pp">トイレや</span><span class="pp">水道が凍結したかもしれません。</span></span></summary><div class="a"><p><span class="cl"><span class="pp">無理に熱湯を</span><span class="pp">かけないで</span><span class="pp">ください。</span></span><span class="cl"><span class="pp">配管や便器が</span><span class="pp">割れることが</span><span class="pp">あります。</span></span><span class="cl">タオルをかぶせて、</span><span class="cl"><span class="pp">ぬるま湯を</span><span class="pp">ゆっくりかけて</span><span class="pp">ください。</span></span></p></div></details>
+<details data-q="79"><summary><span class="cl"><span class="pp">洗面所・</span><span class="pp">キッチン・</span><span class="pp">風呂の詰まりや</span><span class="pp">水漏れも</span><span class="pp">相談できますか？</span></span></summary><div class="a"><p><span class="todo">【対応できる作業の一覧】</span></p></div></details>
+
+<p class="nores" id="nores" hidden><span class="cl"><span class="pp">見つかりませんで</span><span class="pp">した。</span></span><span class="cl">別の言葉で探すか、</span><span class="cl"><span class="pp">お電話で</span><span class="pp">ご相談ください。</span></span></p>
+
+<section class="ctamid"><div class="wrap">
+<div class="crow"><div class="ct"><p class="cm"><span class="cl">分からないことは、</span><span class="cl">お電話で直接どうぞ</span></p>
+<a class="cn" href="tel:00000000000"><span class="todo">【電話番号】</span></a>
+<p class="cs"><span class="cl"><span class="pp">Q&amp;Aに</span><span class="pp">ないご質問も、</span></span><span class="cl"><span class="pp">お気軽に</span><span class="pp">ご相談ください。</span></span></p></div></div>
+<a class="btn o" href="https://line.me/R/ti/p/%40580fgemb" target="_blank" rel="noopener">LINEで写真を送って見積りを聞く</a>
+</div></section>
+<div class="bar rv">伺うのは、このスタッフです</div>
+<div class="staff">
+<figure class="ph r43 face2" style="margin:0"><img src="img/haruki_2.webp" alt="スタッフ はるき"></figure>
+<div><p class="who"><b>担当：はるき</b><br><span class="todo">【姓・役職・経験年数・ひとこと】</span></p>
+<figure class="ph r32" style="margin:0"><img src="" alt="社用車と道具"><div class="ask">【写真】社用車と道具</div></figure></div>
+</div>
+
+<div class="bar rv" id="area">対応エリア（首都圏）</div>
+<p class="lead"><span class="cl"><span class="pp">東京・埼玉・神奈川・千葉に</span><span class="pp">伺います。</span></span><span class="cl"><span class="pp">下に載って</span><span class="pp">いない地域でも、</span></span><span class="cl">お電話ください。</span></p>
+<div class="rv"><details class="pf" open><summary>東京都</summary><ul class="areas"><li>千代田区</li><li>中央区</li><li>港区</li><li>新宿区</li><li>文京区</li><li>台東区</li><li>墨田区</li><li>江東区</li><li>品川区</li><li>目黒区</li><li>大田区</li><li>世田谷区</li><li>渋谷区</li><li>中野区</li><li>杉並区</li><li>豊島区</li><li>北区</li><li>荒川区</li><li>板橋区</li><li>練馬区</li><li>足立区</li><li>葛飾区</li><li>江戸川区</li><li>多摩地域</li></ul></details><details class="pf"><summary>神奈川県</summary><ul class="areas"><li>横浜市</li><li>川崎市</li><li>相模原市</li><li>藤沢市</li><li>横須賀市</li><li>平塚市</li><li>厚木市</li><li>その他</li></ul></details><details class="pf"><summary>埼玉県</summary><ul class="areas"><li>さいたま市</li><li>川口市</li><li>川越市</li><li>所沢市</li><li>越谷市</li><li>草加市</li><li>春日部市</li><li>上尾市</li><li>その他</li></ul></details><details class="pf"><summary>千葉県</summary><ul class="areas"><li>千葉市</li><li>船橋市</li><li>市川市</li><li>松戸市</li><li>柏市</li><li>浦安市</li><li>市原市</li><li>その他</li></ul></details></div>
+</div>
+
+<section class="contact" id="line"><div class="wrap">
+
+<div class="bar rv" style="margin-top:0;text-align:center">お電話でも、写真でも、ご相談いただけます。</div>
+<a class="btn g" href="tel:00000000000">今すぐ電話で相談する　<span class="todo">【電話番号】</span></a>
+<div class="lineblk rv">
+<p class="lb1">LINEなら、<b>写真を送るだけで</b>ご相談いただけます。</p>
+<p class="lb2"><span class="cl">詰まっている所や、</span><span class="cl"><span class="pp">水が漏れて</span><span class="pp">いる所を</span><span class="pp">撮って、</span></span><span class="cl">送ってください。</span><span class="cl">目安をお返事します。</span></p>
+<ol class="lst">
+<li><span>1</span><span class="cl">下のボタン、</span><span class="cl">またはQRコードで</span><b>友だち追加</b></li>
+<li><span>2</span>状況の<b>写真とひとこと</b>を送る</li>
+<li><span>3</span>スタッフが<b>目安をお返事</b></li>
+</ol>
+<div class="lqr"><img src="img/line_qr.png" alt="" width="360" height="360" decoding="async"><div class="lqt"><span><span class="cl">スマホなら、</span><span class="cl">ボタンを押すだけ</span></span><a class="lbtn" href="https://line.me/R/ti/p/%40580fgemb" target="_blank" rel="noopener"><i class="lico" aria-hidden="true"></i>LINEで相談する</a><em>LINE ID：@580fgemb</em></div></div>
+</div>
+<form onsubmit="return false">
+<label>お名前<input type="text" autocomplete="name"></label>
+<label>電話番号<input type="tel" autocomplete="tel"></label>
+<label>ご住所（町名まで）<input type="text"></label>
+<label>状態<select><option>水が引かない</option><option>全く流れない</option><option>溢れそう</option><option>音・においがする</option><option>その他</option></select></label>
+<label>詳しい状況<textarea rows="4"></textarea></label>
+<button class="btn o" type="submit">この内容で見積りを依頼する</button>
+</form>
+</div></section>
+
+<footer><div class="wrap">アシスト株式会社<br><span class="todo">【所在地／責任者／電話番号／特定商取引法に基づく表記／プライバシーポリシー】</span><br>© 2026</div></footer>
+
+</div><!-- /page -->
+
+<div class="sticky"><a class="t" href="tel:00000000000">電話で相談する</a><a class="l" href="https://line.me/R/ti/p/%40580fgemb" target="_blank" rel="noopener">LINEで写真を送る</a></div>
+<script>
+document.documentElement.classList.add('js');
+(function(){
+  // ヒーロー見出しを1文字ずつに分割
+  var big=document.querySelector('.banner .big');
+  if(big){var t=big.textContent;big.setAttribute('aria-label',t);big.innerHTML=t.split('').map(function(c,i){return '<span class="ch" aria-hidden="true" style="--i:'+i+'">'+c+'</span>'}).join('');}
+  // 画面に入ったら1回だけ表示
+  var els=document.querySelectorAll('.rv');
+  if(!('IntersectionObserver' in window)){els.forEach(function(e){e.classList.add('in')});return;}
+  var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.15,rootMargin:'0px 0px -6% 0px'});
+  els.forEach(function(e){io.observe(e)});
+})();
+</script>
+<script>
+(function(){
+  var q=document.getElementById('faqsearch'); if(!q) return;
+  var ds=[].slice.call(document.querySelectorAll('details[data-q]'));
+  var cnt=document.getElementById('faqcount'), none=document.getElementById('nores');
+  var total=ds.length;
+  function norm(t){return (t||'').toLowerCase().replace(/\s+/g,'')}
+  function apply(){
+    var k=norm(q.value), shown=0;
+    ds.forEach(function(d){var hit=!k||norm(d.textContent).indexOf(k)>-1;d.hidden=!hit;if(hit)shown++;if(k&&hit)d.open=true;if(!k)d.open=false});
+    [].forEach.call(document.querySelectorAll('.fg'),function(g){
+      var any=false, el=g.nextElementSibling;
+      while(el&&el.tagName==='DETAILS'){ if(!el.hidden)any=true; el=el.nextElementSibling }
+      g.hidden=k&&!any;
+    });
+    cnt.textContent=k?('該当 '+shown+'問 / 全'+total+'問'):('全'+total+'問'); none.hidden=!(k&&shown===0);
+  }
+  q.addEventListener('input',apply);
+  document.getElementById('faqopen').onclick=function(){ds.forEach(function(d){if(!d.hidden)d.open=true})};
+  document.getElementById('faqclose').onclick=function(){ds.forEach(function(d){d.open=false})};
+  // 分類へジャンプしたら、その分類を開いた状態の見やすさを保つ
+})();
+</script>
+<script>
+(function(){
+  var el=document.querySelector('.banner .nn'); if(!el) return;
+  var target=parseInt(el.textContent,10); if(!target) return;
+  if(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  var T=4000, t0=null;
+  function f(now){ if(t0===null) t0=now; var t=(now-t0)%T, k=Math.min(1,t/1200);
+    el.textContent=Math.round(target*(1-Math.pow(1-k,3))); requestAnimationFrame(f); }
+  requestAnimationFrame(f);
+})();
+</script>
+<div class="pgbar" id="pgbar" aria-hidden="true"></div>
+<script>
+(function(){
+  var reduce=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches;
+  // スクロール進捗バー
+  var bar=document.getElementById('pgbar');
+  function prog(){var h=document.documentElement.scrollHeight-innerHeight;bar.style.width=(h>0?Math.min(100,scrollY/h*100):0)+'%'}
+  addEventListener('scroll',prog,{passive:true});prog();
+  if(reduce) return;
+  // 動きを付ける対象と、出方（左・右・ポン）
+  var T=[['.tl li',0,'from-l'],['.flow li',0,'from-r'],['.pmg > div',1,''],['.cta3 .c3',1,'pop'],['.pt',1,''],['.pt tr',1,''],['.tb',1,'pop'],['.tb .ph',0,''],['.tlph',0,''],['.vcard',0,''],['details.pf',1,'from-l'],['.lineblk .lst li',1,'from-l'],['.lineblk .lqr',0,'pop'],['.say .hk',0,'from-l'],['.say .hmt',1,''],['.pd li',1,'from-l'],['.note.chu',0,'']];
+  var els=[];
+  T.forEach(function(t){document.querySelectorAll(t[0]).forEach(function(e,i){
+    if(e.closest('.pending')||e.classList.contains('rv')||e.classList.contains('rv2')) return;
+    e.classList.add('rv2'); if(t[2]) e.classList.add(t[2]);
+    if(t[1]) e.style.setProperty('--d',(Math.min(i,5)*0.09)+'s');
+    els.push(e);
+  })});
+  // 価格：数字が数え上がる
+  function countUp(td){
+    var m=td.textContent.match(/([\d,]+)(円.*)/); if(!m||td.dataset.cu) return; td.dataset.cu=1;
+    var end=parseInt(m[1].replace(/,/g,''),10), tail=m[2], t0=null, D=900;
+    if(!end){return}
+    function f(now){ if(t0===null)t0=now; var k=Math.min(1,(now-t0)/D), v=Math.round(end*(1-Math.pow(1-k,3)));
+      td.textContent=v.toLocaleString('ja-JP')+tail; if(k<1) requestAnimationFrame(f); else td.textContent=m[1]+tail; }
+    td.textContent='0'+tail; requestAnimationFrame(f);
+  }
+  if(!('IntersectionObserver' in window)){els.forEach(function(e){e.classList.add('in')});return;}
+  var io=new IntersectionObserver(function(es){es.forEach(function(en){
+    if(!en.isIntersecting) return;
+    en.target.classList.add('in');
+    en.target.querySelectorAll&&en.target.querySelectorAll('td.p').forEach(countUp);
+    if(en.target.tagName==='TR'){var td=en.target.querySelector('td.p'); if(td) countUp(td);}
+    io.unobserve(en.target);
+  })},{threshold:.12,rootMargin:'0px 0px -5% 0px'});
+  els.forEach(function(e){io.observe(e)});
+  // 見出しの帯
+  document.querySelectorAll('.bar').forEach(function(b){ if(b.closest('.pending')) return; var o=new IntersectionObserver(function(es){if(es[0].isIntersecting){b.classList.add('in');o.disconnect()}},{threshold:.5}); o.observe(b); });
+  // ヒーローの写真を、スクロールに合わせて少しずらす
+  var hf=document.querySelector('.banner img.haruki'); var tick=false;
+  addEventListener('scroll',function(){ if(!hf||tick) return; tick=true; requestAnimationFrame(function(){ var y=Math.min(60,scrollY*0.12); hf.style.transform='translateY('+y+'px)'; tick=false; }); },{passive:true});
+})();
+</script>
+<script>
+(function(){
+  var b=document.querySelector('.fv-h1 .l2 b'); if(!b) return;
+  if(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  var end=parseInt(b.textContent,10)||15, T=4000, t0=null;
+  // 0から数え上がる（CSSの弾みと同じ4秒周期。0.8秒の遅れ→1.1秒で15）
+  function f(now){ if(t0===null) t0=now; var t=(now-t0-800); if(t<0){b.textContent='0'}
+    else{var c=t%T, k=Math.min(1,c/1100); b.textContent=Math.round(end*(1-Math.pow(1-k,3)));}
+    requestAnimationFrame(f); }
+  b.textContent='0'; requestAnimationFrame(f);
+})();
+</script>
+</body>
+</html>
